@@ -1,0 +1,54 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.options{
+  font-weight: bold;
+  color: black;
+}
+.navbar-brand>img {
+  height: 25px;
+}
+#centered-brand{
+  position: absolute;
+  left: 45%;
+  display: block;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#topPart{
+  height: calc(calc(100vh - 50px) * 0.5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+  //background: rgb(173, 216, 230, 0.3);
+}
+#bottomPart{
+  height: calc(calc(100vh - 50px) * 0.5);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+  //background: rgb(255, 160, 122, 0.3);
+}
+
+#topLogo{
+  height: 66.6%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+}
+
+#searchBar{
+  height: 33.3%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+}
+
+#topTags{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+}
