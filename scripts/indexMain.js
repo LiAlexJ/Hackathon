@@ -9,5 +9,5 @@ function hide(idname) {
 
 function searchOnClick(){
   console.log('here')
-  location.href = "second.html";
+  location.href = "resutls.html";
 }
