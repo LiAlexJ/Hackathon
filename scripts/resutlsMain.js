@@ -6,3 +6,4 @@ function hide(idname) {
         x.style.display = "none";
     }
 }
+document.getElementById("right-brand").style.cursor = "pointer";

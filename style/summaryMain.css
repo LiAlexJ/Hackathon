@@ -25,33 +25,31 @@ body{
   left: 95%;
   display: block;
 }
-#middle{
+.middle{
   height: calc(100vh - 100px);
   margin-top: 50px;
 }
-#secondSearchBar{
-  height: 20%;
+#cartList{
+  height: 100%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
-#results{
-  height: 40%;
+.pie{
+  height: 50%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
-#topFive{
-  height: 40%;
+#tagList{
+  height: 80%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
 
-.tops{
-  height: 100%;
-  width: 33%;
-  display: inline-block;
+#links{
+  height: 20%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);

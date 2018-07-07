@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/resutlsMain.css">
+    <link rel="stylesheet" href="style/summaryMain.css">
   </head>
 
   <body>
@@ -23,29 +23,29 @@
         <div class="container-fluid">
           <a class="navbar-brand" href=""> <img src="logo.png"> </a>
           <ul class="nav navbar-nav navbar-left">
-            <li> <a href="index.html" class="options">Home</a> </li>
-            <li class="active"> <a href="resutls.html" class="options">Results</a> </li>
-            <li> <a href="summary.html" class="options">Summary</a> </li>
+            <li> <a href="index.html" class="options"> Home </a> </li>
+            <li> <a href="resutls.html" class="options"> Results </a> </li>
+            <li class="active"> <a href="summary.html" class="options"> Summary </a> </li>
           </ul>
           <a class="navbar-brand" id="centered-brand"> Hackathon Team 18 </a>
-          <a class="navbar-brand" id="right-brand" onclick="cartOnClick()"> <img src="data/cart.png"> </a>
+          <a class="navbar-brand" id="right-brand"> <img src="data/cart.png"> </a>
         </div>
       </nav>
     </header>
 
     <!-- Begin page content -->
     <main role="main" class="container-fluid">
-        <div class="col-md-2"></div>
-        <div class="col-md-8" id="middle">
-          <div class="row" id="secondSearchBar"> search bar </div>
-          <div class="row" id="results"> results </div>
-          <div class="row" id="topFive">
-              <div class="tops">top five 1</div>
-              <div class="tops">top five 2</div>
-              <div class="tops">top five 3</div>
-          </div>
+        <div class="col-md-4 middle">
+          <div class="row" id="cartList"> Chart list </div>
         </div>
-        <div class="col-md-2"> </div>
+        <div class="col-md-4 middle">
+            <div class="pie" id="listPie"> Pie chart</div>
+            <div class="pie" id="tagPie"> Tag pie chart</div>
+        </div>
+        <div class="col-md-4 middle">
+            <div id="tagList"> list of other tags </div>
+            <div id="links"> links </div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -53,7 +53,6 @@
         <span class="text-muted">Copytight &copy; 2018 by Zhiyi Xu, Hung-wei Chuang, Alex Li, Maya Ram, Jenny Liu </span>
       </div>
     </footer>
-    <script src="scripts/resutlsMain.js"></script>
     <script src="scripts/summaryMain.js"></script>
   </body>
 </html>
