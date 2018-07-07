@@ -7,7 +7,6 @@ function hide(idname) {
     }
 }
 
-hide("topMenu")
 function searchOnClick(){
   console.log('here')
   location.href = "second.html";

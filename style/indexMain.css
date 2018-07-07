@@ -1,0 +1,27 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#middle{
+  height: calc(100vh - 50px);
+}
+
+#topLogo{
+  height: 36%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+}
+
+#searchBar{
+  height: 18%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+}
+
+#topTags{
+  height: 46%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+}
