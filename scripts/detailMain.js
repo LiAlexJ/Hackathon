@@ -31,10 +31,8 @@ var url = 'https://newsapi.org/v2/everything?' +
 
 var req = new Request(url);
 
-fetch(req)
-    // .then(function(response) {
-    //   console.log(response.json())
-    //   return response.json(); })
-    .done(function(date) {
-      console.log(data)
-    })
+fetch(url).then(function(response) {
+  return response.json();
+}).then(function(jsonData){
+  console.log(jsonData.articles);
+});
