@@ -1,3 +1,4 @@
+//tagsToTickers
 var tags = {
   "Apples": [
     "Maya",
@@ -10,13 +11,14 @@ var tags = {
   "Philanthropy" : [
       "Hung-Wei"
     ],
-  "Women CEOs" : [
+  "female CEOs" : [
     "Maya",
     "Zhiyi",
     "Jenny"
   ]
 }
 
+//TickersToInfo (including tags)
 var companyInfo = {
   "Maya": {
     "name": "Maya's Company",
@@ -40,3 +42,5 @@ var companyInfo = {
   }
   
 }
+
+var top5
