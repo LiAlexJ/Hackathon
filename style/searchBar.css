@@ -1,7 +1,24 @@
-            .center{
-                display: flex;
-                justify-content: center;
+           
+            
+            div .logo{
+                justify-content: space-between;
+            }
+
+            .wrapper{
+                display:flex;
                 align-items: center;
+                justify-content: center;
+                height: 70%;
+            }
+
+            div h1{
+                font-size:50px;
+            }
+
+            .flex-container{
+                display:flex;
+                align-items: flex-start;
+                flex-direction:column;
             }
 
             #searchBar{
@@ -11,6 +28,7 @@
                 font-family: 'Lato', sans-serif;
                 border-radius: 10px;
             }            
+
             input{
                 border:none;
                 padding: 10px;
@@ -24,7 +42,6 @@
             }
             input:focus{
                 border-color:#4d90fe;
-                /* border-radius: 10px 10px 0px 0px !important; */
             }
             input[type="submit"] {
                 border-radius:2px;
@@ -63,4 +80,5 @@
                 color: grey;
                 font-size: 18px;
                 text-decoration: underline;
+                margin-top:10px;
             }
