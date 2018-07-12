@@ -38,20 +38,21 @@ $(function() {
 								var info = companyInfo[companies[a]];
 								for (var key in info) {
 								    if (info.hasOwnProperty(key)) {
+                      console.log(info[key]);
 								        $("#results").append(key + ": " + info[key] + " ");
 								    }
 								}
 								$("#results").append("<br>")
 							}
 						}
-						
+
 					}
 				}
-			} 
+			}
 		}
 	}
 
-	
+
 	tagsList = tagsList.slice(0, -2);
 	//Add searched tags to searchBar div
 	$("#searchBar").val(tagsList);
