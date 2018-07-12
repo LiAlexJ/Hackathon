@@ -51,23 +51,6 @@
           <div class="row" id="results">
             <div id="app" class="container">
              <!-- Example row of columns -->
-               <div class="row">
-                   <div class="col-md-5 form-inline">
-                       <div class="form-inline form-group">
-                           <label>Search:</label>
-                           <input v-model="searchFor" class="form-control" @keyup.enter="setFilter">
-                           <button class="btn btn-primary" @click="setFilter">Go</button>
-                           <button class="btn btn-default" @click="resetFilter">Reset</button>
-                       </div>
-                   </div>
-                   <div class="col-md-3">
-                       <div class="form-inline form-group pull-right">
-                           <button class="btn btn-default" data-toggle="modal" data-target="#settingsModal">
-                               <span class="glyphicon glyphicon-cog"></span> Settings
-                           </button>
-                       </div>
-                   </div>
-               </div>
                <div class="modal fade" id="settingsModal" role="dialog">
                    <div class="modal-dialog">
                        <div class="modal-content">
@@ -149,12 +132,17 @@
                        row-class-callback="rowClassCB"
                    ></vuetable>
                </div>
+               <div class="row">
+                   <div class="form-inline">
+                       <div class="form-inline form-group">
+                           <label>Search:</label>
+                           <input v-model="searchFor" class="form-control" @keyup.enter="setFilter">
+                           <button class="btn btn-primary" @click="setFilter">Go</button>
+                           <button class="btn btn-default" @click="resetFilter">Reset</button>
+                       </div>
+                   </div>
+               </div>
            </div> <!-- /container -->
-          </div>
-          <div class="row" id="topFive">
-              <div class="tops">top five 1</div>
-              <div class="tops">top five 2</div>
-              <div class="tops">top five 3</div>
           </div>
         </div>
         <div class="col-md-2"> </div>

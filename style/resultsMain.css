@@ -27,7 +27,7 @@ body{
 }
 #middle{
   height: calc(100vh - 100px);
-  margin-top: 50px;
+  //margin-top: 50px;
 }
 #secondSearchBar{
   height: 20%;
@@ -36,24 +36,9 @@ body{
   border-color: rgb(128, 128, 128, 0.1);
 }
 #results{
-  height: 40%;
+  height: 80%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
   overflow-y:auto;
-}
-#topFive{
-  height: 40%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
-}
-
-.tops{
-  height: 100%;
-  width: 33%;
-  display: inline-block;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
 }

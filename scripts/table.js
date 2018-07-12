@@ -2,7 +2,6 @@ var E_SERVER_ERROR = 'Error communicating with the server'
 
     // fields definition
     var tableColumns = [
-        
         {
             name: 'name',
             sortField: 'name',
@@ -27,12 +26,6 @@ var E_SERVER_ERROR = 'Error communicating with the server'
             titleClass: 'text-center',
             dataClass: 'text-center',
             callback: 'gender'
-        },
-        {
-            name: '__component:custom-action',
-            title: "Component",
-            titleClass: 'center aligned',
-            dataClass: 'custom-action center aligned',
         },
         {
             name: '__actions',
@@ -69,7 +62,6 @@ var E_SERVER_ERROR = 'Error communicating with the server'
         }
     })
 
-
     new Vue({
         el: '#app',
         data: {
@@ -80,7 +72,7 @@ var E_SERVER_ERROR = 'Error communicating with the server'
                 direction: 'asc'
             }],
             multiSort: true,
-            perPage: 10,
+            perPage: 5,
             paginationComponent: 'vuetable-pagination',
             paginationInfoTemplate: 'แสดง {from} ถึง {to} จากทั้งหมด {total} รายการ',
             itemActions: [

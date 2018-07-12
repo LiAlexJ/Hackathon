@@ -12,13 +12,13 @@ ul.dropdown-menu li {
     cursor: pointer;
 }
 .vuetable-actions {
-    width: 11%;
+    width: 10%;
     padding: 12px 0px;
     text-align: center;
 }
 .vuetable-actions > button {
   padding: 3px 6px;
-  margin-right: 4px;
+  //margin-right: 4px;
 }
 .vuetable-pagination {
     margin: 0;
@@ -100,4 +100,7 @@ ul.pagination {
   100% {
     -webkit-transform: scale(0.6);
             transform: scale(0.6); }
+}
+#app{
+  width: 100%;
 }
