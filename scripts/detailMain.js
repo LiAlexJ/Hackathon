@@ -20,8 +20,18 @@ $(function() {
 
 
 	}
-
-	
-
 });
 document.getElementById("right-brand").style.cursor = "pointer";
+
+var url = 'https://newsapi.org/v2/everything?' +
+          'q=Apple&' +
+          'from=2018-07-12&' +
+          'sortBy=popularity&' +
+          'apiKey=d0b478dc381f4d8480bc0e05fe021974';
+
+var req = new Request(url);
+
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })
