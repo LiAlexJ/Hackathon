@@ -12,8 +12,11 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/resultsMain.css">
+    <link rel="stylesheet" href="style/jquery-ui.css">
+    <link rel="stylesheet" href="style/searchBar.css">
   </head>
 
   <body>
@@ -37,8 +40,13 @@
     <main role="main" class="container-fluid">
         <div class="col-md-2"></div>
         <div class="col-md-8" id="middle">
-          <div class="row" id="secondSearchBar"> search bar </div>
-          <div class="row" id="results"> results </div>
+          <div class="row" id="secondSearchBar"> 
+            <input name="tag" id="searchBar"/>
+            <input type="submit" value="Search"></a>  
+            <div id="selectedTags">
+            </div>
+          </div>
+          <div class="row" id="results"> </div>
           <div class="row" id="topFive">
               <div class="tops">top five 1</div>
               <div class="tops">top five 2</div>

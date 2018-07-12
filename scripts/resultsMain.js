@@ -12,9 +12,13 @@ $(function() {
 	query = query.replace("tag=", "");
 	query = query.replace(/\+/g, " ");
 	var parsed = query.split("%2C   ");
+	var tagsList = "";
+
 	for(var i = 0; i < parsed.length; i++) {
 		if(parsed[i]) {
+			tagsList += parsed[i] + ", ";
 			console.log("parsed[i] = " + parsed[i]);
+			$("#selectedTags").append('<button type="button" class="btn btn-outline-primary">' + parsed[i] + ' </button>');
 			var companies = tags[parsed[i]];
 			if(tags[parsed[i]]) {
 				for(var a = 0; a < companies.length; a++) {
@@ -24,6 +28,10 @@ $(function() {
 			}
 		}
 	}
+
+	tagsList = tagsList.slice(0, -2);
+	console.log(tagsList);
+	$("#searchBar").val(tagsList);
 
 
 
