@@ -1,3 +1,3 @@
 function searchOnClick(){
-  location.href = "resutls.html";
+  location.href = "results.html";
 }
