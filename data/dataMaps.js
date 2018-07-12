@@ -22,23 +22,23 @@ var tags = {
 var companyInfo = {
   "Maya": {
     "name": "Maya's Company",
-    "marketCap": "100m"
+    "marketCap": 100.00
   },
   "Zhiyi" : {
     "name": "Zhiyi's company",
-    "marketCap": "200m"
+    "marketCap": 200.00
   },
   "Alex": {
     "name": "Alex's Company",
-    "marketCap": "300m"
+    "marketCap": 300.00
   },
   "Jenny" : {
     "name": "Jenny's company",
-    "marketCap": "400m"
+    "marketCap": 400.00
   },
   "Hung-Wei" : {
     "name": "Hung-Wei's company",
-    "marketCap": "500m"
+    "marketCap": 500.00
   }
   
 }
