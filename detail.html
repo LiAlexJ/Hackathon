@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/detailMain.css">
   </head>
@@ -36,16 +36,58 @@
     <!-- Begin page content -->
     <main role="main" class="container-fluid">
         <div class="col-md-2"></div>
-        <div class="col-md-8" id="middle">
-          <div class="row" id="row1">
-            <div class="row1" id="companyName"> Name: </div>
-            <div class="row1" id="companyTags"> Tags: </div>
+
+        <div class="col-md-8 middle">
+          <div class="row row1">
+            <div class="col-md-6" id="leftpanel">
+              <div id="company">
+                info
+              </div>
+              <div id="about">
+                about
+              </div>
+            </div>
+            <div class="col-md-6"  id="news">
+
+              <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="la.jpg" alt="Los Angeles">
+                    <div class="carousel-caption">
+                      <h3>Los Angeles</h3>
+                      <p>We had such a great time in LA!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="chicago.jpg" alt="Chicago">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="ny.jpg" alt="New York">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+
+              </div>
+
+            </div>
           </div>
-          <div class="row" id="row2">
-            <div class="row2" id="companyAbout">About: </div>
-            <div class="row2" id="companyFacts"> Facts</div>
-          </div>
-          <div class="row" id="graph">graph
+          <div class="row" id="graph"> graph
           </div>
         </div>
         <div class="col-md-2"> </div>
