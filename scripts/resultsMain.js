@@ -13,24 +13,43 @@ $(function() {
 	query = query.replace(/\+/g, " ");
 	var parsed = query.split("%2C   ");
 	var tagsList = "";
+	var tagsSet = new Set();
+	var companiesSet = new Set();
+
 
 	for(var i = 0; i < parsed.length; i++) {
 		if(parsed[i]) {
+			if(!tagsSet.has(parsed[i])) {
+			tagsSet.add(parsed[i]);
 			tagsList += parsed[i] + ", ";
-			console.log("parsed[i] = " + parsed[i]);
+			//Add tag box to selectedTags div
 			$("#selectedTags").append('<button type="button" class="btn btn-outline-primary">' + parsed[i] + ' </button>');
 			var companies = tags[parsed[i]];
-			if(tags[parsed[i]]) {
-				for(var a = 0; a < companies.length; a++) {
-					console.log("tag = " + parsed[i] + ", company = " + companies[a]);
-					$("#results").append("tag = " + parsed[i] + ", company = " + companies[a] + "<br>");
+				if(tags[parsed[i]]) {
+					for(var a = 0; a < companies.length; a++) {
+						if(!companiesSet.has(companies[a])) {
+							companiesSet.add(companies[a]);
+							console.log("tag = " + parsed[i] + ", company = " + companies[a]);
+						//Add company results to results div
+							if(companyInfo[companies[a]]) {
+								var info = companyInfo[companies[a]];
+								for (var key in info) {
+								    if (info.hasOwnProperty(key)) {
+								        $("#results").append(key + ": " + info[key] + " ");
+								    }
+								}
+								$("#results").append("<br>")
+							}
+						}
+						
+					}
 				}
-			}
+			} 
 		}
 	}
 
 	tagsList = tagsList.slice(0, -2);
-	console.log(tagsList);
+	//Add searched tags to searchBar div
 	$("#searchBar").val(tagsList);
 
 
