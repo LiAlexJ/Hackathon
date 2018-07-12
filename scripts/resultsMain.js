@@ -8,15 +8,28 @@ function hide(idname) {
 }
 
 $(function() {
-	//alert(window.location.search);
 	var query = window.location.search.replace(/^\?/, "");
 	query = query.replace("tag=", "");
 	query = query.replace(/\+/g, " ");
 	var parsed = query.split("%2C   ");
-	for(var i=0; i < parsed.length; i++) {
-		console.log(parsed[i]);
+	for(var i = 0; i < parsed.length; i++) {
+		if(parsed[i]) {
+			console.log("parsed[i] = " + parsed[i]);
+			var companies = tags[parsed[i]];
+			if(tags[parsed[i]]) {
+				for(var a = 0; a < companies.length; a++) {
+					console.log("tag = " + parsed[i] + ", company = " + companies[a]);
+					$("#results").append("tag = " + parsed[i] + ", company = " + companies[a] + "<br>");
+				}
+			}
+		}
 	}
 
+
+
+
 });
+
+
 
 document.getElementById("right-brand").style.cursor = "pointer";
