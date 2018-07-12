@@ -2,12 +2,7 @@ var E_SERVER_ERROR = 'Error communicating with the server'
 
     // fields definition
     var tableColumns = [
-        {
-            name: 'id',
-            title: '',
-            dataClass: 'text-center',
-            callback: 'showDetailRow'
-        },
+        
         {
             name: 'name',
             sortField: 'name',
@@ -74,43 +69,6 @@ var E_SERVER_ERROR = 'Error communicating with the server'
         }
     })
 
-    Vue.component('my-detail-row', {
-        template: [
-            '<div class="detail-row ui form" @click="onClick($event)">',
-                '<div class="inline field">',
-                    '<label>Name: </label>',
-                    '<span>{{rowData.name}}</span>',
-                '</div>',
-                '<div class="inline field">',
-                    '<label>Email: </label>',
-                    '<span>{{rowData.email}}</span>',
-                '</div>',
-                '<div class="inline field">',
-                    '<label>Nickname: </label>',
-                    '<span>{{rowData.nickname}}</span>',
-                '</div>',
-                '<div class="inline field">',
-                    '<label>Birthdate: </label>',
-                    '<span>{{rowData.birthdate}}</span>',
-                '</div>',
-                '<div class="inline field">',
-                    '<label>Gender: </label>',
-                    '<span>{{rowData.gender}}</span>',
-                '</div>',
-            '</div>',
-        ].join(''),
-        props: {
-            rowData: {
-                type: Object,
-                required: true
-            }
-        },
-        methods: {
-            onClick: function(event) {
-                console.log('my-detail-row: on-click')
-            }
-        },
-    })
 
     new Vue({
         el: '#app',
