@@ -36,10 +36,37 @@
     <!-- Begin page content -->
     <main role="main" class="container-fluid">
         <div class="col-md-4 middle">
-          <div class="row" id="cartList"> Chart list </div>
+          <div class="row" id="cartList"> Chart list 
+          <!-- TradingView Widget BEGIN 
+        <div class="tradingview-widget-container">
+          <div id="tradingview_d1129"></div>
+          <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL chart</span></a> by TradingView</div>
+          <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+          <script type="text/javascript">
+          new TradingView.widget(
+          {
+          "autosize": true,
+          "symbol": "NASDAQ:AAPL",
+          "interval": "D",
+          "timezone": "Etc/UTC",
+          "theme": "Dark",
+          "style": "2",
+          "locale": "en",
+          "toolbar_bg": "#f1f3f6",
+          "enable_publishing": false,
+          "hide_top_toolbar": true,
+          "save_image": false,
+          "container_id": "tradingview_d1129"
+        }
+          );
+          </script>
+        </div>
+        -->
+          </div>
         </div>
         <div class="col-md-4 middle">
-            <div class="pie" id="listPie"> Pie chart</div>
+            <div class="pie" id="listPie"> 
+            </div>
             <div class="pie" id="tagPie"> Tag pie chart</div>
         </div>
         <div class="col-md-4 middle">
@@ -54,5 +81,7 @@
       </div>
     </footer>
     <script src="scripts/summaryMain.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="data/dataMaps.js"></script>
   </body>
 </html>

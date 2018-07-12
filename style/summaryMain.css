@@ -54,3 +54,10 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
+
+.legend {
+    font-size: 12px;
+}
+rect {
+  stroke-width: 2;
+}
