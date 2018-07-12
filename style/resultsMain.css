@@ -1,5 +1,8 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: scroll;
 }
 .options{
   font-weight: bold;
@@ -41,4 +44,15 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
   overflow-y:auto;
+}
+
+ul{
+  margin-right:20px;
+}
+ul>li{
+  justify-content: space-between;
+  width:5%;
+}
+ul>li>a{
+  color:black;
 }
