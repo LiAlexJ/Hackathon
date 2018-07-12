@@ -38,7 +38,6 @@ $(function() {
 								var info = companyInfo[companies[a]];
 								for (var key in info) {
 								    if (info.hasOwnProperty(key)) {
-                      console.log(info[key]);
 								        $("#results").append(key + ": " + info[key] + " ");
 								    }
 								}
