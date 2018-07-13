@@ -39,6 +39,7 @@ $(function() {
 							if(companyInfo[companies[a]]) {
 								var info = companyInfo[companies[a]];
 								var row = [];
+								row.push(companies[a]);
 								for (var attr in info) {
 								    if (info.hasOwnProperty(attr)) {
 										row.push(info[attr]);
@@ -57,7 +58,8 @@ $(function() {
 
 	$('#tableResults').DataTable( {
 		data: dataSet,
-		columns: [
+		columns: [	
+			{ title: "Ticker"},
 			{ title:"Name"},
 			{ title:"Market Cap"},
 			{ title: "Share Price"},
