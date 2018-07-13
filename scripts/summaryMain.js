@@ -125,6 +125,7 @@ function drawBarChart(dataMap) {
   var svg = d3.select("#tagChart").append("svg")
             .attr("height", height)
             .attr("width", width);
+  //var colour = d3.scaleOrdinal(["#5b1f52","#2C2C54","#32546d","#4a215e", "#27666d", "#29476d","#1f5141","#84272f"]); // colour scheme
 
     x.domain(data.map(function (d) { return d.tag; }));
     y.domain([0, d3.max(data, function (d) { return d.freq; })]);
@@ -164,9 +165,9 @@ function drawBarChart(dataMap) {
   bars
     .enter().append("rect")
     .attr("class", "bar")
-    .attr("x", function (d) { return x(d.tag); })
+    .attr("x", function (d) { return x(d.tag)+x.bandwidth()*0.25; })
     .attr("y", function (d) { return y(d.freq); })
-    .attr("width", x.bandwidth())
+    .attr("width", x.bandwidth()*0.5)
     .attr("height", function (d) { return height - y(d.freq); });
 
   // UPDATE
@@ -174,4 +175,6 @@ function drawBarChart(dataMap) {
     .attr("y", function (d) { return y(d.freq); })
     .attr("width", x.bandwidth())
     .attr("height", function (d) { return height - y(d.freq); });
+
+
 }

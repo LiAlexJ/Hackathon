@@ -15,23 +15,23 @@ h3 {
 }
 #cartList{
   height: 100%;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+  border-color: rgb(128, 128, 128, 0.1);*/
   overflow-y: auto;
 }
 .pie{
   height: 50%;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+  border-color: rgb(128, 128, 128, 0.1); */
   margin-left: 10px;
 }
 #statsList{
-  height: 80%;
-  border-style: solid;
+  height: 70%;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+  border-color: rgb(128, 128, 128, 0.1);*/
   padding-left: 5%;
 }
 #statsListTable{
@@ -39,10 +39,10 @@ h3 {
 }
 
 #links{
-  height: 20%;
-  border-style: solid;
+  height: 30%;
+  /*border-style: solid;
   border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+  border-color: rgb(128, 128, 128, 0.1);*/
 }
 /*Styling for the lines connecting the labels to the slices*/
 polyline{
@@ -71,7 +71,7 @@ rect {
 }
 
 .bar {
-  fill: #313639;
+  fill: #3a3f42;
 }
 
 .bar:hover {
@@ -153,4 +153,21 @@ a:not([href]):not([tabindex]) {
 
 .stat {
   font-weight: bold;
+}
+
+.ad {
+  font-size: 15px;
+  padding-top: 30px;
+  margin-top: 2px;
+  padding-right: 5px;
+}
+.aladdin {
+  margin-left: 30%;
+  background-color: #3a3f42;
+  color: #fffefc;
+  margin-top: 10px;
+}
+.btn:hover {
+    color: #fffefc;
+    background-color: #232628;
 }
