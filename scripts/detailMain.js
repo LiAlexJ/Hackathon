@@ -61,18 +61,19 @@ fetch(url)
       var symbol = window.location.href.split("=")[1].toUpperCase();
       $.getJSON("https://api.robinhood.com/fundamentals/?symbols=" + symbol, function(result){
             var x = result["results"][0];
-            var id = result["results"][0]["instrument"]
+            var id = result["results"][0]["instrument"];
             var desc = x["description"];
-            var name = desc.split(".")[0]
+            var name = desc.split(".")[0];
             var city = x["headquarters_city"];
             var state = x["headquarters_state"];
             var sector = x["sector"];
             var marketcap = x["market_cap"];
             var pe = x["pe_ratio"];
-            var price = x["open"]
-            var dividend = x["dividend_yield"]
-            var founded = x["year_founded"]
-            var employees = x['num_employees']
+            var price = x["open"];
+            var dividend = x["dividend_yield"];
+            var founded = x["year_founded"];
+            var employees = x['num_employees'];
+            var ceo = x["ceo"];
 
             $("#company").append("<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">");
 
@@ -80,11 +81,14 @@ fetch(url)
             $("#company").append("</b><br>");
             $("#company").append("<b>Price</b>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$" + parseFloat(price).toFixed(2) + "<br>")
             var scap = moneyFormat((marketcap))
-            $("#company").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br><br>")
+            $("#company").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br>")
+            $("#company").append("<b>P/E Ratio</b>:&emsp;&emsp;&emsp;&emsp;" + parseFloat(pe).toFixed(2) + "<br><br>");
             $("#company").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector + "<br>")
             $("#company").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + ", " + state + "<br>")
+            $("#company").append("<b>CEO:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</b>" + ceo + "<br>")
             $("#company").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
             $("#company").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
+            /*$("#comp-2").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")*/
             $("#about").append("<br><br>" + desc + " ");
 
             var graph = "<div class=\"tradingview-widget-container\"><div id=\"tradingview_1f1c8\"></div>" +
