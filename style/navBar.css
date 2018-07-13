@@ -10,7 +10,7 @@
 .nav-item{
   display: inline-block;
 }
-.nav-link{
+a{
   color:black;
   width:80px;
   padding-top: 8px!important;
