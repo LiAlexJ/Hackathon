@@ -39,6 +39,7 @@ $(function() {
 							if(companyInfo[companies[a]]) {
 								var info = companyInfo[companies[a]];
 								var row = [];
+								row.push([]);
 								row.push(companies[a]);
 								for (var attr in info) {
 								    if (info.hasOwnProperty(attr)) {
@@ -59,18 +60,21 @@ $(function() {
 	$('#tableResults').DataTable( {
 		data: dataSet,
 		columns: [	
-			{ title: "Ticker"},
-			{ title:"Name"},
-			{ title:"Market Cap"},
-			{ title: "Share Price"},
-			{ title: "P/E Ratio"},
-			{ title: "Dividends"},
-			{ title:"Sector"},
-			{ title:"Tags"},
+			{
+				orderable: false,
+				className: 'select-checkbox',
+				targets: 0
+			},
+			{ title: "Ticker", "targets":1},
+			{ title:"Name", "targets": 2},
+			{ title:"Market Cap", "targets": 3},
+			{ title: "Share Price", "targets": 4},
+			{ title: "P/E Ratio", "targets": 5},
+			{ title: "Dividends", "targets": 6},
+			{ title:"Sector", "targets": 7},
+			{ title:"Tags", "targets": 8},
+			
 		],
-		select:{
-			style: 'multi'
-		},
 		dom: 'Bfrtip',
 		buttons: [
 			{
@@ -86,7 +90,7 @@ $(function() {
 					var arrayLength = rows.length;
 					var ret = [];
 					for(var i = 0; i < arrayLength; i++){
-						ret.push(rows[i][0]);
+						ret.push(rows[i][1]);
 					}
 					window.location.href = 'summary.html' + '?companies=' + ret.toString();
 				}
@@ -96,16 +100,20 @@ $(function() {
 		"columnDefs":[
 			{
 				"render":function (data, type, row){
-					var link = "detail.html?stock=" + row[0];
+					var link = "detail.html?stock=" + row[1];
 					console.log(link);
-					return '<a href=' + link + '>' + row[0] + '</a>';
+					return '<a href=' + link + '>' + row[1] + '</a>';
 				},
-				"targets":0
+				"targets":1
 			},
 			{"visible":false, "targets":[3]}
 
-		]
-
+		],
+		select:{
+			style: 'multi',
+			selector: 'td:first-child'
+		},
+		order: [[1, 'asc' ]]
 	});
 
 
