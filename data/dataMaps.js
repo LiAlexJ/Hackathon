@@ -135,3 +135,10 @@ var portfolioStats = {
   "volatility": "5%"
 
 }
+
+var statsIcons = {
+  "expected_return": "\e018",
+  "risk": "\e141",
+  "volatility": "\e137"
+
+}

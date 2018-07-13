@@ -1,6 +1,6 @@
 $(function() {
-	var tickers = ["AMZN", "IBM", "JPM"];
-	var weights = [10, 20, 50];
+	var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
+	var weights = [10, 20, 50, 30, 50, 70, 25, 15, 20, 45];
 
 	var portfolioWeightsDataset = [];
 	for(var i = 0; i < tickers.length; i++) {
@@ -49,7 +49,10 @@ $(function() {
    /* portfolio info */
    for(var stat in portfolioStats) {
     if (portfolioStats.hasOwnProperty(stat)) {
-      $("#statsList").append('<li class="list-group-item" style="border: none">' + stat + ' ' + portfolioStats[stat] + '</li>');
+      var className = "list-group-item " + stat;
+
+      $("#statsList").append('<li class="' + className + '" style="border: none">' + stat + ' ' + portfolioStats[stat] + '</li>');
+     // $("#statsList").append('<style>' + stat + ':before { content: "\e018";}</style>');
     }
   }
 
