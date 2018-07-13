@@ -62,7 +62,6 @@ $(function() {
     if (portfolioStats.hasOwnProperty(stat)) {
       var glyph = "glyphicon " + statsIcons[stat];
       $("#statsListTable").append('<tr class="analytics"><td><a href="" class="icon ' + stat + '"><span class="' + glyph + '"></span></a></td><td class="stat"> ' + statsNames[stat] + ': ' + portfolioStats[stat] + ' <td></tr>');
-    
 
     }
   }
@@ -139,11 +138,11 @@ function drawBarChart(dataArray) {
     .attr("class", "axis axis--y");
 
   g.append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 6)
+		.attr("x", 50)
+    .attr("y", -10)
     .attr("dy", "0.71em")
     .attr("text-anchor", "end")
-    .text("Frequency");
+    .text("Count");
 
   x.rangeRound([0, width]);
   y.rangeRound([height, 0]);
@@ -153,7 +152,7 @@ function drawBarChart(dataArray) {
     .call(d3.axisBottom(x));
 
   g.select(".axis--y")
-    .call(d3.axisLeft(y));
+    .call(d3.axisLeft(y).ticks(d3.max(data, function (d) { return d.freq; })));
 
   var bars = g.selectAll(".bar")
     .data(data);
