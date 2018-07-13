@@ -1,10 +1,8 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #fffefc;
-}
-.options{
-  font-weight: bold;
-  color: black;
 }
 .active{
   background-color: lightgrey;
@@ -12,24 +10,14 @@ body{
 .navbar-brand>img {
   height: 25px;
 }
-#centered-brand{
-  position: absolute;
-  left: 40%;
-  display: block;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  font-size: 26px;
-}
-#right-brand{
-  position: absolute;
-  left: 95%;
-  display: block;
-}
 .middle{
   height: calc(100vh - 100px);
 }
-
+.container-fluid{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .row1{
   height: 66.6%;
 }

@@ -3,7 +3,8 @@
 }
 .right-brand{
   position: absolute;
-  right: 1%;
+  height: 40px;
+  right: 2%;
   display: block;
 }
 .nav-item{
@@ -12,4 +13,9 @@
 a{
   color:black;
   width:80px;
+}
+header{
+  height: 40px;
+  line-height: 24px!important;
+  font-size: 14px!important;
 }
