@@ -23,7 +23,10 @@ body{
   margin-top: 5%;
   width: 70%;
 }
-
+thead{
+  background-color: #294760;
+  color:#e1e9ef;
+}
 #tableResults{
   width:100%!important;
 }
@@ -33,3 +36,9 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+table.dataTable tbody tr.selected{
+  background-color: #294760;
+  opacity: 0.33;
+}
+

@@ -11,6 +11,41 @@ body{
   height: 25px;
 }
 
+.img-wrap {
+  position:relative;
+}
+#carousel {
+    transition: all 0.5s ease;
+}
+
+.info {
+  color:white;
+  opacity:0;
+  -webkit-transition: opacity ease 0.5s;
+}
+
+.overlay {
+  position:absolute;
+  top:50%;
+  left:50%; 
+  text-align:center;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*.carousel-inner {
+    position:relative;
+    box-shadow: 7px 7px 20px black;
+}*/
+.img-wrap:hover #carousel{
+    transform: scale(1.2, 1.2);
+    -webkit-filter: blur(3px) brightness(30%);
+    transition: all 0.5 ease;
+}
+.img-wrap:hover .info {
+    opacity:1;
+    transition: all 0.5s ease;
+}
+
 #logo {
   margin-left: auto;
   margin-right: auto;
@@ -45,8 +80,15 @@ body{
 .row1{
   height: 66.6%;
 }
+
+.card {
+  margin-left: 30px;
+}
 #leftpanel{
-  height: 100%;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
