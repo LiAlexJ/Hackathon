@@ -58,6 +58,8 @@ $(function() {
 	dataSet.shift();
 
 	$('#tableResults').DataTable( {
+		"bInfo":false,
+		"bPaginate": false,
 		data: dataSet,
 		columns: [	
 			{
@@ -75,7 +77,7 @@ $(function() {
 			{ title:"Tags", "targets": 8},
 			
 		],
-		dom: 'Bfrtip',
+		dom: 'frtipB',
 		buttons: [
 			{
 				extend: 'selected',
@@ -101,7 +103,6 @@ $(function() {
 			{
 				"render":function (data, type, row){
 					var link = "detail.html?stock=" + row[1];
-					console.log(link);
 					return '<a href=' + link + '>' + row[1] + '</a>';
 				},
 				"targets":1
@@ -119,7 +120,6 @@ $(function() {
 
 
 	tagsList = tagsList.slice(0, -2);
-	//Add searched tags to searchBar div
 	$("#searchBar").val(tagsList);
 
 
