@@ -64,7 +64,7 @@ $(function() {
 			{ title:"Market Cap"},
 			{ title: "Share Price"},
 			{ title: "P/E Ratio"},
-			{ title: "Dividents"},
+			{ title: "Dividends"},
 			{ title:"Sector"},
 			{ title:"Tags"}
 		],
