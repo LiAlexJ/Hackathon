@@ -28,10 +28,6 @@ body{
   left: 95%;
   display: block;
 }
-#middle{
-  height: calc(100vh - 100px);
-  //margin-top: 50px;
-}
 #secondSearchBar{
   height: 20%;
   border-style: solid;
@@ -44,6 +40,16 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
   overflow-y:auto;
+}
+
+#tableResults{
+  width:100%;
+}
+
+.container-fluid{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul{

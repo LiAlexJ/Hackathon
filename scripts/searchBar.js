@@ -1,13 +1,7 @@
             $( function() {
                 var availableTags = [
-                    "Apples",
-                    "Orange",
-                    "Pinnaples",
-                    "Diversity",
-                    "Environment",
-                    "GlassDoor",
-                    "Philantropy",
-                    "Women CEOs"
+                    "Female CEOs",
+                    "Positive Sentiment"
                 ];
 
                 function split( val ) {
