@@ -13,6 +13,10 @@
 a{
   color:black;
   width:80px;
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+  padding-left: 16px!important;
+  padding-right: 16px!important;
 }
 header{
   height: 40px;
