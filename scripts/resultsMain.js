@@ -70,8 +70,30 @@ $(function() {
 		],
 		select:{
 			style: 'multi'
-		}
+		},
+		dom: 'Bfrtip',
+		buttons: [
+			{
+				extend: 'selected',
+				text: 'Reset'
+			},
+			{
+				extend: 'selected',
+				text: 'Submit',
+				action: function( e, dt, node, config) {
+					var rows = dt.rows( { selected: true } ).data();
+
+					var arrayLength = rows.length;
+					var ret = [];
+					for(var i = 0; i < arrayLength; i++){
+						ret.push(rows[i][0]);
+					}
+					window.location.href = 'summary.html' + '?' + ret.toString();
+				}
+			}
+		]
 	});
+
 
 
 	tagsList = tagsList.slice(0, -2);
