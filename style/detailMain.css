@@ -37,6 +37,7 @@ body{
     box-shadow: 7px 7px 20px black;
 }*/
 .img-wrap:hover #carousel{
+    transform: scale(1.2, 1.2);
     -webkit-filter: blur(3px) brightness(30%);
     transition: all 0.5 ease;
 }
