@@ -15,7 +15,8 @@ body{
   position:relative;
 }
 #carousel {
-    transition: all 0.5s ease;
+  border-style: none;
+  transition: all 0.5s ease;
 }
 
 .info {
@@ -82,21 +83,25 @@ body{
 }
 
 .card {
+  border-style: none;
   margin-left: 30px;
 }
+
 #leftpanel{
+  border-style: none;
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 20px;
   padding-bottom: 20px;
-  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+/*  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);*/
 }
 #news{
+  border-style: none;
   height: 100%;
-  border-style: solid;
+/*  border-style: solid;
   border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+  border-color: rgb(128, 128, 128, 0.1);*/
 }
 #company{
   text-align: center;
@@ -118,9 +123,9 @@ body{
 
 #graph{
   height: 33.3%;
-  border-style: solid;
+/*  border-style: solid;
   border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
+  border-color: rgb(128, 128, 128, 0.1);*/
 }
 #carousel {
   height: calc(calc(100vh - 100px) * 0.666);
