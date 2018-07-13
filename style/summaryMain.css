@@ -1,5 +1,6 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 .options{
   font-weight: bold;
@@ -60,4 +61,32 @@ body{
 }
 rect {
   stroke-width: 2;
+}
+
+.bar {
+  fill: #0080FF
+}
+
+.bar:hover {
+  fill: #003366
+}
+
+/*Text class styling*/
+
+.text {
+  fill: white;
+  font-family: sans-serif
+}
+
+#tagChart {
+  overflow-x: auto;
+}
+
+.portfolio {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
 }

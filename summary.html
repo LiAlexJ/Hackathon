@@ -6,9 +6,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,6 +18,10 @@
   </head>
 
   <body>
+
+  var rowArray = [];
+  row.push(attribute)
+  var dataArray[i].push(rowArray)
 
     <header>
       <nav class="navbar navbar-fixed-top" id="topMenu" style="background-color: #f5f5f5;">
@@ -36,12 +41,15 @@
     <!-- Begin page content -->
     <main role="main" class="container-fluid">
         <div class="col-md-4 middle">
-          <div class="row" id="cartList"> Chart list 
-            <table id="companyList" style="width:100%">
-              <tr>
-                <th>Company</th>
-                <th>Weight</th> 
-              </tr>
+          <div class="row" id="cartList"> 
+            <h2>Your Portfolio</h2>
+            <table id="companyList" style="width:100%" class="table table-striped table-hover portfolio">
+              <thead class="">
+                <tr>
+                  <th>Company</th>
+                  <th>Weight</th> 
+                </tr>
+              </thead>
               
             </table>
           </div>
@@ -75,7 +83,7 @@
         <div class="col-md-4 middle">
             <div class="pie" id="listPie"> 
             </div>
-            <div class="pie" id="tagPie"> Tag pie chart</div>
+            <div class="pie" id="tagChart"> Tag pie chart</div>
         </div>
         <div class="col-md-4 middle">
             <div id="tagList"> list of other tags </div>
@@ -91,5 +99,7 @@
     <script src="scripts/summaryMain.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="data/dataMaps.js"></script>
+    <script src="scripts/util.js"></script>
+
   </body>
 </html>
