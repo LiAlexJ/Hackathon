@@ -86,24 +86,29 @@ function drawPie(dataset){
 function drawBarChart(dataArray) {
   var data = [];
   for(var i = 0; i < dataArray.length; i++){
-    var tmp = {"tag": i, "freq": dataArray[i]};
+    var tmp = {"tag": "a" + i.toString(), "freq": dataArray[i]};
     data.push(tmp);
   }
-  console.log(data)
+
   d3.select("#tagChart").select("svg").remove();
+
+  var  x = d3.scaleBand().padding(0.1),
+    y = d3.scaleLinear();
+
+  var width = $('#tagChart').width() * 0.95;
+  var height = $('#tagChart').height() * 0.95;
+
   var svg = d3.select("#tagChart").append("svg")
             .attr("height", height)
             .attr("width", width);
 
-  var margin = { top: 10, right: 10, bottom: 10, left: 10 },
-    x = d3.scaleBand().padding(0.1),
-    y = d3.scaleLinear();
-
     x.domain(data.map(function (d) { return d.tag; }));
     y.domain([0, d3.max(data, function (d) { return d.freq; })]);
 
+  height -= 40;
+  width -= 40;
   var g = svg.append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + 30 + "," + 20 + ")");
 
   g.append("g")
     .attr("class", "axis axis--x");
@@ -118,9 +123,6 @@ function drawBarChart(dataArray) {
     .attr("text-anchor", "end")
     .text("Frequency");
 
-  var width = $('#tagChart').width() - margin.left - margin.right;
-  var height = $('#tagChart').height() - margin.top - margin.bottom;
-
   x.rangeRound([0, width]);
   y.rangeRound([height, 0]);
 
@@ -129,7 +131,7 @@ function drawBarChart(dataArray) {
     .call(d3.axisBottom(x));
 
   g.select(".axis--y")
-    .call(d3.axisLeft(y).ticks(10, "%"));
+    .call(d3.axisLeft(y));
 
   var bars = g.selectAll(".bar")
     .data(data);
