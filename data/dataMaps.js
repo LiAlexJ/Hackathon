@@ -140,5 +140,12 @@ var statsIcons = {
   "expected_return": "glyphicon-signal",
   "risk": "glyphicon-dashboard",
   "volatility": "glyphicon-tasks"
+}
+
+var statsNames = {
+  "expected_return": "Expected Return",
+  "risk": "Risk",
+  "volatility": "Volatility"
 
 }
+

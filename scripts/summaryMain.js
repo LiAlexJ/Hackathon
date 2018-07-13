@@ -1,15 +1,20 @@
 $(function() {
 	var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
-	var weights = [10, 20, 50, 30, 50, 70, 25, 15, 20, 45];
+	var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+  var sum = 0;
+  for(var i = 0; i < weights.length; i++) {
+    sum += weights[i];
+  }
+  
 
 	var portfolioWeightsDataset = [];
 	for(var i = 0; i < tickers.length; i++) {
 		if(companyInfo[tickers[i]]) {
 			var cap = {};
 			cap.label = tickers[i];
-			cap.count = weights[i];
+			cap.count = ((weights[i]/sum) * 100).toFixed(2);
 			portfolioWeightsDataset.push(cap);
-		}
+ 		}
 	}
 
 	var tagsFrequencyDataset = [];
@@ -26,27 +31,37 @@ $(function() {
 	 /* chart list */
 	 for(var i = 0; i < tickers.length; i++) {
 	 	var weight = "weight_" + tickers[i];
-	 	$("#companyList").append("<tr><td class='ticker'>"+getCompanyName(tickers[i])+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' /></td></tr>");
-
-
+    var percent = ((weights[i]/sum) * 100).toFixed(2);
+	 	$("#companyList").append("<tr><td class='ticker'>"+getCompanyName(tickers[i])+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' value='" + percent +"'/></td></tr>");
 	 }
+   $("#companyList").append("<tr><td class='ticker'>Total</td><td><input class='weight' type='text' id='total' value='" + sum +"'/></td></tr>");
 
 	 $('.weight').keyup(function(e) {
 	 		for(var x = 0; x < portfolioWeightsDataset.length; x++) {
 	 			var temp = portfolioWeightsDataset[x];
 	 			if(temp.label === $(this).attr('name')) {
 	 				temp.count = $(this).val();
+          console.log(temp.count);
 	 			}
 	 		}
 
-    		drawPie(portfolioWeightsDataset)
+    		drawPie(portfolioWeightsDataset);
+        console.log(portfolioWeightsDataset);
+        var newSum = 0;
+        for(var i = 0; i < portfolioWeightsDataset.length; i++) {
+          console.log(portfolioWeightsDataset[i]["count"]);
+          newSum += parseFloat(portfolioWeightsDataset[i]["count"]);
+        }
+        console.log("sum = " + newSum);
+        $("#total").val(newSum);
+       
 	 	});
 
    /* portfolio info */
    for(var stat in portfolioStats) {
     if (portfolioStats.hasOwnProperty(stat)) {
       var glyph = "glyphicon " + statsIcons[stat];
-      $("#statsListTable").append('<tr class="analytics"><td><a class="icon ' + stat + '"><span class="' + glyph + '"></span></a></td><td> ' + stat + ': ' + portfolioStats[stat] + ' <td></tr>');
+      $("#statsListTable").append('<tr class="analytics"><td><a href="" class="icon ' + stat + '"><span class="' + glyph + '"></span></a></td><td class="stat"> ' + statsNames[stat] + ': ' + portfolioStats[stat] + ' <td></tr>');
     
 
     }

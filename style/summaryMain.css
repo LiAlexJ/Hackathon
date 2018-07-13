@@ -3,6 +3,12 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fffefc;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
 }
 .middle{
   height: calc(100vh - 100px);
@@ -19,6 +25,7 @@ body{
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
+  margin-left: 10px;
 }
 #statsList{
   height: 80%;
@@ -55,9 +62,7 @@ polyline{
 }
 
 
-.legend {
-    font-size: 12px;
-}
+
 rect {
   stroke-width: 2;
 }
@@ -83,7 +88,8 @@ rect {
 
 .portfolio {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
+  margin-top: -75px;
 }
 
 .header {
@@ -105,12 +111,13 @@ rect {
 }
 
 .head {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .title {
-  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .elem {
@@ -131,13 +138,22 @@ rect {
 }
 .icon {
   font-family: 'Glyphicons Halflings';
-    font-size: 35px;
+    font-size: 50px;
     float: left;
     margin-top: 6px;
     margin-left: 20px;
     margin-right: 10px;
+    padding-bottom: 10px;
 }
 
 .analytics {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+a:not([href]):not([tabindex]) {
+    text-decoration: none;
+}
+
+.stat {
+  font-weight: bold;
 }
