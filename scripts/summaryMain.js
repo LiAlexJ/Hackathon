@@ -1,12 +1,16 @@
 $(function() {
   var query = window.location.search.replace(/^\?/, "");
   query = query.replace("companies=", "");
-  var tickers = query.split(",");
+  query = query.replace(/\+/g, ",");
+  query = query.replace("%2C","");
+  var parsed = query.split(",");
+  var tickers = [];
+  for(var i = 0; i < parsed.length; i++) {
+    tickers.push(parsed[i].toUpperCase());
+  }
   console.log(tickers);
   var weights = getWeights(tickers);
   getAnalytics();
-	//var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
-	//var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
   var sum = 0;
   var percentSum = 0;
   for(var i = 0; i < weights.length; i++) {

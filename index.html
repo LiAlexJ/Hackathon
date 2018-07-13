@@ -5,13 +5,17 @@
         <title>Hackathon Team 18</title>
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" href="style/jquery-ui.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
         <link rel="stylesheet" href="style/searchBar.css">
         <link rel="stylesheet" href="style/indexMain.css">
+        <link rel="stylesheet" href="style/toggle.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
             crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="scripts/searchBar.js"></script>
+        <script src="scripts/indexMain.js"></script>
     </head>
 
     <body style='font-family:"Lato"'>
@@ -20,19 +24,31 @@
                 <div class="logo">
                     <IMG SRC = 'BD.jpg' WIDTH = 500 HEIGHT = 150>
                 </div>
-                <form action="results.html" method="GET">
+                <div id="tickerDiv">
+                    <div id="tickerText">Tag</div>
+
+                    <div class="tickerSwitch"> 
+                        <label class="switch">
+                              <input id="tickerToggle" type="checkbox" onclick="check()">
+                              <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div id="tickerText">Ticker</div>
+                </div>
+                <form id="searchForm" action="" method="GET">
                     <input name="tag" id="searchBar" placeHolder="Female CEOs" />
-                    <input type="submit" value="Search"></a>
+                    <input type="submit" value="Search">
                 </form>
                 <div>
                     <p id="popularTags">Popular Tags</p>
-                    <button type="button" class="btn btn-outline-primary" id = "button">Diversity</button>
-                    <button type="button" class="btn btn-outline-primary" id = "button">Environment</button>
-                    <button type="button" class="btn btn-outline-primary" id = "button">LGBTQ</button>
-                    <button type="button" class="btn btn-outline-primary" id = "button">Philanthropy</button>
-                    <button type="button" class="btn btn-outline-primary" id = "button">Female CEOs</button>
+                    <button type="button" class="btn btn-outline-primary fm" id = "button">Female CEOs</button>
+                    <button type="button" class="btn btn-outline-primary leed" id = "button">LEED Certified</button>
+                    <button type="button" class="btn btn-outline-primary pos" id = "button">Positive Sentiment</button>
+                    <button type="button" class="btn btn-outline-primary emp" id = "button">Employee Satisfaction</button>
+                    <button type="button" class="btn btn-outline-primary csr" id = "button">High CSR Budget</button>
                 </div>
             </div>
         </div>
+        
     </body>
     </DOCTYPE>
