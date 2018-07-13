@@ -130,20 +130,20 @@ var companyInfo = {
 }
 
 var portfolioStats = {
-  "expected_return": "10%",
+  "year-to-date": "10%",
   "risk": "20%",
   "volatility": "5%"
 
 }
 
 var statsIcons = {
-  "expected_return": "glyphicon-signal",
+  "year-to-date": "glyphicon-signal",
   "risk": "glyphicon-dashboard",
   "volatility": "glyphicon-tasks"
 }
 
 var statsNames = {
-  "expected_return": "Expected Return",
+  "year-to-date": "Year To Date Return",
   "risk": "Risk",
   "volatility": "Volatility"
 

@@ -1,4 +1,5 @@
 $(function() {
+
   var query = window.location.search.replace(/^\?/, "");
   query = query.replace("companies=", "");
   query = query.replace(/\+/g, ",");
@@ -8,7 +9,7 @@ $(function() {
   for(var i = 0; i < parsed.length; i++) {
     tickers.push(parsed[i].toUpperCase());
   }
-  console.log(tickers);
+
   var weights = getWeights(tickers);
   getAnalytics();
   var sum = 0;
@@ -17,28 +18,24 @@ $(function() {
     sum += weights[i];
   }
 
-
 	var portfolioWeightsDataset = [];
 	for(var i = 0; i < tickers.length; i++) {
 		if(companyInfo[tickers[i]]) {
 			var cap = {};
 			cap.label = tickers[i];
 			cap.count = ((weights[i]/sum) * 100).toFixed(2);
-      console.log(cap.count);
 			portfolioWeightsDataset.push(cap);
       percentSum += parseFloat(cap.count);
 
  		}
 	}
-
 	var tagsFrequencyDataset = [];
-	var dataFreq = getTagFrequency(tickers);
+	var dataFreq = getTagFrequency(portfolioWeightsDataset);
 	for (var f in dataFreq) {
 	    if (dataFreq.hasOwnProperty(f)) {
 	    	tagsFrequencyDataset.push(dataFreq[f]);
 	    }
 	}
-  console.log(dataFreq);
 	tagsFrequencyDataset.sort();
 	drawPie(portfolioWeightsDataset);
 	drawBarChart(dataFreq);
@@ -57,22 +54,19 @@ $(function() {
 	 			var temp = portfolioWeightsDataset[x];
 	 			if(temp.label === $(this).attr('name')) {
 	 				temp.count = $(this).val();
-          console.log(temp.count);
 	 			}
 	 		}
 
     		drawPie(portfolioWeightsDataset);
-        console.log(portfolioWeightsDataset);
+
         var newSum = 0;
         for(var i = 0; i < portfolioWeightsDataset.length; i++) {
           console.log(portfolioWeightsDataset[i]["count"]);
           newSum += parseFloat(portfolioWeightsDataset[i]["count"]);
         }
-        console.log("sum = " + newSum);
         $("#total").val(newSum);
 
 	 	});
-
    /* portfolio info */
    for(var stat in portfolioStats) {
     if (portfolioStats.hasOwnProperty(stat)) {
