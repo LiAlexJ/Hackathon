@@ -2,6 +2,9 @@ function getCompaniesFromTag(tagName) {
 	return tags[tagName];
 }
 
+function getCompanyName(ticker) {
+	return companyInfo[ticker]["name"];
+}
 function getTags(ticker) {
 	var companyTags = [];
 	console.log(tags);
