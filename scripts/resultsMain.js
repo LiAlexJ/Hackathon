@@ -67,7 +67,10 @@ $(function() {
 			{ title: "Dividents"},
 			{ title:"Sector"},
 			{ title:"Tags"}
-		]
+		],
+		select:{
+			style: 'multi'
+		}
 	});
 
 
