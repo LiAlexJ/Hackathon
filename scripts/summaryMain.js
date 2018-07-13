@@ -5,8 +5,9 @@ $(function() {
   console.log(tickers);
   var weights = getWeights(tickers);
   getAnalytics();
-	//var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
-	//var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+
+	//nav bar logic
+
   var sum = 0;
   var percentSum = 0;
   for(var i = 0; i < weights.length; i++) {
@@ -43,7 +44,8 @@ $(function() {
 	 for(var i = 0; i < tickers.length; i++) {
 	 	var weight = "weight_" + tickers[i];
     var percent = ((weights[i]/sum) * 100).toFixed(2);
-	 	$("#companyList").append("<tr><td class='ticker'>"+getCompanyName(tickers[i])+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' value='" + percent +"'/></td></tr>");
+		var href = "detail.html?stock="+tickers[i];
+	 	$("#companyList").append("<tr><td class='ticker'><a href='" + href + "'>"+getCompanyName(tickers[i])+"</a></td><td><input class='weight' type='text' name='" + tickers[i] + "' value='" + percent +"'/></td></tr>");
 	 }
    $("#companyList").append("<tr><td class='ticker'>Total</td><td><input class='weight' type='text' id='total' value='" + percentSum +"'/></td></tr>");
 
@@ -65,7 +67,7 @@ $(function() {
         }
         console.log("sum = " + newSum);
         $("#total").val(newSum);
-       
+
 	 	});
 
    /* portfolio info */
