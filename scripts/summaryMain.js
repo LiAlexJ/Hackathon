@@ -1,5 +1,6 @@
 $(function() {
-	var tickers = ["Maya", "Alex", "Hung-Wei"];
+	console.log("hello");
+	var tickers = ["AMZN", "IBM", "JPM"];
 	var weights = [10, 20, 50];
 
 	var portfolioWeightsDataset = [];
@@ -13,14 +14,15 @@ $(function() {
 	}
 
 	var tagsFrequencyDataset = [];
-	var dataFreq = getTagFrequency();
+	var dataFreq = getTagFrequency(tickers);
+	console.log(dataFreq);
 	for (var f in dataFreq) {
 	    if (dataFreq.hasOwnProperty(f)) {
 	    	tagsFrequencyDataset.push(dataFreq[f] * 10);
 	    }
 	}
 	tagsFrequencyDataset.sort();
-
+	console.log(tagsFrequencyDataset);
 	drawPie(portfolioWeightsDataset);
 	drawBarChart(tagsFrequencyDataset);
 
@@ -100,7 +102,7 @@ function drawPie(dataset){
 }
 
 function drawBarChart(dataArray) {
-	
+
 
 // Create variable for the SVG
 var svg = d3.select("#tagChart").append("svg")

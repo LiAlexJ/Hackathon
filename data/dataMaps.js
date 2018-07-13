@@ -31,7 +31,7 @@ var companyInfo = {
   "AMZN": {
     "name": "Amazon.com Inc.",
     "marketCap": 851.2,
-    "sector": "Retail Trade"
+    "sector": "Retail Trade",
     "tags": "Trending, Postive Sentiment"
   },
   "FB" : {
@@ -57,37 +57,37 @@ var companyInfo = {
     "marketCap": 173.2,
     "sector": "Finance",
     "tags": "Trending, Postive Sentiment"
-  }
+  },
   "AVGO" : {
     "name": "Broadcom",
     "marketCap": 106.2,
     "sector": "Electronic Technology",
     "tags" : "Postive Sentiment"
-  }
+  },
   "IBM" : {
     "name": "IBM",
     "market_cap": 133.1,
     "sector": "Technology Services",
     "tags":"Female CEO"
-  }
+  },
   "GSK" : {
     "name": "GlaxoSmithKline",
     "market_cap":101.0,
     "sector": "Health Technology",
     "tags": "Female CEO"
-  }
+  },
   "LMT" : {
     "name": "Lockheed",
     "market_cap":87.5,
     "sector": "Electronic Technology",
     "tags": "Female CEO"
-  }
+  },
   "OXY" : {
     "name": "Occidental Petroleum",
     "market_cap": 64.3,
     "sector": "Energy Minerals",
     "tags" : "Female CEO"
-  }
+  },
   "GD" :{
     "name": "General Dynamics",
     "market_cap":56.9,
@@ -95,5 +95,3 @@ var companyInfo = {
     "tags" : "Female CEO"
   }
 }
-
-var top5
