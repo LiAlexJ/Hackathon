@@ -63,11 +63,11 @@ rect {
 }
 
 .bar {
-  fill: #0080FF
+  fill: #313639;
 }
 
 .bar:hover {
-  fill: #003366
+  fill: #232628;
 }
 
 /*Text class styling*/
@@ -101,6 +101,7 @@ rect {
 .weight {
   width: 50%;
   margin-left: 10%;
+  background-color: #fffefc;
 }
 
 .head {
@@ -110,4 +111,33 @@ rect {
 
 .title {
   text-align: center;
+}
+
+.elem {
+  background-color: #fffefc;
+}
+
+.expected_return {
+  color: #5b1f52;
+}
+
+.risk{
+  color: #2C2C54;
+}
+
+.volatility {
+  color: #32546d;
+
+}
+.icon {
+  font-family: 'Glyphicons Halflings';
+    font-size: 35px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.analytics {
+  margin-bottom: 20px;
 }
