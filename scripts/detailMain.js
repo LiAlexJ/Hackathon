@@ -17,15 +17,13 @@ $(function() {
 		for(var i = 0; i < theTags.length; i++) {
 			$("#companyTags").append(theTags[i] + " ");
 		}
-
-
 	}
 });
 document.getElementById("right-brand").style.cursor = "pointer";
 
 var url = 'https://newsapi.org/v2/everything?' +
-          'q=Apple&' +
-          'from=2018-07-12&' +
+          'q=fintech&' +
+          'from=2018-06-12&' +
           'sortBy=popularity&' +
           'apiKey=d0b478dc381f4d8480bc0e05fe021974';
 
