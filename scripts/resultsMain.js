@@ -7,6 +7,9 @@ function hide(idname) {
     }
 }
 
+	$(document).ready(function() {
+	});
+
 $(function() {
 	var query = window.location.search.replace(/^\?/, "");
 	query = query.replace("tag=", "");
@@ -16,7 +19,7 @@ $(function() {
 	var tagsSet = new Set();
 	var companiesSet = new Set();
 
-
+	var dataSet = [[]];
 	for(var i = 0; i < parsed.length; i++) {
 		//parsed[i] is the name of the tag, i.e "Women CEOs";
 		if(parsed[i]) {
@@ -24,7 +27,7 @@ $(function() {
 			tagsSet.add(parsed[i]);
 			tagsList += parsed[i] + ", ";
 			//Add tag box to selectedTags div
-			$("#selectedTags").append('<button type="button" class="btn btn-outline-primary">' + parsed[i] + ' </button>');
+			// $("#selectedTags").append('<button type="button" class="btn btn-outline-primary">' + parsed[i] + ' </button>');
 			//companies is the array of companies, i.e. ["Apple", "Amazon"];
 			var companies = tags[parsed[i]];
 				if(tags[parsed[i]]) {
@@ -36,12 +39,14 @@ $(function() {
 							//Add company results to results div
 							if(companyInfo[companies[a]]) {
 								var info = companyInfo[companies[a]];
-								for (var key in info) {
-								    if (info.hasOwnProperty(key)) {
-								        $("#results").append(key + ": " + info[key] + " ");
+								var row = [];
+								for (var attr in info) {
+								    if (info.hasOwnProperty(attr)) {
+										row.push(info[attr]);
 								    }
 								}
-								$("#results").append("<br>")
+								console.log(row);
+								dataSet.push(row);
 							}
 						}
 
@@ -50,6 +55,20 @@ $(function() {
 			}
 		}
 	}
+	dataSet.shift();
+	
+	$('#tableResults').DataTable( {
+		data: dataSet,
+		columns: [
+			{ title:"Name"},
+			{ title:"Market Cap"},
+			{ title: "Share Price"},
+			{ title: "P/E Ratio"},
+			{ title: "Dividents"},
+			{ title:"Sector"},
+			{ title:"Tags"}
+		]
+	});
 
 
 	tagsList = tagsList.slice(0, -2);
@@ -63,4 +82,3 @@ $(function() {
 
 
 
-document.getElementById("right-brand").style.cursor = "pointer";

@@ -17,8 +17,6 @@ $(function() {
 		for(var i = 0; i < theTags.length; i++) {
 			$("#companyTags").append(theTags[i] + " ");
 		}
-
-
 	}
 });
 document.getElementById("right-brand").style.cursor = "pointer";

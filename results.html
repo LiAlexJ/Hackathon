@@ -7,161 +7,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--
+      For Material design table
+     -->
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="style/dataTables.material.min.css">
+    <script src="scripts/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="style/material.min.css">
+    <link rel="stylesheet" href="style/dataTables.material.min.css">
+
+    <!--Bootstrap-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Custom-->
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/resultsMain.css">
-    <link rel="stylesheet" href="style/jquery-ui.css">
-    <link rel="stylesheet" href="style/table.css">
+    <script src="scripts/resultsMain.js"></script>
+    <script src="data/dataMaps.js"></script> <script>
+    </script>
   </head>
 
   <body>
 
-    <ul class="nav justify-content-end">
-      <li>
-          <a href="index.html" class="option">Home</a>
-      </li>
-      <li>
-          <a href="results.html" class="option">Results</a>
-      </li>
-      <li class="nav-item">
-          <a href="summary.html" class="option">Summary</a>
-      </li>
+    <heading>
+    <ul class="nav justify-content-center">
+            <li class="nav-item" style="width:20%">
+              <div class="input-group">
+                <input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input">
+                  <span class="input-group-append">
+                    <div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+                  </span>
+              </div>
+            </li>
+
+            <!-- <div class="nav-item wrap"> -->
+
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="results.html" class="nav-link">Results</a>
+            </li>
+            <li class="nav-item">
+                <a href="summary.html" class="nav-link">Summary</a>
+            </li>
+            <!-- </div>  -->
+
     </ul>
+    </heading>
 
-    <!-- Begin page content -->
-    <main role="main" class="container-fluid">
-        <div class="col-md-2"></div>
-        <div class="col-md-8" id="middle">
-          <div class="row" id="secondSearchBar">
-            <input name="tag" id="searchBar"/>
-            <input type="submit" value="Search"></a>
-            <div id="selectedTags">
-            </div>
-          </div>
-          <div class="row" id="results">
-            <div id="app" class="container">
-             <!-- Example row of columns -->
-               <div class="modal fade" id="settingsModal" role="dialog">
-                   <div class="modal-dialog">
-                       <div class="modal-content">
-                           <div class="modal-header">
-                               <button type="button" class="close" data-dismiss="modal">
-                                   <span>&times;</span>
-                               </button>
-                               <h4 class="modal-title">Settings</h4>
-                           </div>
-                           <div class="modal-body">
-                               <div class="form-group">
-                                   <div class="checkbox">
-                                       <label>
-                                           <input type="checkbox" v-model="multiSort"> Multisort (use Alt+Click)
-                                       </label>
-                                   </div>
-                               </div>
-                               <div class="form-group">
-                                   <label>Pagination:</label>
-                                   <select class="form-control" v-model="paginationComponent">
-                                       <option value="vuetable-pagination">vuetable-pagination</option>
-                                       <option value="vuetable-pagination-dropdown">vuetable-pagination-dropdown</option>
-                                   </select>
-                               </div>
-                               <div class="form-group">
-                                   <label>Per Page:</label>
-                                   <select class="form-control" v-model="perPage">
-                                       <option value=10>10</option>
-                                       <option value=15>15</option>
-                                       <option value=20>20</option>
-                                       <option value=25>25</option>
-                                   </select>
-                               </div>
-                               <div class="form-group">
-                                   <div class="panel panel-default">
-                                       <div class="panel-heading">
-                                           <h4 class="panel-title">Visible fields</h4>
-                                       </div>
-                                       <div class="panel-body">
-                                           <div class="checkbox" v-for="field in fields">
-                                               <label>
-                                                   <input type="checkbox" v-model="field.visible">
-                                                   {{ field.title == '' ? field.name.replace('__', '') : field.title | capitalize }}
-                                               </label>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="modal-footer">
-                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-               <div class="table-responsive">
-                   <vuetable v-ref:vuetable
-                       api-url="http://vuetable.ratiw.net/api/users"
-                       pagination-path=""
-                       :fields="fields"
-                       :sort-order="sortOrder"
-                       :multi-sort="multiSort"
-                       table-class="table table-bordered table-striped table-hover"
-                       ascending-icon="glyphicon glyphicon-chevron-up"
-                       descending-icon="glyphicon glyphicon-chevron-down"
-                       pagination-class=""
-                       pagination-info-class=""
-                       pagination-component-class=""
-                       :pagination-component="paginationComponent"
-                       :item-actions="itemActions"
-                       :append-params="moreParams"
-                       :per-page="perPage"
-                       wrapper-class="vuetable-wrapper"
-                       table-wrapper=".vuetable-wrapper"
-                       loading-class="loading"
-                       detail-row-component="my-detail-row"
-                       detail-row-id="id"
-                       detail-row-transition="expand"
-                       row-class-callback="rowClassCB"
-                   ></vuetable>
-               </div>
-               <div class="row">
-                   <div class="form-inline">
-                       <div class="form-inline form-group">
-                           <label>Search:</label>
-                           <input v-model="searchFor" class="form-control" @keyup.enter="setFilter">
-                           <button class="btn btn-primary" @click="setFilter">Go</button>
-                           <button class="btn btn-default" @click="resetFilter">Reset</button>
-                       </div>
-                   </div>
-               </div>
-           </div> <!-- /container -->
-          </div>
-        </div>
-        <div class="col-md-2"> </div>
-    </main>
+    <div class="container-fluid">
+      <table id="tableResults" class="mdl-data-table dataTable" role="grid"></table>
+    </div>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <span class="text-muted">Copytight &copy; 2018 by Zhiyi Xu, Hung-wei Chuang, Alex Li, Maya Ram, Jenny Liu </span>
       </div>
-    </footer>
-    <script src="scripts/resultsMain.js"></script>
-    <script src="scripts/summaryMain.js"></script>
-    <script src="data/dataMaps.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment-with-locales.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.24/vue.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.7.0/vue-resource.min.js"></script>
-    <script src="scripts/vue-table.js"></script>
-    <script src="scripts/table.js"></script>
+    </footer> -->
 
   </body>
 </html>
