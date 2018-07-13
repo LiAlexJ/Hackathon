@@ -66,7 +66,7 @@ $(function() {
 			{ title: "P/E Ratio"},
 			{ title: "Dividends"},
 			{ title:"Sector"},
-			{ title:"Tags"}
+			{ title:"Tags"},
 		],
 		select:{
 			style: 'multi'
@@ -91,7 +91,21 @@ $(function() {
 					window.location.href = 'summary.html' + '?companies=' + ret.toString();
 				}
 			}
+		],
+
+		"columnDefs":[
+			{
+				"render":function (data, type, row){
+					var link = "detail.html?stock=" + row[0];
+					console.log(link);
+					return '<a href=' + link + '>' + row[0] + '</a>';
+				},
+				"targets":0
+			},
+			{"visible":false, "targets":[3]}
+
 		]
+
 	});
 
 
