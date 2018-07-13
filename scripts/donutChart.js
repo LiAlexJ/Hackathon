@@ -1,7 +1,7 @@
 function donutChart() {
     var width,
         height,
-        margin = {top: 10, right: 20, bottom: 10, left: 20},
+        margin = {top: 0, right: 0, bottom: 0, left: 0},
         colour = d3.scaleOrdinal(["#5b1f52","#2C2C54","#32546d","#4a215e", "#27666d", "#29476d","#1f5141","#84272f"]), // colour scheme
         variable, // value in data that will dictate proportions on chart
         category, // compare data by
@@ -16,7 +16,7 @@ function donutChart() {
 
             // ===========================================================================================
             // Set up constructors for making donut. See https://github.com/d3/d3-shape/blob/master/README.md
-            var radius = Math.min(width, height) / 2 - 30;
+            var radius = Math.min(width, height) / 2;
 
             // creates a new pie generator
             var pie = d3.pie()
@@ -158,8 +158,8 @@ function donutChart() {
 
                     // leave off 'dy' attr for first tspan so the 'dy' attr on text element works. The 'dy' attr on
                     // tspan effectively imitates a line break.
-                    if (i === 0) tip += '<tspan x="0">' + key + ': ' + value + '</tspan>';
-                    else tip += '<tspan x="0" dy="1.2em">' + key + ': ' + value + '</tspan>';
+                    if (i === 0) tip += '<tspan x="0">' + value + '</tspan>';
+                    else tip += '<tspan x="0" dy="1.2em">' + value + '</tspan>';
                     i++;
                 }
 

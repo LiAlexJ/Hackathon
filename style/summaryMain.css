@@ -63,9 +63,11 @@ polyline{
 .labelName {
     font-size: 0.6em;
     font-style: italic;
+    display: none;
 }
-
-
+.lines{
+  display: none;
+}
 
 rect {
   stroke-width: 2;
