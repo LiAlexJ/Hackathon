@@ -35,7 +35,6 @@ $(function() {
 						//companies[a] is the ticker of the companies, i.e. "APPL";
 						if(!companiesSet.has(companies[a])) {
 							companiesSet.add(companies[a]);
-							console.log("tag = " + parsed[i] + ", company = " + companies[a]);
 							//Add company results to results div
 							if(companyInfo[companies[a]]) {
 								var info = companyInfo[companies[a]];
@@ -45,7 +44,6 @@ $(function() {
 										row.push(info[attr]);
 								    }
 								}
-								console.log(row);
 								dataSet.push(row);
 							}
 						}
@@ -56,7 +54,7 @@ $(function() {
 		}
 	}
 	dataSet.shift();
-	
+
 	$('#tableResults').DataTable( {
 		data: dataSet,
 		columns: [
@@ -79,6 +77,3 @@ $(function() {
 
 
 });
-
-
-

@@ -1,0 +1,15 @@
+.active{
+  background-color: lightgrey;
+}
+.right-brand{
+  position: absolute;
+  right: 1%;
+  display: block;
+}
+.nav-item{
+  display: inline-block;
+}
+a{
+  color:black;
+  width:80px;
+}

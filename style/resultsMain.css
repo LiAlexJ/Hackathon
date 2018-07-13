@@ -2,32 +2,9 @@ body{
   font-family: 'Lato', sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
-  overflow-y: scroll;
+  background-color: #fffefc;
 }
-.options{
-  font-weight: bold;
-  color: black;
-}
-.active{
-  background-color: lightgrey;
-}
-.navbar-brand>img {
-  height: 25px;
-}
-#centered-brand{
-  position: absolute;
-  left: 40%;
-  display: block;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  font-size: 26px;
-}
-#right-brand{
-  position: absolute;
-  left: 95%;
-  display: block;
-}
+
 #secondSearchBar{
   height: 20%;
   border-style: solid;
@@ -41,27 +18,18 @@ body{
   border-color: rgb(128, 128, 128, 0.1);
   overflow-y:auto;
 }
-wrap{
-  display:flex;
-  margin-right:auto;
+
+#tableResults_wrapper{
+  margin-top: 5%;
+  width: 70%;
 }
+
 #tableResults{
-  width:100%;
+  width:100%!important;
 }
 
 .container-fluid{
   display:flex;
   justify-content: center;
   align-items: center;
-}
-
-ul{
-  margin-right:20px;
-}
-ul>li{
-  justify-content: space-between;
-  width:5%;
-}
-ul>li>a{
-  color:black;
 }
