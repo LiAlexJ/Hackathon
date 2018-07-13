@@ -81,7 +81,13 @@ $(function() {
 		buttons: [
 			{
 				extend: 'selected',
-				text: 'Reset'
+				text: 'Reset',
+				action: function(e, dt, node, config){
+					dt.rows( '.selected' )
+						.nodes()
+						.to$()
+						.removeClass( 'selected' );
+				}
 			},
 			{
 				extend: 'selected',
