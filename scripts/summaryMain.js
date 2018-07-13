@@ -24,9 +24,10 @@ $(function() {
 	    	tagsFrequencyDataset.push(dataFreq[f]);
 	    }
 	}
+  console.log(dataFreq);
 	tagsFrequencyDataset.sort();
 	drawPie(portfolioWeightsDataset);
-	drawBarChart(tagsFrequencyDataset);
+	drawBarChart(dataFreq);
 
 	 /* chart list */
 	 for(var i = 0; i < tickers.length; i++) {
@@ -62,7 +63,6 @@ $(function() {
     if (portfolioStats.hasOwnProperty(stat)) {
       var glyph = "glyphicon " + statsIcons[stat];
       $("#statsListTable").append('<tr class="analytics"><td><a href="" class="icon ' + stat + '"><span class="' + glyph + '"></span></a></td><td class="stat"> ' + statsNames[stat] + ': ' + portfolioStats[stat] + ' <td></tr>');
-
     }
   }
 
@@ -104,12 +104,15 @@ function drawPie(dataset){
 }
 // DRAWING
 
-function drawBarChart(dataArray) {
+function drawBarChart(dataMap) {
   var data = [];
-  for(var i = 0; i < dataArray.length; i++){
-    var tmp = {"tag": "a" + i.toString(), "freq": dataArray[i]};
-    data.push(tmp);
-  }
+  for (var tag in dataMap) {
+    if (dataMap.hasOwnProperty(tag)) {
+        var tmp = {"tag": tag, "freq": dataMap[tag]};
+        data.push(tmp);
+    }
+}
+
 
   d3.select("#tagChart").select("svg").remove();
 
