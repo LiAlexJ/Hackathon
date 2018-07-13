@@ -1,0 +1,362 @@
+{
+    "AMZN":
+    {
+        "description": "Amazon.com, Inc. engages in the provision of online retail shopping services. It operates through the following segments: North America, International, and Amazon Web Services (AWS). The North America segment includes retail sales of consumer products and subscriptions through North America-focused websites such as www.amazon.com and www.amazon.ca. The International segment offers retail sales of consumer products and subscriptions through internationally-focused websites. The Amazon Web Services segment involves in the global sales of compute, storage, database, and AWS service offerings for start-ups, enterprises, government agencies, and academic institutions. The company was founded by Jeffrey P. Bezos in July 1994 and is headquartered in Seattle, WA.",
+        "market_cap": "851175000000.000000",
+        "ceo": "Jeffrey P. Bezos",
+        "headquarters_city": "Seattle",
+        "headquarters_state": "Washington",
+        "sector": "Retail Trade",
+        "num_employees": 566000,
+        "year_founded": 1994,
+        "name": "Amazon.com Inc."
+    },
+    "FB":
+    {
+        "description": "Facebook, Inc. engages in the development of social media applications for people to connect through mobile devices, personal computers, and other surfaces. It enables users to share opinions, ideas, photos, videos, and other activities online. Its products include Facebook, Instagram, Messenger, WhatsApp, and Oculus. The company was founded by Mark Elliot Zuckerberg, Dustin Moskovitz, Chris R. Hughes, Andrew McCollum, and Eduardo P. Saverin on February 4, 2004 and is headquartered in Menlo Park, CA.",
+        "market_cap": "587771080000.000000",
+        "ceo": "Mark Elliot Zuckerberg",
+        "headquarters_city": "Menlo Park",
+        "headquarters_state": "California",
+        "sector": "Technology Services",
+        "num_employees": 25105,
+        "year_founded": 2004,
+        "name": "Facebook"
+    },
+    "JPM":
+    {
+        "description": "JPMorgan Chase & Co. is a financial holding company, which provides financial and investment banking services. It offers a range of investment banking products and services in all capital markets, including advising on corporate strategy and structure; capital raising in equity and debt markets; sophisticated risk management; market making in cash securities and derivative instruments; and prime brokerage and research. It operates its business through the following segments: Consumer and Community Banking; Corporate and Investment Bank; Commercial Banking; and Asset & Wealth Management. The Consumer and Community Banking segment serves consumers and businesses through personal service at bank branches and through automated teller machine, online, mobile, and telephone banking. The Corporate and Investment Bank segment offers a suite of investment banking, market-making, prime brokerage, and treasury and securities products and services to a global client base of corporations, investors, financial institutions, government and municipal entities. The Commercial Banking segment delivers services to U.S. and its multinational clients, including corporations, municipalities, financial institutions, and non profit entities. It also provides financing to real estate investors and owners as well as financial solutions, including lending, treasury services, investment banking, and asset management. The Asset & Wealth Management segment provides asset and wealth management services. It offers investment management across all major asset services, including equities, fixed income, alternatives, and money market funds. The company was founded in 1968 and is headquartered in New York, NY.",
+        "market_cap": "362234216700.000000",
+        "ceo": "Jamie Dimon",
+        "headquarters_city": "New York",
+        "headquarters_state": "New York",
+        "sector": "Finance",
+        "num_employees": 252539,
+        "year_founded": 1968,
+        "name": "JPMorgan Chase & Co."
+    },
+    "WFC":
+    {
+        "description": "Wells Fargo & Co. is a diversified, community-based financial services company. It is engaged in the provision of banking, insurance, investments, mortgage, and consumer and commercial finance. The firm operates through the following segments: Community Banking, Wholesale Banking, Wealth & Investment Management, and Other. The Community Banking segment offers complete line of diversified financial products and services for consumers and small businesses including checking and savings accounts, credit and debit cards, and automobile, student, and small business lending. The Wholesale Banking segment provides financial solutions to businesses across the United States and globally. The Wealth and Investment Management segment includes personalized wealth management, investment and retirement products and services to clients across U.S. based businesses. The Other segment refers to the products of WIM customers served through community banking distribution channels. The company was founded by Henry Wells and William G. Fargo on March 18, 1852 and is headquartered in San Francisco, CA.",
+        "market_cap": "273278590700.000000",
+        "ceo": "Timothy J. Sloan",
+        "headquarters_city": "San Francisco",
+        "headquarters_state": "California",
+        "sector": "Finance",
+        "num_employees": 262700,
+        "year_founded": 1852,
+        "name": "Wells Fargo & Company"
+    },
+    "AVGO":
+    {
+        "description": "Broadcom, Inc., is a holding company, which engages in the design, development and supply of analog and digital semiconductor connectivity solutions. It serves four primary end markets: wired infrastructure, wireless communications, enterprise storage and industrial & other. Its products include data center networking, home connectivity, broadband access, telecommunications equipment, smartphones and base stations, data center servers and storage, factory automation, power generation and alternative energy systems, and displays. In April, 2018, Broadcom redomiciled from Singapore to the United States. The company was founded in 1961 and is headquartered in San Jose, CA.",
+        "market_cap": "106197103200.000000",
+        "ceo": "Hock E. Tan",
+        "headquarters_city": "San Jose",
+        "headquarters_state": "California",
+        "sector": "Electronic Technology",
+        "num_employees": 14000,
+        "year_founded": 1961,
+        "name": "Broadcom"
+    },
+    "COF":
+    {
+        "description": "Capital One Financial Corp. is a financial holding company, which engages in the provision of financial products and services. It operates through the following segments: Credit Card, Consumer Banking, and Commercial Banking. The Credit Card segment offers domestic consumer and small business card lending, and international card lending businesses. The Consumer Banking segment consists of branch-based lending and deposit gathering activities for consumers and small businesses. The Commercial Banking segment comprises of lending, deposit gathering and treasury management services to commercial real estate and commercial and industrial customers. The company was founded by Richard D. Fairbank on July 21, 1994 and is headquartered in McLean, VA.",
+        "market_cap": "46314008200.000000",
+        "ceo": "Richard D. Fairbank",
+        "headquarters_city": "McLean",
+        "headquarters_state": "Virginia",
+        "sector": "Finance",
+        "num_employees": 49300,
+        "year_founded": 1994,
+        "name": "Capital One Financial Corp."
+    },
+    "ESRX":
+    {
+        "description": "Express Scripts Holding Co. engages in the provision of pharmacy benefit management services. Its services include network-pharmacy claims processing, home delivery pharmacy care, specialty pharmacy care, benefit-design consultation, drug utilization review, formulary management, and medical and drug data analysis services. It operates through the Pharmacy Benefit Management and Other Business Operations segment. The Pharmacy Benefit Management segment includes involve management of prescription drug utilization and cost to drive high quality, cost-effective pharmaceutical care. The Other Business Operations segment provides consulting services for pharmaceutical, biotechnology, and device manufacturers to collect scientific evidence to guide the safe, effective, and affordable use of medicines. The company was founded on July 15, 2011 and is headquartered in St. Louis, MO.",
+        "market_cap": "45256169000.000000",
+        "ceo": "Timothy C. Wentworth",
+        "headquarters_city": "St. Louis",
+        "headquarters_state": "Missouri",
+        "sector": "Health Services",
+        "num_employees": 26600,
+        "year_founded": 2011,
+        "name": "Express Scripts Inc."
+    },
+    "INFY":
+    {
+        "description": "Infosys Ltd. is a consulting, technology and outsourcing company, which provides end-to-end business solutions thereby enabling clients to enhance business performance. The company operates through following segments: Financial Services, Manufacturing, Retail, Consumer packaged goods and Logistics, the Energy & Utilities, Communication & Services, Hi-Tech, Life Sciences, Healthcare & Insurance and All Other. It offers information technology services, engineering Services, consulting Services, BPO services and products and platforms. The company's end-to-end business solutions include business information technology services, comprising application development and maintenance, independent validation services, infrastructure management, engineering services comprising product engineering and life cycle solutions and business process management; consulting and systems integration services, comprising consulting, enterprise solutions, systems integration and advanced technologies; products, business platforms and solutions to accelerate intellectual property-led innovation, including Finacle, its banking product, which offers solutions to address core banking, mobile banking and e-banking needs of retail, corporate and universal banks worldwide. Infosys was founded by K. Dinesh, S. Gopalakrishnan, Narayana Ramarao Nagavara Murthy, Nandan M. Nilekani, Raghavan N. S., Ashok Arora and S. D. Shibulal on July 2, 1981 and is headquartered in Bangalore, India.",
+        "market_cap": "42944651100.000000",
+        "ceo": "Salil S. Parekh",
+        "headquarters_city": "Bangalore",
+        "headquarters_state": "Karnataka",
+        "sector": "Technology Services",
+        "num_employees": 204107,
+        "year_founded": 1981,
+        "name": "Infosys Technologies Limited"
+    },
+    "NOW":
+    {
+        "description": "ServiceNow, Inc. engages in the provision of enterprise cloud computing solutions. It offers customer and facilities service management, orchestration core, service mapping, cloud and portfolio management, edge encryption, performance analytics, service portal designer, visual task boards, and configuration management database. The company was founded by Frederic B. Luddy in June 2004 and is headquartered in Santa Clara, CA.",
+        "market_cap": "33049055400.000000",
+        "ceo": "John J. Donahoe, II",
+        "headquarters_city": "Santa Clara",
+        "headquarters_state": "California",
+        "sector": "Technology Services",
+        "num_employees": 6222,
+        "year_founded": 2004,
+        "name": "ServiceNow"
+    },
+    "SYF":
+    {
+        "description": "Synchrony Financial operates as a holding company, which engages in the provision of consumer financial services. It operates through three sales platforms: Retail Card, Payment Solutions, and CareCredit. The Retail Card platform is a provider of private label credit cards, and also provides Dual Cards and small-and medium-sized business credit products. The Payment Solutions platform is a provider of promotional financing for major consumer purchases, offering private label credit cards and installment loans. The CareCredit platform is a provider of promotional financing to consumers for elective healthcare procedures or services, such as dental, veterinary, cosmetic, vision and audiology. The company was founded on September 12, 2003 and is headquartered in Stamford, CT.",
+        "market_cap": "26457706800.000000",
+        "ceo": "Margaret M. Keane",
+        "headquarters_city": "Stamford",
+        "headquarters_state": "Connecticut",
+        "sector": "Finance",
+        "num_employees": 16000,
+        "year_founded": 2003,
+        "name": "Synchrony Financial"
+    },
+    "FCX":
+    {
+        "description": "Freeport-McMoRan, Inc. engages in the mining of copper, gold, and molybdenum. It operates through the following segments: North America Copper Mines; South America Mining; Indonesia Mining; Molybdenum Mines; Rod and Refining; Atlantic Copper Smelting and Refining; and Corporate, Other, and Eliminations. The North America Copper Mines segment operates open-pit copper mines in Morenci, Bagdad, Safford, Sierrita and Miami in Arizona; and Chino and Tyrone in New Mexico. The South America Mining segment includes Cerro Verde in Peru and El Abra in Chile. The Indonesia Mining segment handles the operations of Grasberg minerals district that produces copper concentrate that contains significant quantities of gold and silver. The Molybdenum Mines segment includes the Henderson underground mine and Climax open-pit mine, both in Colorado. The Rod and Refining segment consists of copper conversion facilities located in North America, and includes a refinery, rod mills, and a specialty copper products facility. The Atlantic Copper Smelting and Refining segment smelts and refines copper concentrate and markets refined copper and precious metals in slimes. The Corporate, Other, and Eliminations segment consists of other mining and eliminations, oil and gas operations, and other corporate and elimination items. The company was founded by James R. Moffett on November 10, 1987 and is headquartered in Phoenix, AZ.",
+        "market_cap": "25227090000.000000",
+        "ceo": "Richard C. Adkerson",
+        "headquarters_city": "Phoenix",
+        "headquarters_state": "Arizona",
+        "sector": "Non Energy Minerals",
+        "num_employees": 25200,
+        "year_founded": 1987,
+        "name": "Freeport-McMoRan Copper & Gold Inc."
+    },
+    "SHOP":
+    {
+        "description": "Shopify, Inc. operates a cloud-based commerce platform designed for small and medium-sized businesses. Its software is used by merchants to run business across all sales channels, including web, tablet and mobile storefronts, social media storefronts, and brick-and-mortar and pop-up shops. The company's platform provides merchants with a single view of business and customers and enables them to manage products and inventory, process orders and payments, build customer relationships and leverage analytics and reporting. It focuses on merchant and subscription solutions. Shopify was founded by Tobias Albin L\u00fctke, Daniel Weinand and Scott Lake on September 28, 2004 and is headquartered in Ontario, Canada.",
+        "market_cap": "17004059500.000000",
+        "ceo": "Tobias Albin L\u00fctke",
+        "headquarters_city": "Ottawa",
+        "headquarters_state": "Ontario",
+        "sector": "Technology Services",
+        "num_employees": 3000,
+        "year_founded": 2004,
+        "name": "Shopify"
+    },
+    "CA":
+    {
+        "description": "CA, Inc. engages in the provision of information technology management software and solutions. It operates through the following segments: Enterprise Solutions, Mainframe Solutions and Services. The Enterprise Solutions segment includes products that are designed for distributed and cloud computing environments and run on industry standard servers. The Mainframe Solutions segment is designed for the IBM z Systems mainframe platform, which runs many of its largest customers' mission-critical business applications, with a focus on lowering cost per transaction, while increasing business agility, security and compliance. The Services segment helps customers reach information technology and business goals primarily by enabling the rapid implementation and adoption of the Mainframe and Enterprise solutions. The company was founded by Russell M. Artzt and Charles B. Wang in 1974 and is headquartered in New York, NY.",
+        "market_cap": "15332638100.000000",
+        "ceo": "Michael P. Gregoire",
+        "headquarters_city": "New York",
+        "headquarters_state": "New York",
+        "sector": "Technology Services",
+        "num_employees": 11300,
+        "year_founded": 1974,
+        "name": "CA, Inc."
+    },
+    "LB":
+    {
+        "description": "L Brands, Inc. engages in the retail business. It is focused on women's intimate and other apparel, personal care and beauty categories. It operates its business through the following segments: Victorias Secret, Bath & Body Works, and Victoria's Secret and Bath & Body Works International. Its brands include Victorias Secret, Bath and Body Works, Pink, La Senza, and Henri Bendel. The company was founded by Leslie Herbert Wexner in 1963 and is headquartered in Columbus, OH.",
+        "market_cap": "10222060000.000000",
+        "ceo": "Leslie Herbert Wexner",
+        "headquarters_city": "Columbus",
+        "headquarters_state": "Ohio",
+        "sector": "Retail Trade",
+        "num_employees": 93200,
+        "year_founded": 1963,
+        "name": "L Brands, Inc. "
+    },
+    "IQ":
+    {
+        "description": "Iqiyi, Inc. engages in the provision of internet video streaming services. It also operates a smart television streaming service and an entertainment-based social media platform, iQIYI Paopao. The company was founded by Yu Gong in November 2009 and is headquartered in Haidan District, China.",
+        "market_cap": "9556822600.000000",
+        "ceo": "Yu Gong",
+        "headquarters_city": "Haidian District",
+        "headquarters_state": "Beijing",
+        "sector": "Technology Services",
+        "num_employees": 6014,
+        "year_founded": 2009,
+        "name": "iQIYI"
+    },
+    "KRE":
+    {
+        "description": "The SPDR S&P Regional Banking fund tracks an equal-weighted index of US regional banking stocks.",
+        "market_cap": "5310224623.390600",
+        "ceo": "",
+        "headquarters_city": "",
+        "headquarters_state": "",
+        "sector": "Miscellaneous",
+        "num_employees": null,
+        "year_founded": null,
+        "name": "SPDR KBW Regional Banking"
+    },
+    "SFIX":
+    {
+        "description": "Stitch Fix, Inc. provides a subscription-based personal shopping and delivery services for women's clothing. It offers personal styling service that delivers personalized fix of accessibly priced items directly to doors across the United States. The company was founded by Katrina Lake and Erin Morrison Flynn in February 2011 and is headquartered in San Francisco, CA.",
+        "market_cap": "3308036000.000000",
+        "ceo": "Katrina Lake",
+        "headquarters_city": "San Francisco",
+        "headquarters_state": "California",
+        "sector": "Retail Trade",
+        "num_employees": 5800,
+        "year_founded": 2011,
+        "name": "Stitch Fix, Inc."
+    },
+    "FEYE":
+    {
+        "description": "FireEye, Inc. is an intelligence-led security company, which engages in the intelligence-based cybersecurity solutions that allow organizations to prepare for, prevent, respond to and remediate cyber attacks. It operates through the following geographical segments: United States; EMEA; APAC; and Other. Its solutions include Enterprise Security; Managed Security; Threat Intelligence; and Industry Solutions. The company was founded by Ashar Aziz on February 18, 2004 and is headquartered in Milpitas, CA.",
+        "market_cap": "3186866800.000000",
+        "ceo": "Kevin R. Mandia",
+        "headquarters_city": "Milpitas",
+        "headquarters_state": "California",
+        "sector": "Technology Services",
+        "num_employees": 2960,
+        "year_founded": 2004,
+        "name": "FireEye Inc"
+    },
+    "DOCU":
+    {
+        "description": "DocuSign, Inc. provides cloud-based electronic signature solutions. Its cloud based electronic signature platform helps companies and individuals securely collect information, automate data workflows and sign anything. The firm automates manual, paper-based processes allowing users to manage all aspects of documented business transactions include identity management, authentication, digital signature, forms and data collection, collaboration, workflow automation and storage. DocuSign was founded by Thomas H. Gonser and Court Lorenzini in 2003 and is headquartered in San Francisco, CA.",
+        "market_cap": "1911598700.000000",
+        "ceo": "Daniel D. Springer",
+        "headquarters_city": "San Francisco",
+        "headquarters_state": "California",
+        "sector": "Technology Services",
+        "num_employees": 2255,
+        "year_founded": 2003,
+        "name": "DocuSign"
+    },
+    "ZGNX":
+    {
+        "description": "Zogenix, Inc. is a pharmaceutical compan. It engages in the development and commercialization of central nervous system (CNS) therapies and products for the treatment orphan diseases and other CNS disorders. Its products include ZX008 and Relday. The company was founded by Stephen J. Farr, Cam L. Garner, Roger L. Hawley, Bret E. Megargel, Jonathan M. N. Rigby, Scott L. Glenn, and John J. Turanin on May 11, 2006 and is headquartered in Emeryville, CA.",
+        "market_cap": "1619249900.000000",
+        "ceo": "Stephen J. Farr",
+        "headquarters_city": "Emeryville",
+        "headquarters_state": "California",
+        "sector": "Health Technology",
+        "num_employees": 68,
+        "year_founded": 2006,
+        "name": "Zogenix, Inc."
+    },
+    "PZZA":
+    {
+        "description": "Papa John's International, Inc. engages in the management and franchising pizza delivery and carryout restaurants. It operates through the following segments: Domestic Company-Owned Restaurants, North America Commissaries, North America Franchising, International Operations, and All Other. The Domestic Company-Owned Restaurants segment consists of retail sales of pizza and side items, including breadsticks, cheese sticks, chicken poppers and wings, dessert items, and canned or bottled beverages. The North America Commissaries segment comprises regional dough production, product distribution centers, and sale and distribution of food and paper products to domestic company-owned and franchised restaurants. The North America Franchising segment focuses on the sales of franchise and development rights and collection of royalties from franchisees. The International Operations segment involves in the sales of franchise and development rights and the collection of royalties from international franchisees. The All Other segment refers to the units that do not meet the quantitative thresholds. The company was founded by John H. Schnatter in 1984 and is headquartered in Louisville, KY.",
+        "market_cap": "1547671600.000000",
+        "ceo": "Steve M. Ritchie",
+        "headquarters_city": "Louisville",
+        "headquarters_state": "Kentucky",
+        "sector": "Consumer Services",
+        "num_employees": 22400,
+        "year_founded": 1984,
+        "name": "Papa John's International Inc."
+    },
+    "HTZ":
+    {
+        "description": "Hertz Global Holdings, Inc. provides car rental services. It operates as a vehicle rental business globally through its Hertz, Dollar and Thrifty car rental brands. The company operates through the following segments: U.S. RAC, International RAC and All Other Operations. The U.S. RAC segment deals with rental of vehicles, as well as sales of ancillary products and services in the U.S. The International RAC segment provides rental and leasing of vehicles, as well as sales of ancillary products and services internationally. All Other Operations segment provides vehicle leasing and fleet management services, and other business activities through its Donlen subsidiary. Hertz Global Holdings was in 2015 and is headquartered in Estero, FL.",
+        "market_cap": "1235640000.000000",
+        "ceo": "Kathryn V. Marinello",
+        "headquarters_city": "Estero",
+        "headquarters_state": "Florida",
+        "sector": "Finance",
+        "num_employees": 37000,
+        "year_founded": 2015,
+        "name": "Hertz Global Holdings, Inc."
+    },
+    "TNDM":
+    {
+        "description": "Tandem Diabetes Care, Inc. engages in the design, development, and commercialization of products for people with insulin-dependent diabetes. Its flagship product, t:slim X2 Insulin Delivery System, operates as a small insulin pump. The company was founded by Paul M. DiPerna on January 27, 2006 and is headquartered in San Diego, CA.",
+        "market_cap": "1134187500.000000",
+        "ceo": "Kim D. Blickenstaff",
+        "headquarters_city": "San Diego",
+        "headquarters_state": "California",
+        "sector": "Health Technology",
+        "num_employees": 574,
+        "year_founded": 2006,
+        "name": "Tandem Diabetes Care Inc"
+    },
+    "SOGO":
+    {
+        "description": "Sogou, Inc. is a holding company, which engages in the provision of search and search-related services. It also offers advertising services which enable advertisers' promotional links to be displayed on the search result pages and other properties, and third parties' internet properties. The company was founded in August 2004 and is headquartered in Beijing, China.",
+        "market_cap": "1125122600.000000",
+        "ceo": "Xiao Chuan Wang",
+        "headquarters_city": "Beijing",
+        "headquarters_state": "Beijing",
+        "sector": "Technology Services",
+        "num_employees": 2295,
+        "year_founded": 2004,
+        "name": "Sogou Inc"
+    },
+    "AAOI":
+    {
+        "description": "Applied Optoelectronics, Inc. engages in the design and manufacture of optical communications products. Its products include optical devices, such as laser diodes, photodiodes, related modules and circuitry, and equipment for applications in fiber-to-the-home, cable television, point to point communications and wireless. The company was founded by Chih Hsiang Lin on February 28, 1997 and is headquartered in Sugar Land, TX.",
+        "market_cap": "894058900.000000",
+        "ceo": "Chih Hsiang Lin",
+        "headquarters_city": "Sugar Land",
+        "headquarters_state": "Texas",
+        "sector": "Electronic Technology",
+        "num_employees": 3054,
+        "year_founded": 1997,
+        "name": "Applied Optoelectronics"
+    },
+    "USAT":
+    {
+        "description": "USA Technologies, Inc. is a payment technology service provider of cashless and mobile transactions in the self service retail market. It also provides a line of cashless acceptance technologies including its NFC-ready ePort G-series, ePort Mobile for customers on the go, ePort  Interactive, and QuickConnect, an API Web service for developers to remotely monitor, control and report on the results of distributed assets. The company was founded by George Raymond Jensen Jr. in January 1992 and is headquartered in Malvern, PA.",
+        "market_cap": "767434100.000000",
+        "ceo": "Stephen P. Herbert",
+        "headquarters_city": "Malvern",
+        "headquarters_state": "Pennsylvania",
+        "sector": "Electronic Technology",
+        "num_employees": 101,
+        "year_founded": 1992,
+        "name": "USA Technologies Inc."
+    },
+    "SSTI":
+    {
+        "description": "ShotSpotter, Inc. provides gunshot detection solutions that help law enforcement officials and security personnel identify, locate and respond to gun violence. It offers software solutions on a SaaS-based subscription model to customers around the world. The company was founded by Robert B. Calhoun, Jason Dunham and Robert Leroy Showen in 1996 and is headquartered in Newark, CA.",
+        "market_cap": "410611400.000000",
+        "ceo": "Ralph A. Clark",
+        "headquarters_city": "Newark",
+        "headquarters_state": "California",
+        "sector": "Electronic Technology",
+        "num_employees": 85,
+        "year_founded": 1996,
+        "name": "ShotSpotter Inc."
+    },
+    "FNKO":
+    {
+        "description": "Funko, Inc. engages in designing, sourcing and distributing licensed pop culture product. It offers products like movie, TV show, video game, musician or sports team. The company was founded in April 21, 2017 and is headquartered in Everett, WA.",
+        "market_cap": "316225900.000000",
+        "ceo": "Brian Mariotti",
+        "headquarters_city": "Everett",
+        "headquarters_state": "Washington",
+        "sector": "Consumer Durables",
+        "num_employees": 588,
+        "year_founded": 2017,
+        "name": "Funko, Inc."
+    },
+    "HEAR":
+    {
+        "description": "Turtle Beach Corp. engages in the development, commercialization, and marketing of innovative products. It operates through the Headset, and HyperSound segments. The Headset segment offers feature-rich gaming headset solutions for use across multiple platforms, including video game and entertainment consoles, handheld consoles, personal computers, and mobile and tablet devices. The HyperSound  segment refers to an innovative patent-protected sound technology that delivers immersive, directional audio with applications in digital signage and kiosks, consumer electronics, and hearing healthcare. The company was founded by James A. Barnes and Elwood G. Norris on June 2, 2010 and is headquartered in Valhalla, NY.",
+        "market_cap": "284968800.000000",
+        "ceo": "Juergen Stark",
+        "headquarters_city": "San Diego",
+        "headquarters_state": "California",
+        "sector": "Consumer Durables",
+        "num_employees": 135,
+        "year_founded": 2010,
+        "name": "Turtle Beach Corp"
+    },
+    "BIOC":
+    {
+        "description": "Biocept, Inc. is an oncology laboratory service company, which focuses on the development and marketing of novel laboratory products in the detection of rare cells to include circulating tumor cells. It develops and commercializes proprietary circulating tumor cell and circulating tumor DNA tests utilizing a standard blood sample. The company utilizes cell enrichment and extraction technology for the detection and analysis of circulating tumor DNA tests. It also offers services to other laboratory testing providers, academic institutions, research organizations, biopharmaceutical companies and clinical trial support. Biocept was founded on May 12, 1997 and is headquartered in San Diego, CA.",
+        "market_cap": null,
+        "ceo": "Michael W. Nall",
+        "headquarters_city": "San Diego",
+        "headquarters_state": "California",
+        "sector": "Health Technology",
+        "num_employees": 95,
+        "year_founded": 1997,
+        "name": "Biocept"
+    }
+}

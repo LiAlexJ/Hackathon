@@ -13,15 +13,29 @@ body{
 }
 
 #searchBar{
-  height: 18%;
+  height: 10%;
+  margin-top:10px;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
 
 #topTags{
-  height: 46%;
+  height: 6%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
+}
+
+#button{
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top:5px;
 }

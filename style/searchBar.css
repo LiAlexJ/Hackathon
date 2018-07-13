@@ -44,7 +44,7 @@
                 border-color:#4d90fe;
             }
             input[type="submit"] {
-                border-radius:2px;
+                border-radius:8px;
                 background: #f2f2f2;
                 border: 1px solid #f2f2f2;
                 color: #757575;
@@ -79,6 +79,8 @@
             #popularTags{
                 color: grey;
                 font-size: 18px;
-                text-decoration: underline;
+                text-decoration;
                 margin-top:10px;
             }
+
+

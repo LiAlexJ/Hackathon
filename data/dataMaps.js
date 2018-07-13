@@ -1,46 +1,99 @@
 //tagsToTickers
 var tags = {
-  "Apples": [
-    "Maya",
-    "Alex"
+  "Trending": [
+    "AMZN",
+    "FB",
+    "JPM",
+    "WFC",
+    "C"
    ],
-   "Orange" : [
-     "Zhiyi",
-     "Jenny"
+   "Female CEO" : [
+     "IBM",
+     "GSK",
+     "LMT",
+     "OXY",
+     "GD"
      ],
-  "Philanthropy" : [
+  "Glassdoor" : [
       "Hung-Wei"
     ],
-  "female CEOs" : [
-    "Maya",
-    "Zhiyi",
-    "Jenny"
-  ]
+  "Positive Sentiment" : [
+      "AMZN",
+      "FB",
+      "JPM",
+      "WFC",
+      "AVGO"
+    ]
 }
 
 //TickersToInfo (including tags)
 var companyInfo = {
-  "Maya": {
-    "name": "Maya's Company",
-    "marketCap": 100.00
+  "AMZN": {
+    "name": "Amazon.com Inc.",
+    "marketCap": 851.2,
+    "sector": "Retail Trade"
+    "tags": "Trending, Postive Sentiment"
   },
-  "Zhiyi" : {
-    "name": "Zhiyi's company",
-    "marketCap": 200.00
+  "FB" : {
+    "name": "Facebook",
+    "marketCap": 587.8,
+    "sector": "Technology Services",
+    "tags": "Trending, Postive Sentiment"
   },
-  "Alex": {
-    "name": "Alex's Company",
-    "marketCap": 300.00
+  "JPM": {
+    "name": "JPMorgan Chase & Co.",
+    "marketCap": 362.2,
+    "sector": "Finance",
+    "tags": "Trending, Postive Sentiment"
   },
-  "Jenny" : {
-    "name": "Jenny's company",
-    "marketCap": 400.00
+  "WFC" : {
+    "name": "Wells Fargo & Company",
+    "marketCap": 273.3,
+    "sector": "Finance",
+    "tags": "Trending, Postive Sentiment"
   },
-  "Hung-Wei" : {
-    "name": "Hung-Wei's company",
-    "marketCap": 500.00
+  "C" : {
+    "name": "Citigroup, Inc.",
+    "marketCap": 173.2,
+    "sector": "Finance",
+    "tags": "Trending, Postive Sentiment"
   }
-  
+  "AVGO" : {
+    "name": "Broadcom",
+    "marketCap": 106.2,
+    "sector": "Electronic Technology",
+    "tags" : "Postive Sentiment"
+  }
+  "IBM" : {
+    "name": "IBM",
+    "market_cap": 133.1,
+    "sector": "Technology Services",
+    "tags":"Female CEO"
+  }
+  "GSK" : {
+    "name": "GlaxoSmithKline",
+    "market_cap":101.0,
+    "sector": "Health Technology",
+    "tags": "Female CEO"
+  }
+  "LMT" : {
+    "name": "Lockheed",
+    "market_cap":87.5,
+    "sector": "Electronic Technology",
+    "tags": "Female CEO"
+  }
+  "OXY" : {
+    "name": "Occidental Petroleum",
+    "market_cap": 64.3,
+    "sector": "Energy Minerals",
+    "tags" : "Female CEO"
+  }
+  "GD" :{
+    "name": "General Dynamics",
+    "market_cap":56.9,
+    "sector": "Electronic Technology",
+    "tags" : "Female CEO"
+  }
 }
 
 var top5
