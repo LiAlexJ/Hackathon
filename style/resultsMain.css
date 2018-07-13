@@ -36,7 +36,17 @@ thead{
   justify-content: center;
   align-items: center;
 }
+.dataTables_wrapper .dt-buttons{
+  float:right;
+}
 
+.dataTables_filter{
+  float: left !important;
+}
+
+table.dataTable {
+  border: 1;
+}
 table.dataTable thead th{
   border-left: 0;
   border-right: 0;

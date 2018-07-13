@@ -150,13 +150,6 @@ function drawBarChart(dataMap) {
   g.append("g")
     .attr("class", "axis axis--y");
 
-  g.append("text")
-		.attr("x", 50)
-    .attr("y", -10)
-    .attr("dy", "0.71em")
-    .attr("text-anchor", "end")
-    .text("Count");
-
   x.rangeRound([0, width]);
   y.rangeRound([height, 0]);
 
