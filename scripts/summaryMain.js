@@ -1,11 +1,18 @@
 $(function() {
-	var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
-	var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+  var query = window.location.search.replace(/^\?/, "");
+  query = query.replace("companies=", "");
+  var tickers = query.split(",");
+  console.log(tickers);
+  var weights = getWeights(tickers);
+  getAnalytics();
+	//var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
+	//var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
   var sum = 0;
+  var percentSum = 0;
   for(var i = 0; i < weights.length; i++) {
     sum += weights[i];
   }
-  
+
 
 	var portfolioWeightsDataset = [];
 	for(var i = 0; i < tickers.length; i++) {
@@ -13,7 +20,10 @@ $(function() {
 			var cap = {};
 			cap.label = tickers[i];
 			cap.count = ((weights[i]/sum) * 100).toFixed(2);
+      console.log(cap.count);
 			portfolioWeightsDataset.push(cap);
+      percentSum += parseFloat(cap.count);
+
  		}
 	}
 
@@ -35,7 +45,7 @@ $(function() {
     var percent = ((weights[i]/sum) * 100).toFixed(2);
 	 	$("#companyList").append("<tr><td class='ticker'>"+getCompanyName(tickers[i])+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' value='" + percent +"'/></td></tr>");
 	 }
-   $("#companyList").append("<tr><td class='ticker'>Total</td><td><input class='weight' type='text' id='total' value='" + sum +"'/></td></tr>");
+   $("#companyList").append("<tr><td class='ticker'>Total</td><td><input class='weight' type='text' id='total' value='" + percentSum +"'/></td></tr>");
 
 	 $('.weight').keyup(function(e) {
 	 		for(var x = 0; x < portfolioWeightsDataset.length; x++) {
