@@ -1,31 +1,8 @@
 body{
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #fffefc;
-}
-.options{
-  font-weight: bold;
-  color: black;
-}
-.active{
-  background-color: lightgrey;
-}
-.navbar-brand>img {
-  height: 25px;
-}
-#centered-brand{
-  position: absolute;
-  left: 40%;
-  display: block;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  font-size: 26px;
-}
-#right-brand{
-  position: absolute;
-  left: 95%;
-  display: block;
 }
 .middle{
   height: calc(100vh - 100px);
@@ -139,9 +116,6 @@ rect {
 .elem {
   background-color: #fffefc;
 }
-li {
-    display: block;
-   }
 
 .expected_return {
   color: #5b1f52;
@@ -162,22 +136,6 @@ li {
     margin-top: 6px;
     margin-left: 20px;
     margin-right: 10px;
-}
-
-li:before {
-    /*Using a Bootstrap glyphicon as the bullet point*/
-    
-    font-family: 'Glyphicons Halflings';
-    font-size: 35px;
-    float: left;
-    margin-top: 6px;
-    margin-left: -17px;
-    margin-right: 5px;
-    color: black;
-}
-
-.list-group-item {
-  background-color: #fffefc;
 }
 
 .analytics {

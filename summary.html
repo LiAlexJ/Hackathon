@@ -10,25 +10,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!--Bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/summaryMain.css">
+    <link rel="stylesheet" href="style/navBar.css">
+
   </head>
 
   <body>
 
-    <ul class="nav justify-content-end">
-      <li>
-          <a href="index.html" class="option">Home</a>
-      </li>
-      <li>
-          <a href="results.html" class="option">Results</a>
-      </li>
-      <li class="nav-item">
-          <a href="summary.html" class="option">Summary</a>
-      </li>
+    <heading>
+    <ul class="nav justify-content-center">
+            <div class="right-brand">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="results.html" class="nav-link">Results</a>
+              </li>
+              <li class="nav-item">
+                  <a href="summary.html" class="nav-link">Summary</a>
+              </li>
+            </div>
     </ul>
+    </heading>
 
     <!-- Begin page content -->
     <main role="main" class="container-fluid">
@@ -53,10 +67,10 @@
         </div>
         <div class="col-md-4 middle">
 
-            <div id="statsList"> 
-              <h3 class="title"> Analytics <h3> 
+            <div id="statsList">
+              <h3 class="title"> Analytics <h3>
               <table id="statsListTable" >
-            
+
               </table>
               <!--<ul class="list-group elem">
               </ul> -->

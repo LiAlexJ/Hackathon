@@ -14,14 +14,12 @@ $(function() {
 
 	var tagsFrequencyDataset = [];
 	var dataFreq = getTagFrequency(tickers);
-  console.log(dataFreq);
 	for (var f in dataFreq) {
 	    if (dataFreq.hasOwnProperty(f)) {
 	    	tagsFrequencyDataset.push(dataFreq[f]);
 	    }
 	}
 	tagsFrequencyDataset.sort();
-  console.log(tagsFrequencyDataset);
 	drawPie(portfolioWeightsDataset);
 	drawBarChart(tagsFrequencyDataset);
 
@@ -36,9 +34,7 @@ $(function() {
 	 $('.weight').keyup(function(e) {
 	 		for(var x = 0; x < portfolioWeightsDataset.length; x++) {
 	 			var temp = portfolioWeightsDataset[x];
-	 			console.log($(this).attr('name'));
 	 			if(temp.label === $(this).attr('name')) {
-	 				console.log("here");
 	 				temp.count = $(this).val();
 	 			}
 	 		}
@@ -162,5 +158,3 @@ function drawBarChart(dataArray) {
     .attr("width", x.bandwidth())
     .attr("height", function (d) { return height - y(d.freq); });
 }
-
-document.getElementById("right-brand").style.cursor = "pointer";
