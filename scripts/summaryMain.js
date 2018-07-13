@@ -14,19 +14,21 @@ $(function() {
 
 	var tagsFrequencyDataset = [];
 	var dataFreq = getTagFrequency(tickers);
+  console.log(dataFreq);
 	for (var f in dataFreq) {
 	    if (dataFreq.hasOwnProperty(f)) {
-	    	tagsFrequencyDataset.push(dataFreq[f] * 10);
+	    	tagsFrequencyDataset.push(dataFreq[f]);
 	    }
 	}
 	tagsFrequencyDataset.sort();
+  console.log(tagsFrequencyDataset);
 	drawPie(portfolioWeightsDataset);
 	drawBarChart(tagsFrequencyDataset);
 
 	 /* chart list */
 	 for(var i = 0; i < tickers.length; i++) {
 	 	var weight = "weight_" + tickers[i];
-	 	$("#companyList").append("<tr><td class='ticker'>"+tickers[i]+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' /></td></tr>");
+	 	$("#companyList").append("<tr><td class='ticker'>"+getCompanyName(tickers[i])+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' /></td></tr>");
 
 
 	 }
@@ -41,9 +43,15 @@ $(function() {
 	 			}
 	 		}
 
-    		$("#tagList").html($(this).val());
     		drawPie(portfolioWeightsDataset)
 	 	});
+
+   /* portfolio info */
+   for(var stat in portfolioStats) {
+    if (portfolioStats.hasOwnProperty(stat)) {
+      $("#statsList").append('<li class="list-group-item" style="border: none">' + stat + ' ' + portfolioStats[stat] + '</li>');
+    }
+  }
 
 
 });

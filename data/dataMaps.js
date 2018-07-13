@@ -95,3 +95,10 @@ var companyInfo = {
     "tags" : "Female CEO"
   }
 }
+
+var portfolioStats = {
+  "expected_return": "10%",
+  "risk": "20%",
+  "volatility": "5%"
+
+}
