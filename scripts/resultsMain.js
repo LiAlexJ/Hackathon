@@ -62,15 +62,12 @@ $(function() {
 		columns: [
 			{ title:"Name"},
 			{ title:"Market Cap"},
+			{ title: "Share Price"},
+			{ title: "P/E Ratio"},
+			{ title: "Dividents"},
 			{ title:"Sector"},
 			{ title:"Tags"}
 		]
-		// columnDefs: [
-		// 	{
-		// 		className: 'mdl-data-table__cell--non-numeric'
-		// 	}
-		// ]
-
 	});
 
 

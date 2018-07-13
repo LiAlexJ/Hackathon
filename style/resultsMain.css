@@ -41,7 +41,10 @@ body{
   border-color: rgb(128, 128, 128, 0.1);
   overflow-y:auto;
 }
-
+wrap{
+  display:flex;
+  margin-right:auto;
+}
 #tableResults{
   width:100%;
 }
