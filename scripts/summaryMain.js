@@ -158,7 +158,7 @@ function drawBarChart(dataMap) {
     .call(d3.axisBottom(x));
 
   g.select(".axis--y")
-    .call(d3.axisLeft(y).ticks(d3.max(data, function (d) { return d.freq; })));
+    .call(d3.axisLeft(y));
 
   var bars = g.selectAll(".bar")
     .data(data);

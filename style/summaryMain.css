@@ -72,13 +72,6 @@ rect {
   stroke-width: 2;
 }
 
-.bar {
-  fill: #3a3f42;
-}
-
-.bar:hover {
-  fill: #232628;
-}
 
 /*Text class styling*/
 
