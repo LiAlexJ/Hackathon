@@ -10,6 +10,28 @@ body{
 .navbar-brand>img {
   height: 25px;
 }
+
+#logo {
+    position:relative;
+    display: inline-block;
+    width:20%;
+    height:20%;
+}
+#centered-brand{
+  position: absolute;
+  left: 40%;
+  display: block;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+#right-brand{
+  position: absolute;
+  left: 95%;
+  display: block;
+}
+
 .middle{
   height: calc(100vh - 100px);
 }
@@ -33,6 +55,7 @@ body{
   border-color: rgb(128, 128, 128, 0.1);
 }
 #company{
+  display: inline;
   width: 100%;
   height: 50%;
   border-style: solid;
@@ -53,7 +76,7 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
-img{
+#carousel {
   height: calc(calc(100vh - 100px) * 0.666);
   object-position: 50% 50%;
   object-fit: cover;
