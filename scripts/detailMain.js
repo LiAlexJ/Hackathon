@@ -75,15 +75,35 @@ fetch(url)
 
             $("#company").append("<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">");
 
-            $("#company").append("&emsp;&emsp;<b>" + name + "&emsp;&emsp;&emsp;&emsp;(" + symbol + ")" + "</b><br>");
+            $("#company").append("<div id=\"title\">" + name + "</div>");
+            $("#company").append("</b><br>");
             $("#company").append("<b>Price</b>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$" + parseFloat(price).toFixed(2) + "<br>")
             var scap = moneyFormat((marketcap))
             $("#company").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br><br>")
             $("#company").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector + "<br>")
-            $("#company").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + "," + state + "<br>")
+            $("#company").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + ", " + state + "<br>")
             $("#company").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
             $("#company").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
-            $("#about").append(desc + " ");
+            $("#about").append("<br><br>" + desc + " ");
+
+            var graph = "<div class=\"tradingview-widget-container\"><div id=\"tradingview_1f1c8\"></div>" +
+            "<div class=\"tradingview-widget-copyright\"><a href=\"https://www.tradingview.com/symbols/NASDAQ-" + symbol + "\"" +
+            "rel=\"noopener\" target=\"_blank\"><span class=\"blue-text\">" +
+            symbol + "chart</span></a></div>" + 
+            "<script type=\"text/javascript\" src=\"https://s3.tradingview.com/tv.js\"></script>" +
+            "<script type=\"text/javascript\"> new TradingView.widget(" + 
+            "{\"autosize\": true," +
+            "\"symbol\": \"NASDAQ:" + symbol + "\"," +
+            "\"interval\": \"D\"," +
+            "\"timezone\": \"Etc/UTC\"," +
+            "\"theme\": \"Light\"," +
+            "\"style\": \"3\"," +
+            "\"locale\": \"en\"," +
+            "\"toolbar_bg\": \"#f1f3f6\"," +
+            "\"enable_publishing\": false," +
+            "\"allow_symbol_change\": true," +
+            "\"container_id\": \"tradingview_1f1c8\"});</script></div>"
+            $("#graph").append(graph);
 
       });
       $(".carousel-indicators").append("<li data-target=\"#demo\" data-slide-to=\"0\" class=\"active\"></li>")
