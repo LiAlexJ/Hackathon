@@ -43,8 +43,9 @@ $(function() {
 });
 
 var url = 'https://newsapi.org/v2/everything?' +
-          'q=fintech&' +
-          'from=2018-06-12&' +
+          'q=' +
+          window.location.href.split("=")[1].toUpperCase() +
+          '&from=2018-06-12&' +
           'sortBy=popularity&' +
           'apiKey=d0b478dc381f4d8480bc0e05fe021974';
 
