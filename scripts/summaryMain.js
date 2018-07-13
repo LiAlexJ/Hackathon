@@ -1,11 +1,18 @@
 $(function() {
-	var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
-	var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+  var query = window.location.search.replace(/^\?/, "");
+  query = query.replace("companies=", "");
+  var tickers = query.split(",");
+  console.log(tickers);
+  var weights = getWeights(tickers);
+  getAnalytics();
+	//var tickers = ["AMZN", "IBM", "JPM", "WFC", "C", "GSK", "AVGO", "LMT", "OXY", "GD"];
+	//var weights = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
   var sum = 0;
+  var percentSum = 0;
   for(var i = 0; i < weights.length; i++) {
     sum += weights[i];
   }
-  
+
 
 	var portfolioWeightsDataset = [];
 	for(var i = 0; i < tickers.length; i++) {
@@ -13,7 +20,10 @@ $(function() {
 			var cap = {};
 			cap.label = tickers[i];
 			cap.count = ((weights[i]/sum) * 100).toFixed(2);
+      console.log(cap.count);
 			portfolioWeightsDataset.push(cap);
+      percentSum += parseFloat(cap.count);
+
  		}
 	}
 
@@ -35,7 +45,7 @@ $(function() {
     var percent = ((weights[i]/sum) * 100).toFixed(2);
 	 	$("#companyList").append("<tr><td class='ticker'>"+getCompanyName(tickers[i])+"</td><td><input class='weight' type='text' name='" + tickers[i] + "' value='" + percent +"'/></td></tr>");
 	 }
-   $("#companyList").append("<tr><td class='ticker'>Total</td><td><input class='weight' type='text' id='total' value='" + sum +"'/></td></tr>");
+   $("#companyList").append("<tr><td class='ticker'>Total</td><td><input class='weight' type='text' id='total' value='" + percentSum +"'/></td></tr>");
 
 	 $('.weight').keyup(function(e) {
 	 		for(var x = 0; x < portfolioWeightsDataset.length; x++) {
@@ -125,6 +135,7 @@ function drawBarChart(dataMap) {
   var svg = d3.select("#tagChart").append("svg")
             .attr("height", height)
             .attr("width", width);
+  //var colour = d3.scaleOrdinal(["#5b1f52","#2C2C54","#32546d","#4a215e", "#27666d", "#29476d","#1f5141","#84272f"]); // colour scheme
 
     x.domain(data.map(function (d) { return d.tag; }));
     y.domain([0, d3.max(data, function (d) { return d.freq; })]);
@@ -164,9 +175,9 @@ function drawBarChart(dataMap) {
   bars
     .enter().append("rect")
     .attr("class", "bar")
-    .attr("x", function (d) { return x(d.tag); })
+    .attr("x", function (d) { return x(d.tag)+x.bandwidth()*0.25; })
     .attr("y", function (d) { return y(d.freq); })
-    .attr("width", x.bandwidth())
+    .attr("width", x.bandwidth()*0.5)
     .attr("height", function (d) { return height - y(d.freq); });
 
   // UPDATE
@@ -174,4 +185,6 @@ function drawBarChart(dataMap) {
     .attr("y", function (d) { return y(d.freq); })
     .attr("width", x.bandwidth())
     .attr("height", function (d) { return height - y(d.freq); });
+
+
 }

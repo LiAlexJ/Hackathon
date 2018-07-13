@@ -50,3 +50,18 @@ function getTagFrequency(tickersList) {
 	return tagsToFrequency;
 
 }
+
+function getWeights(tickersList) {
+	var weights = [];
+	for(var i = 0; i < tickersList.length; i++) {
+		weights.push(Math.random()*10);
+	}
+	return weights;
+}
+
+function getAnalytics() {
+	portfolioStats["expected_return"] = (Math.random()*10).toFixed(2) + "%";
+	portfolioStats["risk"] = (Math.random()*5).toFixed(2) + "%";
+	portfolioStats["volatility"] = (Math.random()*10).toFixed(2) + "%";
+
+}

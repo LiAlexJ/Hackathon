@@ -88,7 +88,7 @@ $(function() {
 					for(var i = 0; i < arrayLength; i++){
 						ret.push(rows[i][0]);
 					}
-					window.location.href = 'summary.html' + '?' + ret.toString();
+					window.location.href = 'summary.html' + '?companies=' + ret.toString();
 				}
 			}
 		]
