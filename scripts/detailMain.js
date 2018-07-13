@@ -113,9 +113,12 @@ fetch(url)
       });
       $(".carousel-indicators").append("<li data-target=\"#demo\" data-slide-to=\"0\" class=\"active\"></li>")
       var item = "<div class=\"carousel-item active\">"
-      item += "<img id=\"carousel\" src=\""+ data.articles[1].urlToImage +"\" alt=\""+ data.articles[1].title +"\">"
-      item += "<div class=\"carousel-caption\">"
-      item += "<h4>"+data.articles[1].title+"</h4>"
+      item += "<div class=\"img-wrap\">"
+      item += "<img id=\"carousel\" src=\""+ data.articles[1].urlToImage +"\">"
+      item += "<div class=\"overlay\"><div class=\"info\"><h2>" + data.articles[1].title + "</h2></div></div>"
+      item += "</div>"
+/*      item += "<div class=\"carousel-caption\">"
+      item += "<h4>"+data.articles[1].title+"</h4>"*/
       //item += "<p>"+data.articles[0].description+"</p></div> </div>"
       $(".carousel-inner").append(item)
       for(var i = 2; i < 10; i++){
@@ -124,7 +127,7 @@ fetch(url)
         $(".carousel-indicators").append(indicator);
 
         var item = "<div class=\"carousel-item\">"
-        item += "<img id=\"carousel\" src=\""+ data.articles[i].urlToImage +"\" alt=\""+ data.articles[i].title +"\">"
+        item += "<img id=\"carousel\" src=\""+ data.articles[i].urlToImage +"\">"
         item += "<div class=\"carousel-caption\">"
         item += "<h4>"+data.articles[i].title+"</h4>"
         //item += "<p>"+data.articles[i].description+"</p></div> </div>"
