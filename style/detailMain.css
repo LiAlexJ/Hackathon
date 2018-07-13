@@ -11,7 +11,7 @@ body{
   height: 25px;
 }
 
-#img-wrap {
+.img-wrap {
   position:relative;
 }
 #carousel {
@@ -98,6 +98,7 @@ body{
 }
 #news{
   border-style: none;
+  height: 100%;
 /*  border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
@@ -121,18 +122,13 @@ body{
 }
 
 #graph{
+  height: 33.3%;
 /*  border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
 }
-
-/*.carousel-slide {
-  height: 60%;
-  width: 60%;
-}*/
 #carousel {
-/*  height: 60%;
-  width: 60%;*/
+  height: calc(calc(100vh - 100px) * 0.666);
   object-position: 50% 50%;
   object-fit: cover;
 }
