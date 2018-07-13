@@ -2,9 +2,11 @@ function getCompaniesFromTag(tagName) {
 	return tags[tagName];
 }
 
+function getCompanyName(ticker) {
+	return companyInfo[ticker]["name"];
+}
 function getTags(ticker) {
 	var companyTags = [];
-	console.log("ticker" + ticker)
 	console.log(tags);
 	for (var tag in tags) {
 		if (tags.hasOwnProperty(tag)) {
@@ -23,8 +25,7 @@ function getCompanyInfo(ticker) {
 }
 
 //Maya, Alex, Jenny
-function getTagFrequency() {
-	var tickersList = ["Maya", "Alex"];
+function getTagFrequency(tickersList) {
 	var tagsToFrequency = {};
 	for(var i = 0; i < tickersList.length; i++) {
 		//Maya
@@ -46,7 +47,6 @@ function getTagFrequency() {
 			}
 		}
 	}
-	console.log(tagsToFrequency);
 	return tagsToFrequency;
 
 }

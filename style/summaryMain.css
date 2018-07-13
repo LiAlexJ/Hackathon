@@ -42,11 +42,12 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
-#tagList{
+#statsList{
   height: 80%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
+  padding-left: 10%;
 }
 
 #links{
@@ -55,6 +56,26 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
+/*Styling for the lines connecting the labels to the slices*/
+polyline{
+    opacity: .3;
+    stroke: black;
+    stroke-width: 2px;
+    fill: none;
+}
+
+/* Make the percentage on the text labels bold*/
+.labelName tspan {
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* In biology we generally italicise species names. */
+.labelName {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
 
 .legend {
     font-size: 12px;
@@ -84,9 +105,48 @@ rect {
 
 .portfolio {
   font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 .header {
   background-color: black;
   color: white;
 }
+
+.ticker {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding-left: 5%;
+  width: 75%;
+}
+
+.weight {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.head {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+}
+
+li {
+    display: block;
+}
+
+li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    margin-right: 5px;
+    color: black;
+}
+

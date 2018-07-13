@@ -93,5 +93,12 @@ var companyInfo = {
     "market_cap":56.9,
     "sector": "Electronic Technology",
     "tags" : "Female CEOs"
-  },
+  }
+}
+
+var portfolioStats = {
+  "expected_return": "10%",
+  "risk": "20%",
+  "volatility": "5%"
+
 }
