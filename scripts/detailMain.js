@@ -1,25 +1,46 @@
 function cartOnClick(){
   location.href = "summary.html";
 }
+
+function getStock() {
+  $.getJSON('https://api.robinhood.com/fundamentals/?symbols=?' + window.location.href.split("=")[1], function(data) {
+    //data is the JSON string
+  });
+  return window.location.href.split("=")[1];
+}
+
+function moneyFormat(labelValue) {
+  // Nine Zeroes for Billions
+  return Math.abs(Number(labelValue)) >= 1.0e+9
+
+       ? Math.abs(Number(labelValue)) / 1.0e+9 + " Billion"
+       // Six Zeroes for Millions 
+       : Math.abs(Number(labelValue)) >= 1.0e+6
+
+       ? Math.abs(Number(labelValue)) / 1.0e+6 + " Million"
+
+       : Math.abs(Number(labelValue));
+
+   }
+
 var name = "Apple"
 $(function() {
-	var companyTicker = "Maya";
-	var info = companyInfo[companyTicker];
-	if(info) {
-		console.log(info);
-		$("#companyName").append(info["name"]);
-		for (var key in info) {
-			if (info.hasOwnProperty(key)) {
-				$("#companyAbout").append(key + ": " + info[key] + " ");
-			 }
-		}
-		theTags = getTags(companyTicker);
-		for(var i = 0; i < theTags.length; i++) {
-			$("#companyTags").append(theTags[i] + " ");
-		}
-	}
+  var companyTicker = "AMZN";
+  var info = companyInfo[companyTicker];
+  if(info) {
+    console.log(info);
+    $("#companyName").append(info["name"]);
+    for (var key in info) {
+      if (info.hasOwnProperty(key)) {
+        $("#companyAbout").append(key + ": " + info[key] + " ");
+       }
+    }
+    theTags = getTags(companyTicker);
+    for(var i = 0; i < theTags.length; i++) {
+      $("#companyTags").append(theTags[i] + " ");
+    }
+  }
 });
-document.getElementById("right-brand").style.cursor = "pointer";
 
 var url = 'https://newsapi.org/v2/everything?' +
           'q=fintech&' +
@@ -34,9 +55,40 @@ fetch(url)
       return response.json(); })
     .then(function(data) {
       console.log(data.articles)
+      var token = "a6c4e6e34416215cac560ef6233c55895aa15de9";
+      var head = {'Authorization':"Token " + token};
+      var symbol = window.location.href.split("=")[1].toUpperCase();
+      $.getJSON("https://api.robinhood.com/fundamentals/?symbols=" + symbol, function(result){
+            var x = result["results"][0];
+            var id = result["results"][0]["instrument"]
+            var desc = x["description"];
+            var name = desc.split(".")[0]
+            var city = x["headquarters_city"];
+            var state = x["headquarters_state"];
+            var sector = x["sector"];
+            var marketcap = x["market_cap"];
+            var pe = x["pe_ratio"];
+            var price = x["open"]
+            var dividend = x["dividend_yield"]
+            var founded = x["year_founded"]
+            var employees = x['num_employees']
+
+            $("#company").append("<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">");
+
+            $("#company").append("&emsp;&emsp;<b>" + name + "&emsp;&emsp;&emsp;&emsp;(" + symbol + ")" + "</b><br>");
+            $("#company").append("<b>Price</b>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$" + parseFloat(price).toFixed(2) + "<br>")
+            var scap = moneyFormat((marketcap))
+            $("#company").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br><br>")
+            $("#company").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector + "<br>")
+            $("#company").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + "," + state + "<br>")
+            $("#company").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
+            $("#company").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
+            $("#about").append(desc + " ");
+
+      });
       $(".carousel-indicators").append("<li data-target=\"#demo\" data-slide-to=\"0\" class=\"active\"></li>")
       var item = "<div class=\"carousel-item active\">"
-      item += "<img src=\""+ data.articles[1].urlToImage +"\" alt=\""+ data.articles[1].title +"\">"
+      item += "<img id=\"carousel\" src=\""+ data.articles[1].urlToImage +"\" alt=\""+ data.articles[1].title +"\">"
       item += "<div class=\"carousel-caption\">"
       item += "<h4>"+data.articles[1].title+"</h4>"
       //item += "<p>"+data.articles[0].description+"</p></div> </div>"
@@ -47,7 +99,7 @@ fetch(url)
         $(".carousel-indicators").append(indicator);
 
         var item = "<div class=\"carousel-item\">"
-        item += "<img src=\""+ data.articles[i].urlToImage +"\" alt=\""+ data.articles[i].title +"\">"
+        item += "<img id=\"carousel\" src=\""+ data.articles[i].urlToImage +"\" alt=\""+ data.articles[i].title +"\">"
         item += "<div class=\"carousel-caption\">"
         item += "<h4>"+data.articles[i].title+"</h4>"
         //item += "<p>"+data.articles[i].description+"</p></div> </div>"
