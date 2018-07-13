@@ -137,8 +137,8 @@ var portfolioStats = {
 }
 
 var statsIcons = {
-  "expected_return": "\e018",
-  "risk": "\e141",
-  "volatility": "\e137"
+  "expected_return": "glyphicon-signal",
+  "risk": "glyphicon-dashboard",
+  "volatility": "glyphicon-tasks"
 
 }

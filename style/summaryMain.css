@@ -124,6 +124,7 @@ rect {
 .weight {
   width: 50%;
   margin-left: 10%;
+  background-color: #fffefc;
 }
 
 .head {
@@ -142,27 +143,32 @@ li {
     display: block;
    }
 
-li.expected_return:before {
-  content: "\e018";
+.expected_return {
   color: #5b1f52;
 }
 
-li.risk:before {
-  content: "\e141";
+.risk{
   color: #2C2C54;
 }
 
-li.volatility:before {
-  content:"\e137";
+.volatility {
   color: #32546d;
 
+}
+.icon {
+  font-family: 'Glyphicons Halflings';
+    font-size: 35px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 li:before {
     /*Using a Bootstrap glyphicon as the bullet point*/
     
     font-family: 'Glyphicons Halflings';
-    font-size: 15px;
+    font-size: 35px;
     float: left;
     margin-top: 6px;
     margin-left: -17px;
@@ -172,4 +178,8 @@ li:before {
 
 .list-group-item {
   background-color: #fffefc;
+}
+
+.analytics {
+  margin-bottom: 20px;
 }

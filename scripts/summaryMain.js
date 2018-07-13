@@ -49,10 +49,10 @@ $(function() {
    /* portfolio info */
    for(var stat in portfolioStats) {
     if (portfolioStats.hasOwnProperty(stat)) {
-      var className = "list-group-item " + stat;
+      var glyph = "glyphicon " + statsIcons[stat];
+      $("#statsListTable").append('<tr class="analytics"><td><a class="icon ' + stat + '"><span class="' + glyph + '"></span></a></td><td> ' + stat + ': ' + portfolioStats[stat] + ' <td></tr>');
+    
 
-      $("#statsList").append('<li class="' + className + '" style="border: none">' + stat + ' ' + portfolioStats[stat] + '</li>');
-     // $("#statsList").append('<style>' + stat + ':before { content: "\e018";}</style>');
     }
   }
 
