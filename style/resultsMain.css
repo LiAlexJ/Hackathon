@@ -37,8 +37,17 @@ thead{
   align-items: center;
 }
 
+table.dataTable thead th{
+  border-left: 0;
+  border-right: 0;
+}
+
+table.dataTable tbody td{
+  border-left: 0;
+  border-right: 0;
+}
+
 table.dataTable tbody tr.selected{
   background-color: #294760;
   opacity: 0.33;
 }
-
