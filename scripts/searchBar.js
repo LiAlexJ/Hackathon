@@ -14,9 +14,10 @@
                     "Minority-Friendly Workspace",
                     "Positive Sentiment",
                     "Renewable Energy",
-                    "Small Businesses"
+                    "Small Businesses",
                     "Sustainable Practices",
                     "Transparent Hiring Practices",
+                    "Trending",
                     "Veteran Friendly Workspace"
                 ];
 

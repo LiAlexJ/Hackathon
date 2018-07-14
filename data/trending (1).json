@@ -1,0 +1,452 @@
+{
+    "AMZN":
+    {
+        "description": "Amazon.com, Inc. engages in the provision of online retail shopping services. It operates through the following segments: North America, International, and Amazon Web Services (AWS). The North America segment includes retail sales of consumer products and subscriptions through North America-focused websites such as www.amazon.com and www.amazon.ca. The International segment offers retail sales of consumer products and subscriptions through internationally-focused websites. The Amazon Web Services segment involves in the global sales of compute, storage, database, and AWS service offerings for start-ups, enterprises, government agencies, and academic institutions. The company was founded by Jeffrey P. Bezos in July 1994 and is headquartered in Seattle, WA.",
+        "market_cap": 871360700000,
+        "pe_ratio": "228.532886",
+        "dividend": "0.000000",
+        "ceo": "Jeffrey P. Bezos",
+        "headquarters_city": "Seattle",
+        "headquarters_state": "Washington",
+        "sector": "Retail Trade",
+        "num_employees": 566000,
+        "year_founded": 1994,
+        "name": "Amazon.com Inc.",
+        "prices": [1000.63, 1001.81, 1010.04, 1024.45, 1026.87, 1028.7, 1025.67, 1038.95, 1039.87, 1052.8, 1046.0, 1020.04, 987.78, 996.19, 995.89, 986.92, 987.58, 992.27, 989.84, 982.01, 956.92, 967.99, 983.3, 982.74, 978.18, 960.57, 958.47, 953.29, 966.9, 958.0, 952.45, 945.26, 946.02, 954.06, 967.59, 980.6, 978.25, 965.27, 967.8, 979.47, 965.9, 977.96, 982.58, 999.6, 992.21, 986.79, 974.19, 969.86, 973.21, 964.65, 955.1, 939.79, 938.6, 950.87, 956.4, 961.35, 959.19, 957.1, 965.45, 980.85, 989.58, 990.99, 987.2, 995.0, 1000.93, 1002.94, 1006.34, 1009.13, 997.0, 986.61, 982.91, 966.3, 975.9, 972.91, 972.43, 1100.95, 1110.85, 1105.28, 1103.68, 1094.22, 1111.6, 1120.66, 1123.17, 1132.88, 1129.13, 1125.35, 1129.17, 1136.84, 1126.69, 1137.29, 1129.88, 1126.31, 1139.49, 1156.16, 1186.0, 1195.83, 1193.6, 1161.27, 1176.75, 1162.35, 1133.95, 1141.57, 1152.35, 1159.79, 1162.0, 1168.92, 1165.08, 1164.13, 1174.26, 1179.14, 1190.58, 1187.38, 1177.62, 1174.76, 1168.36, 1176.76, 1182.26, 1186.1, 1169.47, 1189.01, 1204.2, 1209.59, 1229.14, 1246.87, 1252.7, 1254.33, 1276.68, 1305.2, 1304.86, 1295.0, 1293.32, 1294.58, 1327.31, 1362.54, 1357.51, 1377.95, 1402.05, 1417.68, 1437.82, 1450.89, 1390.0, 1429.95, 1390.0, 1442.84, 1416.78, 1350.5, 1339.6, 1386.23, 1414.51, 1451.05, 1461.76, 1448.69, 1468.35, 1482.92, 1485.34, 1500.0, 1521.95, 1511.98, 1512.45, 1493.45, 1500.25, 1523.61, 1537.64, 1545.0, 1551.86, 1578.89, 1598.39, 1588.18, 1591.0, 1582.32, 1571.68, 1544.93, 1586.51, 1581.86, 1544.92, 1495.56, 1555.86, 1497.05, 1431.42, 1447.34, 1371.99, 1392.05, 1410.57, 1451.75, 1405.23, 1406.08, 1436.22, 1427.05, 1448.5, 1430.79, 1441.5, 1503.83, 1527.84, 1556.91, 1527.49, 1517.86, 1460.09, 1460.17, 1517.96, 1572.62, 1566.13, 1582.26, 1569.68, 1572.08, 1580.95, 1600.14, 1592.39, 1608.0, 1609.08, 1602.91, 1601.54, 1576.12, 1587.28, 1581.76, 1574.37, 1585.46, 1581.4, 1601.86, 1603.07, 1610.15, 1612.87, 1624.89, 1629.62, 1641.54, 1665.27, 1696.35, 1695.75, 1689.3, 1683.99, 1689.12, 1698.75, 1704.86, 1723.86, 1715.97, 1723.79, 1734.78, 1750.08, 1730.22, 1715.67, 1663.15, 1691.09, 1660.51, 1701.45, 1699.8, 1713.78, 1693.96, 1699.73, 1710.63, 1739.02, 1743.07, 1755.0, 1796.62]
+    },
+    "MSFT":
+    {
+        "description": "Microsoft Corp. engages in the provision of developing and marketing software and hardware services. Its products include operating systems for computing devices, servers, phones and intelligent devices. It also offers server applications for distributed computing environments, productivity applications, business solution applications, desktop and server management tools, software development tools, video games, and online advertising. It operates through the following segments: Productivity and Business Processes; Intelligent Cloud; and More Personal Computing. The Productivity and Business Processes segment consists of products and cloud services in portfolio of productivity, communication, and information services. It comprises of office commercial, office consumer, and microsoft dynamics business solutions. The Intelligent Cloud segment offers hybrid server products and cloud services. It comprises of server products and cloud services and enterprise services. The More Personal Computing segment comprises of windows, devices, gaming, and search advertising. The company was founded by William Henry Gates III in 1975 and is headquartered in Redmond, WA.",
+        "market_cap": 801221100000,
+        "pe_ratio": "58.566666",
+        "dividend": "2.263200",
+        "ceo": "Satya Nadella",
+        "headquarters_city": "Redmond",
+        "headquarters_state": "Washington",
+        "sector": "Technology Services",
+        "num_employees": 124000,
+        "year_founded": 1975,
+        "name": "Microsoft Corporation",
+        "prices": [70.4, 71.39, 71.95, 71.9, 72.45, 72.8, 72.38, 72.19, 72.77, 72.63, 71.76, 71.64, 71.31, 71.19, 70.88, 70.77, 71.29, 71.01, 71.4, 71.08, 70.04, 71.11, 72.18, 72.2, 72.62, 71.39, 71.48, 71.15, 72.14, 71.71, 71.68, 71.81, 71.82, 72.03, 72.98, 73.73, 72.91, 72.59, 72.38, 73.31, 72.95, 73.72, 73.64, 74.16, 73.73, 74.26, 74.11, 74.39, 73.9, 73.18, 73.37, 72.24, 72.24, 72.82, 72.84, 73.45, 73.57, 73.23, 73.65, 74.91, 74.94, 75.23, 75.23, 75.36, 76.05, 76.41, 76.57, 76.51, 76.53, 76.83, 77.71, 77.73, 77.76, 77.54, 77.66, 82.64, 82.72, 82.02, 82.02, 82.88, 82.97, 83.29, 83.1, 83.38, 82.92, 82.7, 82.76, 82.88, 82.24, 82.45, 81.66, 81.79, 82.97, 82.36, 82.51, 83.12, 84.12, 82.59, 83.41, 83.5, 80.35, 80.86, 82.04, 81.75, 83.41, 84.47, 84.81, 84.58, 83.93, 86.07, 85.61, 85.06, 84.75, 84.73, 84.74, 84.63, 84.94, 84.95, 84.77, 85.18, 85.58, 86.33, 87.4, 87.49, 87.43, 87.03, 87.29, 88.8, 87.56, 89.33, 89.29, 89.19, 90.79, 91.08, 91.0, 91.5, 93.22, 93.08, 91.91, 94.16, 93.41, 90.96, 87.21, 90.51, 88.81, 84.25, 87.39, 88.33, 89.02, 90.42, 92.26, 91.6, 92.32, 91.1, 91.33, 93.65, 95.01, 93.79, 93.37, 92.45, 92.65, 93.24, 92.92, 93.45, 94.02, 96.12, 96.35, 94.0, 93.44, 93.77, 94.19, 92.49, 92.73, 92.08, 89.4, 86.8, 93.38, 89.08, 89.0, 90.88, 88.14, 89.32, 91.93, 91.98, 89.84, 90.38, 92.48, 91.46, 93.18, 92.68, 93.76, 95.66, 96.02, 95.7, 94.59, 94.94, 92.72, 91.91, 93.85, 95.41, 93.12, 94.59, 93.11, 93.66, 94.75, 95.8, 95.4, 96.52, 97.49, 97.28, 97.61, 96.9, 97.15, 96.18, 96.36, 97.6, 97.5, 98.66, 98.31, 98.36, 98.01, 98.95, 98.84, 100.79, 101.67, 102.19, 102.49, 100.88, 101.63, 101.05, 101.31, 100.85, 101.42, 100.13, 100.86, 100.86, 101.87, 101.14, 100.41, 98.39, 99.08, 97.54, 98.63, 98.61, 100.01, 99.05, 99.76, 101.16, 101.85, 102.12, 101.98, 104.19]
+    },
+    "CSCO":
+    {
+        "description": "Cisco Systems, Inc. designs, manufactures and sells Internet Protocol based networking products and services related to the communications and information technology industry. Its product offerings comprises of the following categories: Switches, Routers, Wireless, Network Management Interfaces and Modules, Optical Networking, Access Points, Outdoor and Industrial Access Points, Next-Generation Firewalls, Advanced Malware Protection, VPN Security Clients, Email and Web Security. The company was founded by Sandra Lerner and Leonard Bosack on December 10, 1984 and is headquartered in San Jose, CA.",
+        "market_cap": 206307720000,
+        "pe_ratio": null,
+        "dividend": "3.489800",
+        "ceo": "Charles H. Robbins",
+        "headquarters_city": "San Jose",
+        "headquarters_state": "California",
+        "sector": "Electronic Technology",
+        "num_employees": 72900,
+        "year_founded": 1984,
+        "name": "Cisco Systems, Inc.",
+        "prices": [30.29, 30.44, 30.51, 30.52, 30.9, 30.86, 30.84, 30.86, 31.11, 30.67, 30.58, 30.53, 30.47, 30.66, 30.53, 30.57, 30.8, 30.84, 30.68, 30.63, 30.03, 30.48, 30.84, 31.09, 31.33, 30.07, 29.42, 29.72, 30.29, 29.95, 30.26, 30.46, 30.55, 30.49, 30.99, 31.2, 31.29, 30.63, 30.87, 30.77, 30.49, 31.18, 31.4, 31.17, 31.18, 31.42, 31.5, 31.47, 31.58, 31.68, 32.33, 32.66, 32.7, 32.43, 32.31, 32.58, 32.69, 32.79, 32.67, 32.82, 32.98, 32.99, 32.78, 32.82, 32.5, 32.7, 32.77, 32.83, 32.78, 32.98, 33.46, 33.56, 33.79, 33.51, 33.48, 33.64, 33.26, 33.37, 33.83, 33.43, 33.68, 33.62, 33.61, 33.71, 33.27, 33.21, 33.17, 33.26, 33.33, 35.06, 35.08, 35.66, 35.81, 35.61, 35.65, 36.02, 36.86, 36.62, 36.44, 36.74, 36.85, 36.45, 36.55, 36.54, 36.75, 37.09, 37.04, 37.27, 37.03, 37.31, 37.6, 37.42, 37.85, 37.65, 37.67, 37.6, 37.68, 37.7, 37.42, 37.97, 38.27, 38.38, 38.91, 39.32, 39.07, 39.29, 39.47, 40.23, 39.91, 40.56, 40.65, 40.64, 41.01, 41.44, 41.51, 41.24, 41.89, 42.18, 41.59, 40.89, 41.05, 40.29, 38.17, 39.54, 39.71, 38.16, 38.91, 39.96, 40.58, 41.43, 43.39, 43.64, 43.37, 42.63, 42.27, 43.31, 44.65, 44.34, 44.08, 43.11, 43.37, 43.82, 43.6, 43.51, 43.65, 44.66, 44.84, 44.45, 44.57, 44.62, 44.31, 43.58, 43.68, 43.62, 42.4, 41.76, 43.37, 42.01, 41.01, 42.22, 40.37, 40.73, 40.88, 41.5, 40.41, 40.85, 42.18, 42.1, 43.0, 42.67, 42.97, 44.25, 44.28, 44.22, 43.75, 43.91, 43.4, 43.37, 43.87, 44.36, 43.95, 44.48, 43.52, 44.1, 44.95, 45.38, 45.36, 45.68, 45.94, 45.57, 45.35, 45.13, 44.81, 43.12, 42.88, 43.41, 43.31, 43.34, 43.23, 42.93, 42.64, 42.52, 42.38, 43.32, 43.24, 43.33, 43.92, 43.31, 43.14, 43.35, 43.6, 43.67, 44.34, 43.91, 43.87, 43.48, 43.4, 42.83, 42.87, 41.96, 42.22, 42.0, 42.61, 42.7, 42.48, 42.34, 42.56, 42.71, 42.67, 42.86, 42.57, 43.58]
+    },
+    "NFLX":
+    {
+        "description": "Netflix, Inc. operates as an Internet subscription service company, which provides subscription service streaming movies and television episodes over the Internet and sending DVDs by mail. It operates through the following segments: Domestic Streaming, International Streaming, and Domestic DVD. The Domestic Streaming segment derives revenues from monthly membership fees for services consisting solely of streaming content to its members in the United States. The International Streaming segment includes fees from members outside the United States. The Domestic DVD segment covers revenues from services consisting solely of DVD-by-mail. The company was founded by Marc Randolph and Wilmot Reed Hastings Jr., on August 29, 1997 and is headquartered in Los Gatos, CA.",
+        "market_cap": 179730794800,
+        "pe_ratio": "265.610738",
+        "dividend": "0.000000",
+        "ceo": "Reed Hastings, Jr.",
+        "headquarters_city": "Los Gatos",
+        "headquarters_state": "California",
+        "sector": "Consumer Services",
+        "num_employees": 5500,
+        "year_founded": 1997,
+        "name": "Netflix, Inc.",
+        "prices": [158.21, 161.12, 161.7, 183.6, 183.86, 183.6, 188.54, 187.91, 186.97, 189.08, 182.68, 184.04, 181.66, 182.03, 180.74, 179.23, 180.27, 181.33, 178.36, 175.78, 169.14, 171.4, 171.0, 168.5, 169.98, 166.09, 166.54, 166.76, 169.34, 169.06, 168.13, 165.95, 167.12, 168.81, 174.69, 174.71, 174.74, 174.52, 179.25, 179.0, 176.42, 181.74, 185.15, 183.64, 182.63, 182.35, 184.62, 185.68, 185.51, 188.78, 187.35, 178.55, 179.38, 181.97, 180.7, 181.35, 177.01, 179.19, 184.45, 194.39, 198.02, 196.87, 195.08, 194.95, 195.86, 199.49, 202.68, 199.48, 195.54, 195.13, 194.16, 192.47, 196.02, 193.77, 195.21, 199.54, 198.37, 196.43, 198.0, 199.32, 200.01, 200.13, 195.89, 196.44, 193.9, 192.02, 195.08, 195.71, 192.12, 195.51, 193.2, 194.1, 196.23, 196.32, 195.75, 195.05, 199.18, 188.15, 187.58, 186.82, 184.04, 184.21, 185.3, 185.2, 188.54, 186.22, 185.73, 187.86, 189.56, 190.12, 190.42, 187.02, 188.82, 188.62, 189.94, 187.76, 186.24, 192.71, 191.96, 201.07, 205.05, 205.63, 209.99, 212.05, 209.31, 212.52, 217.24, 221.23, 221.53, 217.5, 220.33, 220.46, 227.58, 250.29, 261.3, 269.7, 274.6, 284.59, 278.8, 270.3, 265.07, 267.43, 254.26, 265.72, 264.56, 250.1, 249.47, 257.95, 258.27, 266.0, 280.27, 278.52, 278.55, 281.04, 278.14, 285.93, 294.16, 290.61, 291.38, 290.39, 301.05, 315.0, 325.22, 321.16, 317.0, 331.44, 321.3, 315.88, 321.55, 321.09, 318.45, 313.48, 317.5, 316.48, 306.7, 300.94, 320.35, 300.69, 285.77, 295.35, 280.29, 283.67, 288.94, 293.97, 288.85, 289.93, 298.07, 303.67, 309.25, 311.65, 307.78, 336.06, 334.52, 332.7, 327.77, 318.69, 307.02, 305.76, 313.98, 311.76, 312.46, 313.3, 313.36, 311.69, 320.09, 326.26, 326.89, 330.3, 329.6, 326.46, 328.53, 326.13, 328.19, 325.22, 324.18, 331.82, 331.62, 344.72, 349.29, 351.29, 349.73, 353.54, 351.6, 359.93, 361.81, 365.8, 367.45, 361.4, 360.57, 361.45, 363.83, 379.93, 392.87, 391.98, 390.4, 404.98, 416.76, 415.44, 411.09, 384.48, 399.39, 390.39, 395.42, 391.43, 398.18, 390.52, 398.39, 408.25, 418.97, 415.63, 418.65, 413.5]
+    },
+    "DIS":
+    {
+        "description": "The Walt Disney Co. is a diversified international family entertainment and media enterprise. It operates through four business segments: Media Networks, Parks & Resorts, Studio Entertainment and Consumer Products & Interactive Media. The Media Networks segment includes cable and broadcast television networks, television production and distribution operations, domestic television stations, radio networks and stations. The Parks and Resorts segment owns and operates the Walt Disney World Resort in Florida; the Disneyland Resort in California; Aulani, a Disney Resort & Spa in Hawaii; the Disney Vacation Club; the Disney Cruise Line; and Adventures by Disney. The Studio Entertainment segment produces and acquires live-action and animated motion pictures, direct-to-video content, musical recordings and live stage plays. This segment distributes films primarily under the Walt Disney Pictures, Pixar, Marvel, Lucasfilm and Touchstone banners. The Consumer Products and Interactive Media segment licenses the company's trade names, characters and visual and literary properties to various manufacturers, game developers, publishers and retailers throughout the world. It also develops and publishes games, primarily for mobile platforms, and books, magazines and comic books. This segment also distributes branded merchandise directly through retail, online and wholesale businesses. The Walt Disney was founded by Walter Elias Disney on October 16, 1923 and is headquartered in Burbank, CA.",
+        "market_cap": 162375000000,
+        "pe_ratio": "14.665333",
+        "dividend": "1.582600",
+        "ceo": "Robert A. Iger",
+        "headquarters_city": "Burbank",
+        "headquarters_state": "California",
+        "sector": "Consumer Services",
+        "num_employees": 199000,
+        "year_founded": 1923,
+        "name": "Walt Disney Co.",
+        "prices": [102.63, 103.42, 103.12, 104.07, 105.12, 105.65, 105.39, 105.3, 104.73, 105.24, 108.25, 108.21, 108.18, 108.85, 106.94, 107.39, 105.98, 104.66, 105.28, 101.2, 99.74, 100.37, 99.79, 99.9, 100.58, 99.77, 99.1, 99.56, 101.14, 99.89, 99.91, 100.78, 100.93, 100.94, 101.24, 99.59, 99.89, 99.99, 99.89, 95.52, 95.53, 95.55, 96.33, 97.25, 96.34, 96.95, 96.54, 96.87, 97.63, 97.32, 97.03, 97.99, 97.06, 97.66, 96.49, 97.0, 98.27, 99.19, 98.95, 98.52, 98.48, 97.99, 98.0, 96.98, 95.39, 95.83, 96.57, 96.8, 96.69, 97.44, 97.82, 97.13, 96.73, 96.25, 96.99, 96.75, 96.48, 96.26, 97.46, 96.79, 97.07, 99.04, 100.0, 99.57, 101.05, 103.11, 103.08, 101.53, 102.04, 101.95, 101.8, 101.12, 101.36, 101.11, 101.01, 101.16, 101.77, 103.57, 103.15, 103.58, 108.47, 105.52, 103.78, 103.59, 103.4, 105.98, 106.57, 106.75, 109.69, 110.38, 110.14, 110.92, 108.82, 108.7, 107.8, 107.26, 106.78, 106.91, 106.65, 110.91, 111.38, 111.34, 110.73, 109.14, 109.06, 108.6, 110.1, 111.57, 109.81, 111.08, 109.54, 109.71, 110.21, 109.53, 109.62, 109.67, 111.3, 110.65, 109.23, 107.8, 109.61, 107.83, 103.87, 105.32, 103.92, 100.54, 102.27, 102.57, 103.29, 103.77, 104.34, 105.68, 105.13, 104.21, 104.4, 106.39, 108.93, 104.03, 102.34, 101.75, 102.17, 102.59, 104.1, 102.76, 103.2, 103.89, 104.33, 102.9, 103.07, 102.42, 102.05, 100.67, 100.54, 101.01, 99.8, 97.75, 99.85, 98.57, 97.75, 99.64, 97.87, 98.63, 100.14, 101.3, 99.55, 98.91, 100.56, 100.0, 99.59, 99.55, 99.44, 101.36, 100.4, 100.09, 99.44, 99.35, 98.67, 100.34, 99.04, 98.44, 99.53, 99.26, 98.83, 97.97, 100.34, 101.66, 100.98, 99.17, 100.87, 101.26, 101.62, 102.1, 104.2, 103.51, 103.1, 103.23, 103.24, 102.07, 101.3, 101.39, 98.9, 99.18, 98.68, 98.57, 99.44, 99.14, 101.1, 101.65, 103.15, 103.52, 103.5, 105.46, 107.88, 107.98, 106.21, 105.25, 106.3, 105.05, 105.49, 103.62, 103.43, 103.13, 103.93, 103.97, 104.49, 103.21, 104.5, 104.78, 106.02, 106.03, 108.04, 108.25]
+    },
+    "ANET":
+    {
+        "description": "Arista Networks, Inc. engages in the development, marketing, and sale of cloud networking solutions. It operates through the following geographical segments: United States; Other Americas; Europe, Middle East, and Africa; and Asia Pacific. Its cloud networking solutions consist of Extensible Operating System, a set of network applications; and Ethernet switching and routing platforms. The company was founded by Andreas Bechtolsheim, David Cheriton, and Kenneth Duda in October 2004 and is headquartered in Santa Clara, CA.",
+        "market_cap": 20692725700,
+        "pe_ratio": "43.976897",
+        "dividend": "0.000000",
+        "ceo": "Jayshree Ullal",
+        "headquarters_city": "Santa Clara",
+        "headquarters_state": "California",
+        "sector": "Electronic Technology",
+        "num_employees": 1800,
+        "year_founded": 2004,
+        "name": "Arista Networks",
+        "prices": [154.77, 155.11, 155.22, 155.99, 157.63, 156.8, 152.92, 155.22, 158.0, 157.2, 152.04, 150.4, 149.29, 147.8, 143.46, 144.05, 172.05, 173.75, 169.94, 167.46, 164.7, 165.69, 169.8, 170.59, 173.67, 171.06, 172.01, 172.01, 175.25, 173.51, 175.11, 173.73, 174.11, 173.28, 177.95, 176.15, 177.49, 175.23, 172.73, 173.65, 172.68, 175.31, 173.82, 174.89, 174.94, 176.96, 182.68, 181.72, 188.49, 187.23, 191.05, 180.83, 182.66, 186.55, 187.55, 189.61, 190.43, 189.42, 190.68, 190.36, 192.93, 193.37, 192.82, 192.95, 191.21, 191.14, 188.79, 190.61, 189.94, 190.13, 191.68, 191.57, 193.1, 189.61, 191.83, 195.65, 196.16, 199.89, 197.26, 181.17, 201.49, 206.68, 209.56, 214.19, 213.55, 221.05, 225.15, 227.1, 224.9, 231.77, 233.82, 241.83, 241.43, 239.01, 242.06, 238.64, 243.55, 234.21, 233.12, 228.65, 209.48, 211.05, 212.86, 219.86, 222.79, 223.69, 218.25, 225.13, 226.72, 231.03, 235.39, 236.0, 234.15, 235.96, 236.55, 235.66, 239.5, 240.64, 235.58, 231.03, 235.6, 232.69, 236.77, 251.06, 249.98, 252.28, 260.79, 259.03, 252.77, 262.81, 265.19, 270.84, 275.68, 273.14, 273.14, 276.76, 283.5, 277.99, 275.23, 275.82, 275.0, 273.48, 265.37, 272.38, 281.62, 264.52, 272.55, 284.54, 292.58, 302.12, 307.96, 249.49, 249.65, 238.03, 244.66, 245.92, 259.85, 259.14, 269.74, 263.8, 271.5, 281.86, 288.6, 291.58, 293.77, 295.15, 297.4, 289.68, 298.5, 295.9, 293.72, 277.39, 285.42, 282.7, 273.74, 264.21, 270.98, 253.7, 245.14, 255.3, 253.51, 253.51, 258.96, 262.74, 258.72, 259.5, 267.19, 266.58, 268.89, 244.2, 239.44, 256.8, 258.5, 256.37, 260.65, 254.18, 252.06, 253.02, 259.51, 262.75, 264.55, 265.27, 265.46, 267.85, 245.05, 252.36, 259.29, 259.42, 260.66, 259.91, 253.52, 249.55, 249.13, 247.47, 248.09, 254.25, 249.62, 255.98, 252.61, 255.75, 255.86, 251.65, 251.56, 261.22, 268.28, 274.75, 278.26, 270.9, 273.75, 271.68, 274.64, 281.14, 281.12, 286.62, 279.22, 273.8, 283.74, 279.32, 272.65, 259.88, 262.38, 254.29, 258.27, 257.49, 261.36, 255.87, 257.91, 262.39, 270.46, 268.55, 269.32, 278.36]
+    },
+    "JBHT":
+    {
+        "description": "J.B. Hunt Transport Services, Inc. engages in the provision of logistics solutions. It operates through the following segments: Intermodal (JBI), Dedicated Contract Services (DCS), Integrated Capacity Solutions (ICS), and Truckload (JBT). The JBI segment offers intermodal freight operations for rail carriers. The DCS segment includes private fleet conversion and final-mile delivery services. The ICS segment provides a single-source logistics management for clients who intends to outsource their transportation activities. It offers flatbed, refrigerated, expedited, less-than-truckload, dry-van, and intermodal freight services. The JBT segment is responsible for full-load, dry-van freight that is transported via roads and highways. The company was founded by Johnnie Bryan Hunt, Sr. and Johnelle D. Hunt on August 10, 1961 and is headquartered in Lowell, AR.",
+        "market_cap": 13263966400,
+        "pe_ratio": "19.208201",
+        "dividend": "0.800100",
+        "ceo": "John N. Roberts, III",
+        "headquarters_city": "Lowell",
+        "headquarters_state": "Arkansas",
+        "sector": "Transportation",
+        "num_employees": 24681,
+        "year_founded": 1961,
+        "name": "JB Hunt Transport Services Inc.",
+        "prices": [90.46, 91.04, 92.71, 91.2, 90.89, 90.72, 90.75, 90.73, 92.54, 92.78, 90.05, 89.57, 89.91, 88.72, 88.85, 88.73, 89.96, 90.09, 90.34, 91.59, 91.52, 94.11, 95.71, 96.77, 96.69, 96.28, 96.03, 96.74, 97.29, 96.48, 95.96, 97.05, 98.5, 99.43, 99.16, 98.27, 98.73, 97.99, 98.47, 100.11, 101.2, 100.87, 100.96, 99.96, 99.21, 100.94, 102.12, 102.03, 103.61, 104.02, 105.09, 104.27, 106.41, 108.2, 108.22, 110.39, 108.31, 108.39, 107.98, 106.2, 106.06, 105.25, 105.51, 105.02, 107.67, 103.36, 101.0, 101.79, 103.8, 104.14, 105.91, 106.74, 105.65, 105.57, 108.2, 108.92, 104.6, 105.73, 105.52, 106.94, 106.78, 107.4, 106.21, 103.93, 101.58, 101.43, 102.16, 102.05, 101.12, 102.56, 101.02, 101.3, 102.8, 103.58, 103.73, 103.22, 105.6, 108.2, 110.69, 108.56, 109.75, 108.83, 109.96, 111.14, 112.05, 110.84, 110.78, 111.41, 110.93, 111.91, 112.37, 112.28, 112.29, 112.26, 114.06, 114.45, 115.0, 114.77, 114.51, 115.61, 116.39, 116.41, 115.79, 117.55, 119.82, 119.62, 120.44, 120.56, 120.15, 120.16, 120.95, 123.1, 124.88, 125.08, 125.14, 123.48, 124.52, 121.26, 120.23, 120.34, 120.3, 117.69, 114.16, 115.46, 117.47, 114.57, 114.87, 115.64, 118.09, 119.75, 120.48, 120.33, 117.96, 118.75, 119.46, 120.86, 122.93, 120.37, 118.33, 118.3, 120.08, 117.17, 118.33, 118.65, 118.46, 121.55, 120.57, 121.74, 119.56, 119.52, 120.05, 119.94, 120.52, 120.34, 118.58, 117.76, 119.93, 114.72, 114.68, 116.91, 115.12, 116.93, 115.14, 113.57, 109.7, 108.98, 111.2, 112.86, 113.94, 112.54, 119.5, 118.92, 121.09, 121.02, 119.34, 120.07, 118.17, 117.54, 117.01, 118.28, 117.19, 115.68, 116.16, 116.59, 117.42, 118.1, 118.81, 120.71, 122.9, 124.66, 123.76, 123.25, 125.12, 125.69, 126.86, 128.1, 124.65, 124.61, 127.12, 128.39, 127.39, 129.41, 128.1, 129.64, 127.5, 126.82, 126.77, 127.27, 128.68, 130.26, 130.82, 129.39, 129.65, 130.24, 129.29, 127.3, 128.48, 128.2, 128.13, 124.05, 122.99, 121.5, 121.24, 121.55, 122.4, 122.01, 121.47, 122.04, 124.48, 124.21, 121.76, 120.85]
+    },
+    "XRAY":
+    {
+        "description": "DENTSPLY SIRONA, Inc. engages in the design, manufacture, sales, and distribution of professional dental products and technologies. It operates through the Technologies and Equipment and Consumables segments. The Technologies and Equipment segments comprises dental technology, equipment, and healthcare consumable products such as dental implants, laboratory dental products, computer-aided design and computer-aided manufacturing systems, imaging systems, treatment centers, and consumable medical device products. The Consumables segment offers preventive, restorative, instruments, endodontic, and orthodontic dental products. The company was founded in 2016 and is headquartered in York, PA.",
+        "market_cap": 10326234000,
+        "pe_ratio": null,
+        "dividend": "0.531700",
+        "ceo": "Don M. Casey, Jr.",
+        "headquarters_city": "York",
+        "headquarters_state": "Pennsylvania",
+        "sector": "Health Technology",
+        "num_employees": 16100,
+        "year_founded": 2016,
+        "name": "DENTSPLY International Inc.",
+        "prices": [64.47, 64.69, 64.64, 64.58, 64.19, 62.62, 62.51, 62.28, 62.64, 62.76, 62.5, 62.24, 61.63, 61.12, 60.76, 60.95, 61.19, 61.93, 61.01, 55.86, 55.14, 54.97, 53.94, 53.41, 53.13, 52.82, 52.51, 52.45, 53.34, 52.87, 54.26, 54.44, 54.8, 55.34, 55.31, 56.2, 56.29, 56.12, 56.57, 57.45, 58.06, 58.85, 59.05, 58.75, 57.74, 58.95, 58.33, 57.47, 58.27, 57.43, 58.15, 58.77, 59.16, 59.38, 58.93, 59.51, 56.05, 55.37, 56.92, 58.68, 58.21, 57.8, 57.28, 57.03, 58.11, 57.93, 58.89, 59.2, 59.2, 60.36, 61.53, 61.51, 60.78, 60.69, 61.06, 61.04, 60.97, 60.76, 60.85, 60.85, 64.47, 63.55, 64.05, 64.18, 65.23, 65.25, 65.47, 65.06, 66.26, 66.84, 67.21, 66.09, 66.67, 67.25, 67.17, 67.66, 68.23, 68.01, 66.67, 65.75, 65.42, 65.28, 65.17, 64.66, 64.57, 64.69, 64.66, 65.73, 65.32, 66.14, 66.31, 66.26, 65.82, 65.17, 65.49, 65.92, 65.7, 66.18, 65.58, 66.89, 66.66, 66.65, 67.59, 68.04, 65.21, 62.53, 64.01, 65.54, 65.4, 62.42, 62.08, 61.72, 60.57, 60.94, 61.6, 62.58, 62.61, 61.75, 61.17, 60.58, 60.5, 59.84, 58.32, 58.24, 58.08, 56.64, 56.97, 57.17, 56.78, 56.97, 57.48, 58.21, 57.93, 57.84, 56.9, 57.45, 56.84, 57.12, 55.85, 55.08, 56.75, 55.65, 56.16, 56.22, 56.74, 57.45, 58.2, 57.58, 57.09, 56.74, 56.12, 55.25, 54.4, 53.93, 52.46, 50.52, 50.91, 49.84, 49.85, 50.21, 48.93, 49.81, 50.43, 49.99, 48.92, 49.15, 49.65, 49.19, 49.09, 48.9, 50.09, 50.17, 50.52, 49.64, 49.24, 49.38, 48.77, 49.06, 49.56, 50.24, 50.24, 50.54, 50.49, 49.14, 49.89, 46.83, 44.38, 44.49, 46.45, 46.84, 47.42, 47.84, 47.79, 47.85, 47.41, 47.11, 47.16, 46.41, 46.12, 46.48, 45.72, 45.36, 43.72, 43.33, 43.85, 42.21, 42.92, 43.02, 42.87, 43.31, 44.09, 44.42, 44.8, 44.85, 44.63, 44.92, 45.04, 44.48, 44.86, 44.65, 44.19, 43.87, 43.64, 43.77, 43.98, 44.53, 44.91, 45.38, 45.81, 45.54, 44.9, 45.41]
+    },
+    "JNPR":
+    {
+        "description": "Juniper Networks, Inc. engages in the design, development, and sale of products and services for high-performance networks. Its products address network requirements for global service provides, cloud providers, national governments, research and public sector organizations, and other enterprises. The company was founded by Pradeep S. Sindhu on February 6, 1996 and is headquartered in Sunnyvale, CA.",
+        "market_cap": 9949990000,
+        "pe_ratio": "46.441666",
+        "dividend": "1.403500",
+        "ceo": "Rami Rahim",
+        "headquarters_city": "Sunnyvale",
+        "headquarters_state": "California",
+        "sector": "Electronic Technology",
+        "num_employees": 9381,
+        "year_founded": 1996,
+        "name": "Juniper Networks, Inc.",
+        "prices": [28.5, 28.42, 28.53, 28.27, 28.77, 28.62, 28.83, 28.86, 29.35, 27.49, 27.24, 27.2, 27.38, 27.69, 27.64, 27.76, 27.57, 27.71, 27.67, 27.75, 26.88, 26.85, 27.35, 26.97, 27.18, 26.61, 26.61, 26.59, 27.01, 26.77, 26.88, 26.98, 26.97, 26.87, 27.17, 27.26, 27.21, 26.71, 27.04, 26.56, 26.17, 26.53, 27.07, 27.14, 27.1, 27.33, 27.24, 27.15, 27.22, 27.24, 27.52, 27.39, 27.37, 27.64, 27.24, 27.36, 27.9, 28.06, 28.21, 27.97, 27.95, 26.86, 26.85, 26.41, 25.04, 25.39, 25.6, 25.67, 25.64, 25.39, 25.59, 25.33, 25.72, 24.15, 24.44, 24.78, 24.5, 24.41, 24.44, 23.99, 24.14, 24.32, 24.09, 24.37, 24.92, 24.58, 24.93, 25.98, 25.51, 25.75, 25.86, 26.52, 26.53, 26.55, 26.88, 26.92, 27.71, 29.11, 27.38, 28.0, 27.58, 27.24, 27.58, 28.04, 28.0, 28.01, 28.53, 28.72, 28.41, 28.02, 28.21, 28.06, 28.11, 28.29, 28.47, 28.47, 28.49, 28.48, 28.11, 28.31, 28.42, 28.4, 28.12, 28.39, 28.24, 28.02, 28.37, 28.5, 28.22, 28.28, 27.29, 27.47, 27.98, 27.75, 27.59, 27.3, 27.81, 28.09, 27.94, 25.8, 26.19, 25.91, 24.86, 25.19, 25.05, 24.33, 25.1, 25.45, 25.84, 25.82, 26.55, 25.99, 25.88, 25.54, 25.68, 25.77, 25.84, 25.75, 25.49, 25.0, 25.43, 25.67, 25.77, 25.7, 25.87, 26.25, 26.16, 26.23, 26.03, 26.06, 26.11, 25.09, 25.25, 25.13, 24.62, 23.96, 24.44, 24.09, 23.89, 24.17, 23.91, 23.94, 23.99, 24.19, 23.93, 23.94, 24.5, 24.53, 24.68, 24.68, 24.82, 25.24, 24.22, 24.28, 24.19, 24.17, 24.13, 24.13, 24.32, 24.46, 24.43, 24.58, 24.75, 24.99, 25.49, 25.76, 25.76, 26.0, 26.16, 26.34, 26.57, 26.65, 26.68, 26.54, 26.48, 26.79, 27.02, 27.03, 26.83, 27.05, 26.94, 26.82, 26.64, 26.8, 26.96, 27.31, 27.43, 27.43, 27.92, 27.78, 27.87, 27.92, 27.82, 27.29, 27.07, 26.82, 26.94, 26.92, 26.71, 26.32, 26.57, 26.74, 27.26, 27.42, 27.75, 27.23, 27.81, 27.96, 28.44, 28.3, 28.13, 28.51]
+    },
+    "RP":
+    {
+        "description": "RealPage, Inc. engages in the provison of software and data analytics to the real estate industry. It offers on asset optimization, asset and investment management, property management, resident services, and leasing and marketing solutions. The company was founded by Stephen T. Winn in November 1998 and is headquartered in Richardson, TX.",
+        "market_cap": 4914113700,
+        "pe_ratio": "1915.000000",
+        "dividend": "0.000000",
+        "ceo": "Stephen T. Winn",
+        "headquarters_city": "Richardson",
+        "headquarters_state": "Texas",
+        "sector": "Technology Services",
+        "num_employees": 5400,
+        "year_founded": 1998,
+        "name": "RealPage, Inc.",
+        "prices": [37.0, 37.45, 37.4, 38.8, 39.65, 39.65, 39.15, 39.3, 39.45, 39.95, 38.9, 39.0, 38.75, 38.55, 39.25, 40.05, 40.1, 39.8, 39.75, 39.15, 38.05, 39.9, 40.65, 41.65, 41.8, 41.25, 41.7, 41.6, 41.45, 41.4, 41.25, 41.0, 41.25, 41.1, 42.2, 43.1, 43.3, 42.8, 41.5, 41.45, 41.85, 42.4, 40.35, 39.4, 40.15, 39.35, 39.65, 40.5, 39.45, 39.35, 39.9, 39.3, 38.75, 40.65, 40.15, 39.9, 40.45, 41.05, 41.8, 41.8, 42.0, 41.95, 42.1, 42.05, 42.5, 42.95, 43.15, 41.95, 41.85, 41.55, 42.2, 42.4, 43.35, 43.3, 43.1, 43.2, 43.08, 43.3, 44.0, 43.7, 44.6, 43.65, 44.05, 44.65, 44.05, 44.1, 43.55, 43.9, 43.35, 44.1, 44.05, 44.55, 45.05, 44.0, 44.25, 44.4, 45.95, 45.15, 45.35, 44.95, 44.2, 43.5, 43.85, 44.85, 44.35, 44.15, 44.25, 44.5, 44.05, 45.55, 45.55, 44.75, 44.5, 44.0, 43.85, 44.35, 44.3, 44.6, 44.3, 45.35, 45.3, 45.8, 45.4, 46.4, 47.15, 46.9, 47.8, 48.45, 47.9, 48.2, 48.6, 48.5, 48.65, 49.3, 47.85, 48.55, 49.2, 48.75, 50.0, 49.75, 49.65, 48.95, 46.75, 48.45, 49.05, 47.0, 48.05, 47.3, 47.7, 49.25, 49.7, 50.45, 50.4, 50.35, 49.75, 50.95, 50.95, 49.9, 52.25, 51.75, 52.65, 52.15, 52.4, 52.85, 53.35, 53.6, 53.4, 53.0, 52.9, 52.8, 53.35, 52.8, 53.3, 53.95, 53.2, 51.35, 53.35, 52.1, 51.1, 51.5, 49.9, 50.65, 51.55, 52.1, 51.35, 51.85, 51.7, 52.5, 53.05, 52.9, 53.8, 54.65, 55.25, 55.2, 54.75, 53.95, 53.25, 52.9, 53.7, 53.85, 53.5, 54.05, 54.2, 54.85, 58.65, 60.3, 61.5, 60.12, 60.85, 60.7, 58.9, 58.75, 58.75, 58.8, 59.55, 59.5, 58.3, 58.5, 58.55, 59.2, 59.2, 58.8, 58.75, 59.95, 61.05, 60.55, 59.05, 56.8, 56.25, 56.7, 58.95, 59.35, 59.9, 59.95, 60.65, 59.3, 58.15, 56.35, 54.95, 54.6, 55.3, 53.85, 54.95, 55.1, 56.0, 55.65, 55.5, 56.5, 57.05, 56.8, 56.7, 58.15]
+    },
+    "SPB":
+    {
+        "description": "Spectrum Brand Holdings, Inc. engages in the manufacture, market, and distribution of consumer products. The company operates through the following segments: Global Batteries and Appliances (GBA); Global Pet Supplies (PET); Home and Garden (H&G); and Hardware and Home Improvement (HHI); and Global Auto Care (GAC). The GBA segment includes consumer batteries; electric shaving and grooming; electric personal care; and small appliances primarily in the kitchen and home product categories. The PET segment comprises dog, cat, and small animal food and treats; and aquariums and aquatic health supplies. The H&G segment involves in home and garden and insect control business. The HHI segment offers residential locksets and builders hardware, and as plumbing products. The GBA sells products to big box auto, auto specialty retail, mass retailers, food and drug retailers, and convenience retailers. The company was founded on February 5, 2010 and is headquartered in Madison, WI.",
+        "market_cap": 4660702000,
+        "pe_ratio": "14.482518",
+        "dividend": "1.548300",
+        "ceo": "David M. Maura",
+        "headquarters_city": "Middleton",
+        "headquarters_state": "Wisconsin",
+        "sector": "Producer Manufacturing",
+        "num_employees": 16800,
+        "year_founded": 2010,
+        "name": "Spectrum Brands Holdings, Inc.",
+        "prices": [120.41, 121.24, 122.08, 121.36, 122.32, 123.0, 122.01, 121.39, 121.85, 120.87, 115.93, 114.93, 113.47, 112.54, 111.06, 110.12, 110.07, 110.26, 109.19, 108.91, 108.6, 109.0, 108.92, 107.26, 108.09, 106.52, 105.99, 105.23, 105.04, 105.38, 106.84, 107.43, 105.99, 106.08, 106.03, 108.49, 108.14, 104.84, 103.55, 102.74, 101.68, 103.22, 104.96, 104.79, 103.8, 103.4, 102.89, 105.43, 103.8, 103.04, 104.0, 102.07, 103.8, 104.56, 103.66, 104.51, 103.12, 102.94, 103.2, 102.02, 102.6, 101.16, 100.98, 102.55, 103.71, 104.44, 108.76, 109.4, 109.02, 108.57, 108.56, 107.9, 107.54, 105.19, 106.98, 106.73, 106.68, 108.45, 108.37, 100.93, 102.65, 102.85, 102.46, 102.81, 102.76, 103.68, 103.61, 102.22, 98.02, 108.04, 110.89, 111.0, 112.23, 112.75, 111.97, 111.28, 113.2, 113.96, 113.77, 113.1, 112.96, 113.87, 113.48, 114.58, 113.36, 112.65, 109.71, 109.92, 108.39, 108.66, 107.51, 107.22, 114.13, 113.52, 113.0, 112.67, 112.5, 110.86, 111.31, 108.3, 117.79, 118.7, 118.73, 119.28, 120.13, 118.84, 119.45, 119.31, 124.02, 123.95, 120.12, 120.16, 122.42, 123.54, 122.84, 122.52, 119.63, 118.56, 117.08, 117.31, 116.63, 112.24, 109.18, 110.27, 109.73, 109.92, 106.19, 101.02, 101.46, 104.51, 102.0, 101.96, 101.33, 100.3, 103.12, 103.03, 103.44, 101.44, 98.15, 94.28, 101.32, 102.36, 100.98, 95.23, 96.57, 95.35, 96.18, 94.56, 94.64, 92.53, 95.25, 95.57, 94.96, 93.37, 92.2, 92.0, 91.79, 89.61, 89.61, 103.12, 98.69, 98.68, 98.88, 98.74, 97.31, 97.32, 97.77, 97.92, 97.45, 97.51, 98.62, 98.56, 98.68, 98.72, 97.11, 94.52, 94.46, 93.7, 74.59, 70.63, 71.69, 74.61, 73.53, 72.5, 73.34, 73.53, 71.3, 72.48, 73.31, 74.07, 75.17, 74.0, 75.6, 78.75, 77.61, 79.05, 79.13, 77.67, 79.5, 80.26, 81.8, 83.36, 79.69, 81.71, 82.09, 80.51, 81.5, 80.82, 81.51, 80.5, 81.53, 79.87, 79.04, 78.5, 80.18, 81.73, 82.31, 81.7, 83.35, 82.15, 84.3, 84.74, 82.98, 81.62, 81.4, 84.68, 86.09, 86.86, 86.95, 86.14, 84.9, 84.2]
+    },
+    "VSAT":
+    {
+        "description": "Viasat is a global communications company that believes everyone and everything in the world can be connected. For more than 30 years, Viasat has helped shape how consumers, businesses, governments and militaries around the world communicate. Today, the Company is developing the ultimate global communications network to power high-quality, secure, affordable, fast connections to impact people's lives anywhere they are on the ground, in the air or at sea.",
+        "market_cap": 4148698400,
+        "pe_ratio": null,
+        "dividend": null,
+        "ceo": "Mark D. Dankberg",
+        "headquarters_city": "Carlsbad",
+        "headquarters_state": "California",
+        "sector": "Electronic Technology",
+        "num_employees": 5200,
+        "year_founded": 1986,
+        "name": "ViaSat Inc.",
+        "prices": [64.37, 64.68, 64.99, 64.84, 65.73, 65.67, 65.81, 65.97, 67.43, 67.68, 66.88, 66.59, 66.09, 66.36, 66.07, 65.91, 66.16, 66.68, 65.68, 60.5, 60.93, 60.54, 62.4, 61.87, 61.65, 59.12, 59.3, 59.4, 60.12, 60.58, 60.05, 61.95, 61.34, 61.82, 63.11, 63.61, 62.78, 61.38, 61.04, 60.59, 60.08, 60.15, 60.32, 60.51, 61.22, 62.46, 62.7, 63.03, 63.43, 62.8, 62.37, 62.47, 62.83, 63.71, 64.02, 64.32, 66.3, 67.22, 65.78, 65.12, 65.01, 65.12, 65.0, 65.18, 65.1, 64.97, 64.95, 64.85, 64.61, 64.44, 64.76, 64.54, 64.98, 64.63, 64.11, 64.61, 65.12, 65.1, 65.05, 64.34, 64.12, 64.8, 64.47, 64.53, 64.9, 68.4, 70.0, 72.9, 72.23, 73.56, 73.77, 74.49, 74.44, 73.6, 73.64, 73.69, 73.56, 74.59, 74.24, 73.52, 73.44, 72.59, 71.49, 71.35, 71.83, 71.03, 71.52, 72.26, 72.72, 73.96, 73.71, 72.19, 72.27, 72.71, 73.16, 73.49, 74.38, 74.89, 74.85, 74.58, 74.74, 74.63, 74.33, 75.16, 75.51, 74.3, 75.8, 76.44, 76.14, 77.74, 78.33, 79.05, 80.18, 78.73, 77.85, 77.8, 77.44, 76.71, 75.77, 75.62, 75.87, 74.89, 70.8, 70.87, 71.51, 70.79, 66.75, 68.36, 67.87, 68.28, 69.93, 72.1, 70.75, 70.93, 70.06, 71.33, 71.78, 71.78, 69.79, 68.75, 69.42, 70.8, 72.36, 72.57, 73.01, 73.86, 75.46, 75.35, 73.43, 72.35, 72.8, 72.3, 71.86, 72.17, 71.09, 69.13, 70.36, 68.3, 66.6, 65.72, 64.89, 66.3, 67.04, 63.75, 63.15, 63.78, 63.98, 63.58, 63.21, 62.54, 63.81, 64.92, 64.88, 64.88, 64.67, 64.35, 64.28, 63.96, 64.12, 64.02, 63.98, 63.48, 63.5, 63.68, 64.73, 64.65, 64.29, 63.74, 63.95, 63.68, 63.01, 62.92, 62.72, 62.88, 62.11, 62.62, 62.33, 62.81, 61.78, 62.58, 63.06, 64.17, 62.61, 63.25, 63.24, 63.17, 63.82, 63.84, 63.44, 62.48, 62.88, 63.89, 64.93, 64.99, 64.5, 64.21, 64.89, 64.08, 64.3, 62.98, 63.25, 63.55, 65.51, 65.72, 64.46, 65.07, 66.78, 68.49, 69.89, 68.95, 69.43, 70.43]
+    },
+    "FR":
+    {
+        "description": "First Industrial Realty Trust, Inc. operates as a real estate investment trust. It engages in the ownership, management, acquisition, sale, development, and redevelopment of industrial real estate. Its portfolio includes warehouse and light industrial properties. The company was founded by Johannson L. Yap and Jay H. Shidler on August 10, 1993 and is headquartered in Chicago, IL.",
+        "market_cap": 4041073300,
+        "pe_ratio": "18.737430",
+        "dividend": "2.669200",
+        "ceo": "Peter E. Baccile",
+        "headquarters_city": "Chicago",
+        "headquarters_state": "Illinois",
+        "sector": "Finance",
+        "num_employees": 160,
+        "year_founded": 1993,
+        "name": "First Industrial Realty Trust Inc.",
+        "prices": [27.75, 28.07, 28.44, 28.89, 29.27, 28.88, 28.94, 28.98, 29.03, 29.26, 29.61, 29.64, 29.68, 30.16, 29.85, 29.66, 29.57, 29.17, 29.18, 28.96, 28.92, 28.7, 29.46, 29.6, 29.64, 29.3, 29.16, 29.53, 29.41, 29.69, 29.64, 29.64, 29.57, 29.51, 29.71, 30.13, 30.19, 30.22, 30.2, 30.35, 30.33, 30.87, 30.48, 30.23, 30.76, 30.54, 30.48, 30.62, 30.51, 30.39, 30.0, 30.19, 29.72, 29.31, 29.63, 29.47, 29.86, 29.92, 29.86, 30.14, 30.14, 30.26, 30.06, 30.24, 30.45, 30.51, 30.38, 30.3, 30.53, 30.36, 30.2, 30.08, 30.14, 30.12, 29.99, 30.4, 30.05, 30.24, 30.58, 30.72, 30.9, 31.04, 31.1, 31.14, 30.92, 30.92, 31.57, 31.53, 31.13, 31.69, 31.47, 31.56, 32.14, 31.82, 31.93, 31.87, 31.73, 31.66, 31.88, 31.96, 31.62, 31.18, 31.19, 31.61, 31.7, 31.55, 31.64, 31.61, 31.56, 31.48, 31.66, 30.69, 30.23, 30.24, 30.48, 30.68, 30.76, 31.02, 31.03, 30.73, 30.65, 30.0, 30.12, 30.08, 30.1, 29.59, 29.42, 29.39, 29.63, 29.85, 29.57, 29.75, 30.3, 30.68, 30.57, 30.69, 30.59, 30.35, 29.9, 30.43, 30.11, 29.9, 28.69, 28.28, 28.27, 27.36, 28.14, 28.21, 28.23, 28.1, 28.38, 28.55, 28.04, 27.78, 28.01, 28.47, 28.41, 27.63, 27.64, 27.81, 27.76, 28.38, 28.75, 28.68, 28.85, 29.18, 29.16, 29.06, 29.21, 29.09, 29.53, 29.24, 29.28, 29.08, 28.57, 28.02, 28.25, 28.6, 29.06, 29.04, 28.64, 29.16, 29.12, 29.02, 28.79, 28.73, 28.73, 28.88, 28.39, 28.72, 29.03, 29.58, 29.58, 29.31, 29.06, 29.1, 29.44, 29.46, 30.07, 30.15, 30.91, 30.62, 30.73, 30.77, 31.02, 31.88, 31.89, 31.91, 32.09, 31.75, 31.6, 31.24, 31.09, 30.98, 30.99, 31.36, 31.43, 31.88, 31.9, 31.94, 32.06, 32.71, 32.71, 33.0, 33.45, 33.34, 33.24, 33.27, 33.3, 33.35, 33.32, 32.76, 33.04, 32.79, 33.0, 32.79, 32.85, 32.86, 32.98, 33.2, 33.28, 33.06, 33.41, 33.34, 33.24, 33.45, 33.85, 33.87, 33.53, 33.4, 33.33, 33.52]
+    },
+    "COUP":
+    {
+        "description": "Coupa Software, Inc. is cloud platform for business spend. It develops software solutions for sourcing; procurement and expense management that help companies control their spending. The company was founded by Noah Eisner and Dave Stephens in 2006 and is headquartered in San Mateo, CA.",
+        "market_cap": 3734375600,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Rob Bernshteyn",
+        "headquarters_city": "San Mateo",
+        "headquarters_state": "California",
+        "sector": "Technology Services",
+        "num_employees": 833,
+        "year_founded": 2006,
+        "name": "Coupa Software",
+        "prices": [30.89, 30.63, 30.58, 30.59, 30.22, 30.82, 29.5, 30.01, 30.61, 30.82, 30.63, 30.86, 30.73, 30.91, 30.79, 30.65, 30.78, 30.88, 30.88, 30.52, 29.33, 29.74, 30.3, 29.81, 29.98, 29.29, 29.84, 29.57, 29.62, 30.04, 30.21, 30.37, 30.88, 30.03, 30.35, 30.46, 30.32, 29.59, 30.85, 30.43, 30.45, 30.87, 31.34, 31.37, 32.11, 31.79, 31.4, 31.42, 31.1, 31.37, 31.33, 30.52, 30.26, 30.73, 30.74, 31.15, 31.47, 31.99, 31.8, 32.42, 34.2, 34.87, 35.22, 35.37, 35.03, 35.88, 35.79, 35.48, 36.0, 35.91, 36.13, 36.12, 35.23, 34.9, 34.88, 34.46, 34.26, 34.75, 35.23, 35.2, 35.03, 35.21, 34.2, 34.47, 33.33, 33.39, 33.28, 33.26, 32.85, 33.71, 33.95, 34.05, 34.52, 34.4, 34.66, 34.91, 35.29, 34.63, 35.43, 35.94, 33.62, 32.58, 32.08, 32.85, 32.64, 34.0, 33.68, 33.56, 33.61, 32.75, 33.21, 31.9, 32.5, 32.05, 31.87, 31.85, 31.74, 31.54, 31.22, 32.03, 32.66, 33.11, 33.13, 33.17, 32.15, 32.0, 33.59, 34.0, 34.45, 36.01, 37.59, 37.69, 38.27, 37.59, 37.38, 37.5, 38.31, 38.17, 37.4, 38.23, 38.93, 37.87, 37.5, 39.99, 39.92, 39.16, 39.16, 38.64, 39.49, 40.75, 41.5, 41.53, 41.85, 42.62, 42.7, 43.01, 44.35, 44.35, 44.6, 44.28, 45.56, 47.27, 46.73, 47.75, 47.61, 48.39, 49.18, 47.53, 47.96, 46.84, 46.35, 46.44, 48.47, 47.26, 46.26, 46.62, 47.6, 45.68, 44.93, 45.62, 44.5, 45.21, 45.85, 46.77, 45.48, 44.81, 45.82, 45.25, 47.63, 47.23, 47.23, 48.47, 47.94, 47.31, 46.67, 49.7, 47.22, 47.02, 49.23, 47.51, 46.37, 47.01, 47.09, 49.29, 50.46, 50.25, 52.58, 53.88, 53.98, 54.21, 53.74, 53.72, 53.9, 51.48, 52.26, 51.03, 51.07, 51.72, 52.12, 51.22, 51.67, 52.87, 53.38, 54.07, 55.33, 60.16, 60.73, 59.03, 60.32, 60.26, 62.07, 62.21, 62.21, 63.38, 63.1, 62.99, 64.32, 63.99, 62.97, 60.42, 61.18, 59.23, 61.57, 62.24, 62.38, 61.71, 64.19, 65.0, 66.01, 63.6, 64.12, 65.68]
+    },
+    "KFY":
+    {
+        "description": "Korn/Ferry International engages in the provision of global organizational consulting firm. It operates through the following segments: Executive Search, Hay Group, Futurestep, and Corporate. The Executive Search segment helps clients attract and hire leaders who fit in with their organization, and make it stand out. The Hay Group segment comprises of leadership and organizational advisory consultants, and thought leaders. The Futurestep segment includes recruitment process outsourcing, professional search, and project recruitment. The company was founded by Richard M. Ferry on November 14, 1969 and is headquartered in Los Angeles, CA.",
+        "market_cap": 3592785700,
+        "pe_ratio": "27.491525",
+        "dividend": "0.748200",
+        "ceo": "Gary D. Burnison",
+        "headquarters_city": "Los Angeles",
+        "headquarters_state": "California",
+        "sector": "Commercial Services",
+        "num_employees": 7643,
+        "year_founded": 1969,
+        "name": "Korn/Ferry International",
+        "prices": [33.96, 34.06, 34.19, 34.16, 34.34, 34.7, 34.27, 33.35, 33.4, 33.19, 32.82, 33.12, 33.16, 33.39, 33.06, 32.8, 33.26, 32.84, 32.87, 32.53, 32.07, 32.07, 32.73, 32.42, 32.33, 31.84, 31.62, 31.84, 32.19, 32.05, 31.95, 32.0, 32.25, 32.42, 32.42, 33.04, 33.46, 32.91, 32.92, 35.51, 34.89, 35.54, 35.68, 36.07, 36.37, 36.28, 36.56, 36.97, 37.51, 37.66, 38.1, 37.97, 38.01, 39.31, 39.77, 39.2, 40.21, 39.75, 39.68, 39.61, 39.54, 39.49, 39.91, 39.49, 39.39, 39.42, 39.86, 39.73, 40.42, 40.35, 40.62, 40.25, 40.6, 40.68, 41.08, 41.17, 40.37, 41.58, 41.15, 41.53, 41.16, 41.5, 41.22, 41.17, 41.01, 41.48, 42.17, 41.26, 41.25, 42.42, 42.57, 42.85, 43.39, 43.24, 42.89, 42.6, 43.5, 43.33, 43.58, 41.94, 41.99, 41.81, 41.91, 41.33, 41.71, 40.94, 40.88, 40.52, 40.14, 41.76, 41.47, 41.8, 42.02, 41.85, 41.84, 41.65, 41.66, 41.73, 41.23, 40.59, 40.83, 41.3, 41.47, 41.98, 41.67, 41.79, 42.46, 42.01, 41.8, 42.58, 42.33, 43.06, 43.42, 43.43, 43.02, 43.75, 44.05, 44.57, 44.46, 44.4, 44.09, 43.14, 41.28, 41.9, 41.29, 39.74, 40.1, 41.06, 40.83, 41.79, 41.78, 41.44, 41.37, 41.89, 42.16, 42.07, 42.35, 42.06, 41.76, 41.29, 41.96, 42.3, 43.18, 48.69, 48.41, 49.41, 50.02, 50.17, 50.0, 49.89, 50.83, 50.29, 50.44, 50.88, 49.9, 48.32, 49.7, 50.36, 51.27, 51.51, 50.61, 51.78, 52.06, 52.67, 51.12, 50.83, 53.2, 52.56, 53.06, 53.12, 53.75, 54.09, 54.62, 55.12, 53.8, 53.76, 53.75, 53.63, 54.12, 54.04, 53.38, 53.67, 53.75, 52.99, 53.7, 53.74, 54.98, 55.87, 55.54, 55.61, 54.15, 54.12, 54.47, 54.3, 54.47, 55.89, 54.48, 54.59, 55.05, 54.86, 54.8, 55.44, 54.59, 55.35, 56.41, 57.45, 57.23, 56.58, 57.21, 56.81, 56.44, 63.33, 64.01, 64.61, 64.56, 64.33, 64.84, 63.84, 64.1, 62.46, 62.18, 60.31, 60.54, 61.93, 63.68, 63.69, 64.32, 64.81, 65.69, 62.91, 62.64, 63.57]
+    },
+    "HRG":
+    {
+        "description": "HRG Group, Inc.is a holding company which engages in consumer and insurance products. It operates through the following segments: Global Batteries and Appliances; Hardware and Home Improvement; Global Pet Supplies; Home and Garden; and Global Auto Care. The Global Batteries and Appliances segment refers to the worldwide battery, electric personal care, and small appliances businesses. The Hardware and Home Improvement segment worldwide hardware, home improvement, and plumbing businesses. The Global Pet Supplies segment refers to the pet supplies business. The Home and Garden segment relates to the home and garden and insect control businesses. The Global Auto Care segment includes automotive appearance and performance products. The company was founded in April 1999 and is headquartered in New York, NY.",
+        "market_cap": 2747991600,
+        "pe_ratio": "6.063348",
+        "dividend": "0.000000",
+        "ceo": "Joseph S. Steinberg",
+        "headquarters_city": "New York",
+        "headquarters_state": "New York",
+        "sector": "Consumer Durables",
+        "num_employees": 17113,
+        "year_founded": 1999,
+        "name": "Harbinger Group Inc.",
+        "prices": [17.4, 17.56, 17.56, 17.3, 17.4, 17.41, 17.37, 17.24, 17.41, 17.29, 16.68, 16.69, 16.57, 16.67, 16.49, 16.42, 16.34, 16.26, 16.08, 16.1, 16.03, 15.99, 16.0, 15.79, 15.85, 15.7, 15.43, 15.37, 15.36, 15.26, 15.53, 15.68, 15.45, 15.5, 15.48, 15.79, 15.84, 15.42, 15.1, 14.9, 14.99, 15.16, 15.38, 15.41, 15.2, 15.2, 15.18, 15.42, 15.25, 15.14, 15.25, 15.12, 15.6, 15.64, 15.51, 15.61, 15.29, 15.28, 15.32, 15.21, 15.27, 15.08, 15.1, 15.31, 15.47, 15.61, 16.16, 16.31, 16.23, 16.17, 16.17, 15.96, 16.03, 15.78, 15.99, 15.95, 15.91, 16.22, 16.2, 14.84, 15.11, 15.05, 14.92, 14.98, 14.98, 15.16, 15.08, 14.85, 14.26, 15.47, 16.08, 16.05, 16.64, 16.85, 16.87, 16.84, 17.06, 17.41, 17.35, 17.26, 17.17, 17.16, 16.99, 17.11, 16.98, 16.87, 16.5, 16.74, 16.53, 16.51, 16.48, 16.34, 17.39, 17.51, 17.42, 17.39, 17.23, 16.98, 16.95, 16.58, 17.92, 18.22, 18.16, 18.29, 18.52, 18.38, 18.34, 18.24, 18.93, 18.99, 18.47, 18.59, 18.92, 19.09, 19.03, 18.98, 18.67, 18.48, 18.17, 18.25, 18.16, 17.43, 16.9, 17.05, 16.95, 16.91, 16.29, 15.47, 15.7, 16.24, 15.86, 15.81, 15.67, 15.32, 15.89, 15.9, 16.64, 16.38, 15.79, 15.15, 16.26, 16.44, 16.27, 15.34, 15.51, 15.29, 15.38, 15.19, 15.13, 14.87, 15.31, 15.3, 15.22, 15.0, 14.75, 14.57, 14.7, 14.38, 14.36, 16.49, 15.75, 15.73, 15.82, 15.87, 15.58, 15.58, 15.67, 15.74, 15.6, 15.61, 15.84, 15.8, 15.81, 15.85, 15.59, 15.14, 15.14, 15.02, 11.7, 11.12, 11.24, 11.73, 11.59, 11.37, 11.51, 11.59, 11.2, 11.36, 11.6, 11.78, 11.89, 11.69, 11.92, 12.45, 12.29, 12.55, 12.55, 12.28, 12.62, 12.75, 12.92, 13.28, 12.68, 12.96, 13.05, 12.81, 12.98, 12.9, 13.02, 12.87, 13.04, 12.77, 12.64, 12.58, 12.84, 13.1, 13.17, 13.02, 13.3, 13.13, 13.45, 13.53, 13.28, 13.09, 13.04, 13.59, 13.81, 13.92, 14.0, 13.83, 13.61, 13.53]
+    },
+    "AKRX":
+    {
+        "description": "Akorn, Inc. operates as a niche pharmaceutical company that develops, manufactures and markets generic and prescription pharmaceuticals, as well as, animal and consumer health products. It operates through the Prescription Pharmaceuticals and Consumer Health segments. The Prescription Pharmaceuticals segment engages in the sales of generic and branded prescription pharmaceuticals including ophthalmics, injectables, oral liquids, otics, topicals, inhalants, and nasal sprays. The Consumer Health segment engages in the sales of animal health and over-the-counter products, both branded and private label. The company was founded in 1971 and is headquartered in Lake Forest, IL.",
+        "market_cap": 2406218000,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Rajat Rai",
+        "headquarters_city": "Lake Forest",
+        "headquarters_state": "Illinois",
+        "sector": "Health Technology",
+        "num_employees": 2308,
+        "year_founded": 1971,
+        "name": "Akorn, Inc.",
+        "prices": [33.63, 33.65, 33.7, 33.7, 33.64, 33.65, 33.6, 33.62, 33.65, 33.63, 33.6, 33.63, 33.62, 33.45, 33.48, 33.45, 33.47, 33.47, 33.4, 33.36, 33.32, 33.31, 33.34, 33.34, 33.3, 32.6, 31.98, 32.61, 32.52, 32.32, 32.36, 32.5, 32.49, 32.62, 32.83, 32.9, 32.94, 32.97, 32.96, 32.99, 33.11, 33.17, 33.23, 33.15, 32.97, 33.1, 33.02, 33.1, 33.15, 33.14, 33.06, 33.11, 33.12, 33.15, 33.17, 33.19, 33.17, 32.68, 32.9, 32.79, 32.83, 32.86, 32.94, 32.95, 33.16, 33.22, 33.21, 33.25, 33.18, 33.15, 33.28, 33.29, 33.26, 33.22, 32.84, 32.52, 32.44, 32.57, 32.54, 33.25, 33.15, 33.26, 33.27, 33.24, 33.15, 33.21, 33.31, 33.37, 33.44, 33.48, 33.4, 33.4, 32.3, 32.37, 32.61, 32.64, 32.45, 32.53, 32.55, 32.9, 32.76, 32.8, 32.69, 32.49, 32.92, 32.64, 32.2, 32.22, 32.2, 32.36, 32.31, 32.37, 32.36, 32.04, 32.08, 31.95, 31.85, 31.84, 32.23, 32.67, 32.7, 32.45, 32.46, 32.72, 33.37, 33.51, 33.56, 33.55, 33.42, 33.15, 33.06, 33.01, 33.09, 33.16, 32.93, 32.59, 32.47, 32.29, 32.24, 32.22, 32.57, 32.33, 32.0, 31.98, 31.75, 31.19, 32.12, 31.9, 31.33, 31.3, 31.95, 31.85, 31.59, 31.38, 30.73, 30.12, 30.28, 18.65, 16.94, 17.84, 18.97, 17.93, 18.41, 18.28, 18.59, 18.98, 18.97, 18.96, 18.77, 18.77, 18.78, 18.74, 18.78, 18.6, 18.52, 18.38, 18.72, 19.1, 18.74, 18.71, 18.64, 19.07, 19.46, 18.97, 18.39, 18.05, 18.41, 18.24, 18.22, 18.43, 18.69, 18.97, 19.33, 19.38, 19.7, 13.05, 13.24, 13.53, 13.6, 14.54, 14.43, 14.76, 12.55, 11.57, 11.74, 12.13, 12.65, 12.81, 13.61, 14.03, 14.25, 14.16, 14.04, 14.24, 13.98, 14.04, 13.73, 13.7, 14.0, 14.07, 14.33, 14.34, 13.97, 13.79, 13.75, 14.2, 14.45, 14.45, 14.6, 14.75, 14.57, 14.87, 15.04, 15.42, 15.21, 15.9, 15.62, 15.76, 16.03, 15.65, 16.0, 15.77, 16.29, 16.59, 16.81, 17.11, 17.53, 18.07, 18.58, 17.97, 17.82, 19.21]
+    },
+    "MNRO":
+    {
+        "description": "Monro, Inc. engages in the operation of chain stores that provides automotive undercar repair and tire services. The company offers services for brake systems, steering and suspension systems, tires, exhaust systems and many vehicle maintenance services and certain locations specialize in providing commercial tire and maintenance services. It operates under the brand names: Monro Muffler Brake & Service, Tread Quarters Discount Tire, Mr. Tire, Autotire Car Care Center, Tire Warehouse, Tire Barn Warehouse, Ken Towery's Tire & Auto Care, The Tire Choice, Car-X, and McGee Tire. The company was founded by Charles J. August in 1957 and is headquartered in Rochester, NY.",
+        "market_cap": 2017795800,
+        "pe_ratio": "33.828125",
+        "dividend": "1.343300",
+        "ceo": "Brett T. Ponton",
+        "headquarters_city": "Rochester",
+        "headquarters_state": "New York",
+        "sector": "Retail Trade",
+        "num_employees": 7878,
+        "year_founded": 1957,
+        "name": "Monro Muffler Brake Inc.",
+        "prices": [41.18, 41.18, 41.23, 41.23, 41.97, 44.64, 47.86, 45.88, 45.93, 46.82, 45.78, 45.33, 46.13, 46.67, 46.77, 46.23, 46.92, 47.27, 46.77, 47.27, 46.03, 46.03, 46.37, 44.44, 44.64, 44.05, 43.85, 44.64, 45.53, 44.89, 45.33, 46.03, 46.47, 45.83, 46.37, 47.22, 48.11, 48.26, 48.35, 48.8, 48.5, 48.5, 49.44, 49.49, 49.74, 50.23, 50.33, 49.79, 50.83, 50.33, 51.82, 53.5, 54.1, 54.14, 54.84, 55.48, 56.62, 56.27, 56.47, 56.47, 55.93, 54.74, 54.14, 53.06, 51.22, 52.02, 52.31, 52.91, 53.11, 51.77, 50.68, 49.64, 49.64, 47.86, 49.0, 49.05, 49.39, 48.85, 48.21, 48.55, 48.06, 48.01, 47.76, 47.78, 47.76, 47.66, 47.27, 47.51, 47.56, 48.11, 47.96, 48.35, 48.26, 47.96, 48.16, 48.16, 48.4, 50.38, 49.94, 49.79, 51.62, 51.87, 51.92, 52.46, 53.7, 52.79, 52.14, 52.88, 50.7, 51.99, 57.2, 55.86, 56.96, 57.85, 58.15, 57.85, 57.06, 57.2, 56.56, 58.05, 58.25, 57.25, 59.84, 59.64, 59.09, 58.4, 58.45, 59.64, 59.49, 59.19, 58.65, 60.38, 61.33, 61.77, 62.22, 63.06, 63.66, 60.43, 56.78, 56.11, 55.47, 54.57, 51.74, 54.28, 54.23, 52.88, 51.79, 51.84, 51.74, 53.03, 54.18, 53.93, 52.49, 51.4, 51.59, 52.74, 51.64, 49.95, 50.55, 50.65, 51.74, 51.84, 53.43, 52.88, 52.14, 54.18, 53.93, 54.47, 54.08, 54.01, 54.06, 54.06, 52.81, 54.03, 51.81, 51.02, 53.61, 51.91, 52.06, 53.41, 52.56, 52.96, 55.65, 56.9, 55.35, 54.9, 56.55, 56.85, 57.3, 56.65, 52.76, 54.26, 54.26, 53.61, 53.36, 54.31, 54.46, 55.0, 54.8, 55.75, 55.75, 55.55, 55.1, 55.0, 55.6, 57.34, 56.95, 52.51, 52.46, 54.01, 55.0, 55.45, 56.45, 56.65, 55.9, 56.75, 51.96, 53.46, 54.65, 55.65, 55.05, 56.6, 55.9, 55.25, 55.65, 57.45, 58.25, 57.85, 58.35, 59.3, 58.95, 58.85, 58.85, 58.65, 59.05, 61.05, 61.45, 61.5, 60.55, 58.45, 59.9, 59.35, 60.25, 58.1, 58.25, 59.05, 60.4, 62.3, 63.2, 61.6, 60.8, 61.45]
+    },
+    "PEGI":
+    {
+        "description": "Pattern Energy Group, Inc. is an independent power company, which owns and operates wind and solar power facilities sales contracts. It operates through the following geographical segments: United States, Canada, and Chile. The company was founded on October 2, 2012 and is headquartered in San Francisco, CA.",
+        "market_cap": 1829504600,
+        "pe_ratio": "16.132075",
+        "dividend": "7.788500",
+        "ceo": "Mike M. Garland",
+        "headquarters_city": "San Francisco",
+        "headquarters_state": "California",
+        "sector": "Utilities",
+        "num_employees": 210,
+        "year_founded": 2012,
+        "name": "Pattern Energy Group Inc",
+        "prices": [21.91, 22.05, 22.34, 22.4, 22.7, 22.72, 22.8, 22.97, 22.97, 23.14, 23.15, 23.19, 23.12, 23.23, 23.12, 23.08, 23.21, 22.83, 22.13, 21.56, 21.72, 21.98, 22.23, 22.24, 22.22, 21.89, 22.52, 22.6, 22.84, 22.93, 22.94, 22.71, 22.75, 22.99, 22.88, 23.14, 23.1, 23.26, 23.31, 23.36, 23.43, 23.67, 23.66, 23.85, 24.09, 24.23, 24.22, 24.23, 24.21, 24.25, 23.86, 23.52, 23.69, 23.43, 23.54, 22.57, 22.83, 22.78, 22.61, 22.58, 22.65, 22.69, 23.06, 22.69, 22.88, 23.13, 22.71, 22.98, 22.98, 22.18, 22.21, 21.57, 21.94, 21.23, 21.33, 21.58, 21.43, 21.61, 21.6, 20.74, 21.27, 21.2, 20.9, 20.88, 20.2, 19.58, 19.48, 19.76, 20.08, 20.6, 20.73, 20.38, 20.36, 20.38, 20.62, 20.61, 21.06, 20.9, 21.11, 20.53, 19.77, 19.8, 19.71, 19.98, 20.05, 20.05, 19.73, 20.05, 20.47, 20.19, 20.14, 20.21, 20.37, 20.23, 20.41, 20.4, 20.65, 20.61, 20.52, 20.81, 20.57, 20.58, 20.47, 20.65, 20.48, 20.38, 20.44, 20.53, 20.2, 20.18, 20.22, 20.42, 20.65, 20.9, 20.61, 20.67, 20.45, 20.02, 19.7, 19.69, 19.55, 19.48, 18.64, 18.18, 17.87, 17.58, 17.89, 18.17, 17.65, 17.73, 18.25, 18.41, 17.98, 17.94, 17.98, 18.06, 17.99, 18.2, 17.73, 16.27, 16.19, 16.41, 16.28, 16.65, 16.89, 17.13, 17.54, 17.65, 17.71, 17.47, 17.38, 17.47, 17.44, 17.38, 17.33, 17.16, 17.45, 17.2, 17.09, 16.91, 16.74, 16.7, 16.98, 17.18, 16.78, 17.26, 17.3, 17.34, 17.18, 17.02, 17.2, 17.39, 17.41, 17.34, 17.5, 17.49, 17.47, 17.51, 17.83, 17.77, 17.78, 17.74, 17.82, 17.46, 17.53, 17.77, 17.58, 17.49, 18.18, 17.85, 17.84, 17.81, 17.72, 17.06, 17.2, 17.26, 17.46, 17.68, 17.75, 17.99, 18.13, 18.19, 18.17, 18.03, 18.1, 18.05, 17.74, 17.94, 17.85, 17.68, 18.29, 18.36, 18.62, 18.92, 18.76, 19.04, 18.72, 18.4, 18.62, 18.96, 18.78, 18.6, 18.56, 18.75, 18.6, 18.59, 18.95, 19.1, 18.97, 19.05, 19.33, 18.65]
+    },
+    "SBCF":
+    {
+        "description": "Seacoast Banking Corp. of Florida is a bank holding company of Seacoast National Bank, which engages in the provision of financial services. It offers commercial and retail banking, wealth management, treasury management solutions, mobile banking, and mortgage services to. The company was founded in 1983 and is headquartered in Stuart, FL.",
+        "market_cap": 1514267400,
+        "pe_ratio": "27.250000",
+        "dividend": "0.000000",
+        "ceo": "Dennis S. Hudson, III",
+        "headquarters_city": "Stuart",
+        "headquarters_state": "Florida",
+        "sector": "Finance",
+        "num_employees": 805,
+        "year_founded": 1983,
+        "name": "Seacoast Banking Corp. of Florida",
+        "prices": [23.94, 23.82, 23.84, 23.85, 23.65, 23.63, 23.43, 23.75, 24.24, 24.11, 24.36, 23.55, 23.37, 23.64, 23.72, 23.88, 24.1, 24.0, 23.98, 23.6, 22.47, 22.0, 23.09, 23.04, 23.04, 22.71, 22.4, 22.29, 22.52, 22.64, 22.83, 23.11, 22.85, 22.63, 22.8, 22.87, 22.9, 22.11, 21.89, 20.79, 20.97, 21.87, 22.18, 22.19, 21.77, 21.69, 22.08, 22.33, 22.68, 22.98, 23.07, 23.21, 23.17, 23.66, 24.02, 23.89, 24.21, 24.25, 24.07, 24.36, 24.34, 24.36, 24.45, 24.43, 24.27, 23.98, 24.33, 24.19, 24.57, 24.47, 24.92, 24.62, 24.7, 24.51, 24.64, 25.32, 24.63, 24.79, 24.69, 25.0, 24.31, 24.73, 24.23, 24.18, 24.02, 24.17, 24.55, 24.61, 24.5, 24.75, 25.04, 25.38, 25.51, 25.33, 24.99, 24.94, 25.7, 26.48, 26.03, 26.15, 26.46, 25.92, 25.96, 25.87, 25.73, 25.31, 25.52, 25.46, 25.07, 25.95, 26.01, 26.0, 25.75, 25.92, 25.64, 25.41, 25.42, 25.53, 25.21, 24.9, 24.84, 25.02, 25.3, 25.57, 25.66, 25.89, 27.12, 26.82, 26.28, 26.6, 26.36, 26.97, 26.81, 26.52, 26.28, 26.08, 26.07, 26.17, 26.15, 25.79, 25.96, 25.5, 24.57, 25.0, 25.05, 24.24, 24.61, 24.54, 24.66, 25.3, 27.04, 27.27, 27.23, 27.46, 27.25, 27.26, 27.19, 26.76, 26.22, 26.12, 26.63, 27.18, 27.64, 27.69, 27.67, 28.38, 27.8, 27.71, 27.51, 27.88, 28.05, 28.07, 27.59, 27.66, 26.89, 25.98, 26.72, 26.18, 26.53, 26.47, 25.96, 26.39, 26.84, 27.2, 26.47, 26.29, 26.81, 26.76, 27.13, 26.81, 27.02, 26.78, 26.81, 27.26, 27.61, 27.73, 27.96, 27.85, 27.7, 27.84, 27.63, 27.48, 27.13, 27.05, 27.54, 27.76, 28.27, 28.78, 28.93, 29.17, 29.14, 29.69, 30.17, 30.58, 30.63, 31.06, 31.59, 31.7, 31.77, 31.66, 30.66, 31.36, 31.18, 31.54, 31.74, 31.56, 32.0, 31.9, 32.02, 31.7, 32.62, 32.85, 32.54, 32.47, 32.64, 32.93, 33.02, 33.27, 32.99, 32.59, 32.74, 31.72, 31.93, 31.58, 31.95, 32.16, 32.04, 32.13, 32.99, 32.64, 32.38, 32.23]
+    },
+    "SGMO":
+    {
+        "description": "Sangamo Therapeutics, Inc. researches and develops transcription factors in the regulation of genes. It focuses on the research, development and commercialization of engineered DNA-binding proteins for therapeutic genome editing and gene regulation technology platform is enabled by the engineering of a class of transcription factors known as zinc finger DNA-binding proteins. The company was founded by Edward O. Lanphier II on June 22, 1995 and is headquartered in Richmond, CA.",
+        "market_cap": 1331730500,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Alexander Macrae",
+        "headquarters_city": "Richmond",
+        "headquarters_state": "California",
+        "sector": "Health Technology",
+        "num_employees": 182,
+        "year_founded": 1995,
+        "name": "Sangamo Biosciences Inc.",
+        "prices": [9.5, 10.1, 9.4, 9.25, 9.4, 9.55, 9.5, 9.45, 9.45, 9.35, 8.8, 8.9, 8.6, 8.45, 8.4, 8.4, 8.65, 8.7, 8.7, 8.45, 9.5, 10.25, 11.6, 11.2, 10.6, 10.25, 9.9, 9.9, 10.25, 10.45, 10.65, 10.7, 11.5, 12.8, 12.85, 13.35, 14.25, 13.55, 12.95, 13.6, 13.45, 13.3, 13.05, 13.4, 13.95, 14.15, 14.75, 14.45, 14.35, 14.3, 13.75, 13.5, 12.9, 13.75, 14.35, 15.0, 16.2, 16.75, 17.0, 16.65, 15.95, 15.85, 15.9, 16.15, 15.9, 14.95, 14.85, 14.5, 14.15, 13.95, 13.45, 13.6, 13.35, 12.6, 12.03, 12.4, 12.6, 12.4, 11.6, 12.1, 12.1, 12.15, 11.65, 11.95, 12.3, 13.45, 12.9, 12.9, 14.65, 14.6, 14.62, 14.7, 15.1, 15.0, 14.75, 14.4, 14.45, 14.45, 16.2, 16.55, 16.65, 16.45, 16.35, 17.2, 16.9, 15.85, 16.1, 16.5, 16.4, 16.35, 15.8, 15.95, 15.95, 16.4, 16.9, 16.95, 17.35, 17.05, 16.4, 17.55, 17.4, 17.85, 17.2, 16.7, 16.9, 17.4, 17.15, 18.3, 17.3, 17.5, 17.5, 17.75, 19.4, 20.0, 20.05, 20.85, 20.9, 21.3, 20.95, 20.85, 21.2, 19.65, 18.8, 19.65, 22.1, 20.0, 19.6, 20.55, 20.55, 22.55, 23.0, 23.3, 22.25, 22.2, 25.4, 24.95, 24.95, 23.45, 23.95, 23.5, 24.25, 24.25, 25.4, 25.8, 25.5, 26.35, 26.0, 26.0, 25.6, 24.25, 23.5, 23.1, 24.1, 23.4, 22.15, 21.75, 22.55, 19.0, 19.73, 19.0, 17.7, 17.8, 18.9, 17.5, 16.95, 17.8, 18.85, 19.1, 19.6, 19.8, 17.9, 19.52, 19.45, 19.2, 19.05, 18.15, 17.8, 17.3, 16.25, 16.75, 15.8, 16.35, 17.1, 16.25, 16.35, 16.25, 14.65, 15.3, 14.6, 15.35, 15.7, 15.05, 16.1, 16.1, 15.95, 15.5, 15.65, 16.0, 16.3, 15.6, 15.45, 15.95, 16.45, 16.6, 16.2, 16.75, 16.55, 16.45, 16.5, 15.65, 15.85, 15.55, 15.7, 15.7, 15.95, 16.45, 18.05, 16.12, 16.5, 15.6, 15.65, 14.0, 13.9, 14.2, 15.15, 15.3, 15.5, 15.95, 15.95, 15.7, 15.55, 15.3]
+    },
+    "CYS":
+    {
+        "description": "CYS Investments, Inc. is a finance company, which seeks in achieving consistent risk-adjusted income. It invests in residential mortgage backed securities. The company was founded by Kevin E. Grant on January 3, 2006 and is headquartered in Waltham, MA.",
+        "market_cap": 1176498200,
+        "pe_ratio": "59.215686",
+        "dividend": "12.453300",
+        "ceo": "Kevin E. Grant",
+        "headquarters_city": "Waltham",
+        "headquarters_state": "Massachusetts",
+        "sector": "Finance",
+        "num_employees": 16,
+        "year_founded": 2006,
+        "name": "Cypress Sharpridge Investments, Inc.",
+        "prices": [7.42, 7.48, 7.47, 7.36, 7.42, 7.4, 7.47, 7.47, 7.41, 7.44, 7.45, 7.45, 7.53, 7.62, 7.62, 7.62, 7.61, 7.69, 7.7, 7.71, 7.7, 7.71, 7.77, 7.7, 7.7, 7.7, 7.72, 7.73, 7.74, 7.72, 7.76, 7.76, 7.76, 7.72, 7.7, 7.78, 7.81, 7.7, 7.71, 7.76, 7.76, 7.79, 7.77, 7.71, 7.75, 7.77, 7.74, 7.74, 7.74, 7.72, 7.8, 7.84, 7.93, 7.9, 7.87, 7.87, 7.93, 7.93, 7.92, 7.92, 7.8, 7.85, 7.79, 7.83, 7.83, 7.89, 7.93, 7.92, 7.94, 7.92, 7.88, 7.76, 7.7, 7.57, 7.36, 7.48, 7.41, 7.28, 7.35, 7.27, 7.26, 7.18, 7.2, 7.28, 7.27, 7.18, 7.25, 7.31, 7.26, 7.27, 7.33, 7.42, 7.5, 7.59, 7.51, 7.51, 7.51, 7.49, 7.37, 7.41, 7.52, 7.49, 7.49, 7.55, 7.52, 7.53, 7.54, 7.59, 7.59, 7.69, 7.61, 7.39, 7.46, 7.52, 7.49, 7.57, 7.6, 7.67, 7.54, 7.45, 7.33, 7.35, 7.38, 7.41, 7.34, 7.28, 7.32, 7.22, 7.14, 7.16, 7.04, 7.03, 6.99, 7.02, 6.96, 6.88, 6.75, 6.49, 6.45, 6.33, 6.24, 6.1, 6.0, 6.1, 6.03, 6.0, 5.98, 6.11, 6.16, 6.22, 6.21, 6.29, 6.14, 6.06, 6.08, 6.21, 6.2, 6.01, 5.94, 5.98, 6.03, 6.08, 6.06, 6.04, 6.06, 6.1, 6.21, 6.32, 6.36, 6.31, 6.41, 6.29, 6.3, 6.31, 6.33, 6.28, 6.37, 6.42, 6.47, 6.53, 6.51, 6.56, 6.57, 6.56, 6.59, 6.59, 6.55, 6.54, 6.45, 6.42, 6.43, 6.48, 6.47, 6.41, 6.4, 6.4, 6.43, 6.43, 7.07, 7.05, 6.96, 6.99, 6.96, 7.03, 7.12, 7.2, 7.04, 7.11, 7.13, 7.11, 7.08, 7.02, 6.97, 6.93, 6.94, 7.11, 7.08, 7.11, 7.07, 7.07, 7.15, 7.22, 7.11, 7.1, 7.16, 7.08, 7.01, 7.05, 7.07, 7.12, 7.13, 7.08, 7.18, 7.14, 7.25, 7.32, 7.4, 7.51, 7.52, 7.52, 7.51, 7.44, 7.59, 7.5, 7.45, 7.59, 7.65, 7.61, 7.63, 7.59, 7.65, 7.57]
+    },
+    "GLUU":
+    {
+        "description": "Glu Mobile, Inc. designs, markets and sells mobile games. It specializes in free-to-play mobile games designed to a section of users who download and make purchases games through direct-to-consumer digital storefronts, such as the Apple App Store, Google Play Store, Amazon Appstore and others. It operates through the following geographical segments: United States of America, Americas excluding United States of America; Europe, the Middle East, and Africa; and Asia Pacific. The company was founded by Paul Zuzelo in May 2001 and is headquartered in San Francisco, CA.",
+        "market_cap": 882613300,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Nick Earl",
+        "headquarters_city": "San Francisco",
+        "headquarters_state": "California",
+        "sector": "Technology Services",
+        "num_employees": 546,
+        "year_founded": 2001,
+        "name": "Glu Mobile, Inc.",
+        "prices": [2.57, 2.57, 2.58, 2.59, 2.64, 2.62, 2.74, 2.76, 2.76, 2.83, 2.75, 2.74, 2.73, 2.74, 2.89, 3.02, 3.06, 3.09, 3.13, 3.1, 3.02, 3.08, 3.1, 3.09, 3.11, 3.06, 3.2, 3.27, 3.43, 3.42, 3.4, 3.37, 3.43, 3.5, 3.53, 3.64, 3.64, 3.43, 3.42, 3.5, 3.44, 3.51, 3.56, 3.55, 3.59, 3.68, 3.78, 3.74, 3.78, 3.59, 3.65, 3.54, 3.54, 3.67, 3.69, 3.76, 3.78, 3.77, 3.7, 3.71, 3.76, 3.65, 3.59, 3.8, 4.17, 4.33, 4.42, 4.63, 4.34, 4.37, 4.43, 4.28, 4.18, 3.96, 3.73, 3.89, 3.93, 4.01, 3.89, 3.85, 3.77, 3.71, 3.63, 3.92, 3.86, 3.9, 3.98, 3.97, 3.87, 4.09, 4.1, 4.28, 4.27, 4.37, 4.31, 4.31, 4.26, 3.97, 3.91, 4.01, 3.91, 4.09, 4.21, 4.3, 4.17, 4.68, 4.56, 4.64, 4.52, 4.45, 4.06, 3.56, 3.66, 3.65, 3.62, 3.64, 3.7, 3.65, 3.64, 3.63, 3.65, 3.67, 3.81, 3.8, 3.62, 3.68, 3.8, 3.77, 3.69, 3.82, 3.83, 3.8, 3.76, 3.74, 3.73, 3.71, 3.73, 3.68, 3.65, 3.74, 3.8, 3.6, 3.48, 3.55, 3.46, 3.42, 3.25, 3.67, 3.81, 3.79, 3.99, 3.84, 3.77, 3.8, 3.76, 3.74, 3.88, 3.79, 3.71, 3.74, 3.8, 3.83, 3.83, 3.93, 4.0, 4.02, 3.99, 3.84, 3.84, 3.79, 3.8, 3.79, 3.83, 3.86, 3.86, 3.72, 3.86, 3.78, 3.7, 3.77, 3.67, 3.68, 3.7, 3.71, 3.66, 3.68, 3.78, 3.79, 3.87, 3.98, 4.17, 4.29, 4.25, 4.28, 4.3, 4.28, 4.25, 4.2, 4.33, 4.35, 4.38, 4.39, 4.74, 4.99, 5.32, 5.25, 5.26, 5.49, 5.39, 5.43, 5.47, 5.52, 5.58, 5.71, 5.76, 5.5, 5.54, 5.55, 5.59, 5.57, 5.49, 5.64, 5.64, 5.77, 5.87, 5.95, 5.6, 5.67, 5.62, 5.51, 5.87, 6.16, 6.23, 6.42, 6.47, 6.44, 6.56, 6.67, 6.56, 6.36, 6.52, 6.32, 6.48, 6.41, 6.5, 6.4, 6.38, 6.57, 6.31, 6.2, 6.25, 6.32]
+    },
+    "VSTO":
+    {
+        "description": "Vista Outdoor, Inc. engages in the design, manufacture, and marketing of consumer products in the outdoor sports and recreation markets. It operates through the Shooting Sports and Outdoor Product segments. The Shooting Sports segment involves in designs, develops, produces, and sources ammunition and firearms for the hunting and sport shooting enthusiast markets. The Outdoor Product segment includes archery/hunting accessories, global eyewear and sport protection, golf, hydration products, optics, shooting accessories, tactical products, and water sports. The company was founded on August 13, 2014 and is headquartered in Clearfield, UT.",
+        "market_cap": 815388500,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Christopher T. Metz",
+        "headquarters_city": "Farmington",
+        "headquarters_state": "Utah",
+        "sector": "Consumer Durables",
+        "num_employees": 5700,
+        "year_founded": 2014,
+        "name": "Vista Outdoor Inc",
+        "prices": [22.78, 22.93, 23.07, 22.63, 22.86, 23.03, 22.62, 22.45, 22.66, 22.96, 23.39, 23.13, 23.09, 23.57, 23.45, 22.24, 22.51, 22.38, 22.34, 22.34, 21.86, 23.37, 24.3, 23.55, 24.0, 23.68, 23.15, 23.15, 22.59, 21.81, 22.06, 22.29, 22.33, 22.01, 20.89, 20.5, 20.5, 20.49, 20.9, 21.21, 20.49, 20.65, 21.42, 21.68, 22.01, 22.65, 22.3, 23.0, 22.51, 22.8, 23.12, 23.17, 22.99, 23.38, 23.02, 22.94, 23.5, 23.15, 22.47, 22.6, 21.75, 21.67, 21.19, 20.72, 21.14, 20.88, 20.74, 20.95, 21.48, 21.74, 22.02, 21.88, 22.37, 22.39, 21.79, 21.61, 21.52, 20.91, 20.55, 19.8, 19.45, 19.24, 18.64, 18.43, 13.25, 13.28, 13.32, 13.68, 14.19, 14.21, 14.81, 14.07, 14.41, 14.19, 14.14, 14.13, 14.34, 14.53, 14.41, 13.99, 14.78, 14.88, 14.73, 14.97, 14.52, 14.06, 14.23, 14.68, 14.58, 14.77, 15.14, 15.04, 14.98, 15.21, 14.75, 14.8, 14.51, 14.76, 14.57, 15.1, 14.08, 14.58, 14.59, 14.39, 14.34, 14.52, 15.04, 15.11, 15.21, 15.14, 15.14, 15.49, 15.67, 15.63, 15.73, 15.16, 15.05, 14.96, 15.01, 15.15, 15.2, 15.02, 14.73, 14.89, 15.33, 17.12, 17.84, 18.19, 19.08, 19.62, 19.55, 19.94, 19.11, 18.85, 18.42, 18.15, 18.25, 17.99, 17.23, 17.17, 15.91, 16.43, 16.52, 16.31, 16.16, 15.96, 16.01, 16.06, 16.09, 16.03, 16.32, 16.23, 16.04, 16.43, 16.4, 16.54, 15.91, 15.95, 16.1, 16.32, 16.17, 16.94, 16.89, 17.13, 17.27, 17.04, 17.06, 17.31, 17.89, 17.9, 17.83, 18.02, 18.26, 17.67, 17.21, 17.13, 16.92, 17.0, 16.71, 16.68, 16.75, 14.56, 13.95, 13.35, 13.18, 13.04, 13.45, 13.57, 13.66, 13.82, 13.89, 13.91, 14.13, 14.09, 13.88, 13.91, 14.05, 14.47, 14.72, 15.26, 16.21, 16.75, 16.94, 16.44, 16.45, 16.7, 16.63, 16.66, 16.7, 16.83, 16.9, 16.6, 16.65, 16.79, 16.88, 16.98, 17.16, 16.61, 16.48, 16.45, 16.51, 16.24, 15.82, 15.49, 15.89, 15.83, 16.2, 16.58, 16.55, 16.48, 16.35, 16.02]
+    },
+    "SIGA":
+    {
+        "description": "SIGA Technologies, Inc. engages in the development and commercialization of solutions for serious unmet medical needs and biothreats. The company develops therapeutic solutions for lethal pathogens including smallpox, Ebola, dengue, Lassa fever, and other dangerous viruses. It offers an orally administered antiviral drug that targets orthopoxviruses under the TPOXX brand. The company was founded on December 28, 1995 and is headquartered in New York, NY.",
+        "market_cap": 493203400,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Phillip Louis Gomez",
+        "headquarters_city": "New York",
+        "headquarters_state": "New York",
+        "sector": "Health Technology",
+        "num_employees": 37,
+        "year_founded": 1995,
+        "name": "SIGA Technologies, Inc.",
+        "prices": [3.25, 3.14, 3.23, 3.23, 3.35, 3.27, 3.22, 3.1, 3.11, 3.09, 3.02, 3.05, 3.17, 3.16, 3.1, 3.04, 3.05, 3.04, 3.05, 3.05, 3.1, 3.08, 3.11, 3.12, 3.12, 3.12, 3.1, 3.05, 3.1, 3.04, 3.03, 3.04, 2.95, 3.0, 2.95, 3.03, 3.04, 3.04, 3.05, 3.2, 3.02, 3.0, 3.03, 3.02, 3.0, 2.99, 2.98, 3.0, 3.09, 3.11, 3.09, 3.19, 3.2, 3.17, 3.13, 3.17, 3.14, 3.18, 3.25, 3.4, 3.3, 3.25, 3.33, 3.37, 3.42, 4.0, 4.05, 4.11, 4.12, 4.19, 4.39, 4.93, 4.95, 4.93, 4.98, 4.94, 5.0, 4.8, 4.94, 4.92, 4.88, 4.65, 4.88, 4.78, 4.68, 4.6, 4.47, 4.52, 4.5, 4.4, 4.5, 4.46, 4.49, 4.89, 4.89, 4.8, 5.12, 4.99, 4.79, 4.85, 4.9, 4.9, 4.82, 4.83, 4.85, 4.99, 4.9, 4.96, 4.96, 4.97, 4.95, 4.91, 5.0, 4.95, 4.95, 4.9, 4.85, 4.9, 4.85, 4.8, 4.83, 4.95, 4.97, 4.85, 4.76, 4.85, 4.9, 4.96, 4.9, 4.81, 4.7, 4.77, 4.77, 4.78, 4.84, 4.75, 4.83, 4.84, 4.89, 5.03, 4.95, 5.0, 4.95, 4.92, 5.12, 5.1, 5.2, 5.25, 5.45, 5.93, 5.94, 5.95, 6.0, 5.99, 6.24, 6.43, 6.5, 6.65, 6.6, 6.4, 6.32, 6.43, 6.36, 6.39, 6.25, 5.98, 5.48, 5.0, 4.96, 5.29, 5.78, 5.87, 6.06, 6.0, 6.08, 5.91, 6.0, 6.03, 6.17, 6.13, 6.1, 6.2, 6.14, 6.28, 6.3, 6.35, 6.35, 6.24, 6.25, 6.27, 6.24, 6.2, 6.29, 6.22, 6.19, 6.15, 6.15, 6.11, 6.05, 5.97, 5.89, 5.89, 6.5, 6.5, 6.49, 6.4, 6.27, 6.05, 5.98, 6.47, 6.56, 6.73, 6.65, 6.62, 6.72, 6.62, 6.53, 6.37, 6.42, 6.11, 6.18, 6.52, 6.71, 6.94, 6.97, 6.94, 7.14, 7.17, 6.94, 7.08, 7.02, 7.29, 7.24, 7.08, 7.17, 7.05, 7.09, 6.71, 6.9, 6.5, 6.31, 6.14, 6.0, 5.94, 6.09, 6.03, 6.24, 6.37, 6.34, 6.51, 6.29, 6.24]
+    },
+    "LOOP":
+    {
+        "description": "Loop Industries, Inc. engages in the manufacture of purified terephthalic acid and ethylene glycol. It produces chemicals for the polyethylene terephthalate plastic which is found in beverage bottles, consumer packaging, and polyester fiber. The company was founded by Daniel Solomita and is headquartered in Terrebonne, Canada.",
+        "market_cap": 394174500,
+        "pe_ratio": null,
+        "dividend": null,
+        "ceo": "Daniel Solomita",
+        "headquarters_city": "Terrebonne",
+        "headquarters_state": "Qu\u00e9bec",
+        "sector": "Communications",
+        "num_employees": 28,
+        "year_founded": 2015,
+        "name": "Loop Industries Inc",
+        "prices": [14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 14.5, 15.25, 15.1, 14.85, 15.03, 15.0, 15.19, 14.66, 14.7, 14.73, 14.5, 14.3, 13.39, 13.5, 13.1, 12.5, 13.55, 13.08, 13.59, 12.75, 12.03, 12.85, 12.56, 13.24, 12.99, 13.0, 13.99, 14.22, 14.48, 14.77, 14.75, 14.75, 15.22, 15.87, 15.8, 18.0, 17.0, 16.55, 16.49, 16.3, 16.5, 16.6, 16.5, 16.62, 16.5, 16.47, 16.75, 16.64, 16.5, 16.49, 16.48, 16.21, 15.99, 15.3, 15.62, 15.64, 15.5, 15.4, 15.0, 14.9, 14.49, 14.5, 14.97, 14.99, 14.5, 13.95, 13.7, 12.99, 12.26, 12.68, 12.74, 12.5, 12.72, 12.76, 12.84, 13.0, 16.5, 15.47, 16.6, 17.45, 16.59, 16.06, 16.22, 15.72, 15.86, 15.45, 15.54, 15.9, 14.99, 14.5, 14.46, 14.59, 14.33, 14.44, 14.24, 13.46, 13.25, 14.08, 13.53, 13.25, 14.17, 14.05, 14.02, 14.1, 13.71, 13.82, 13.04, 12.77, 12.96, 13.08, 13.0, 12.87, 12.67, 12.4, 12.89, 12.98, 12.78, 12.11, 12.1, 12.31, 12.47, 11.83, 11.5, 12.05, 12.15, 11.64, 11.0, 11.25, 11.78, 11.72, 11.24, 11.24, 12.0, 12.32, 12.84, 12.04, 12.0, 11.55, 11.33, 11.32, 10.34, 10.42, 10.07, 10.61, 10.24, 10.25, 10.86, 10.53, 10.49, 10.83, 10.66, 10.99, 10.87, 10.89, 11.19, 11.29, 11.23, 11.22, 11.44, 11.52, 11.0, 11.66]
+    },
+    "UNG":
+    {
+        "description": "The United States Natural Gas Fund holds near-month futures contracts in natural gas and swaps on natural gas.",
+        "market_cap": 362219000,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "",
+        "headquarters_city": "",
+        "headquarters_state": "",
+        "sector": "Miscellaneous",
+        "num_employees": null,
+        "year_founded": null,
+        "name": "United States Natural Gas",
+        "prices": [26.52, 26.64, 27.04, 27.48, 27.48, 27.16, 26.48, 25.88, 26.32, 26.2, 26.56, 26.44, 25.28, 25.32, 25.2, 25.12, 25.0, 25.2, 25.24, 25.84, 26.76, 26.76, 26.6, 26.32, 25.96, 26.2, 26.04, 26.56, 26.36, 26.28, 26.48, 25.96, 26.28, 26.4, 26.08, 26.84, 27.16, 26.36, 26.68, 26.48, 25.76, 26.16, 26.64, 27.08, 27.28, 26.92, 27.84, 27.64, 27.4, 26.32, 26.24, 26.04, 26.12, 26.64, 26.32, 26.28, 25.52, 25.24, 25.56, 25.28, 25.0, 24.68, 25.08, 25.24, 26.0, 26.04, 25.76, 25.56, 25.36, 25.44, 25.48, 25.76, 25.88, 25.4, 25.04, 24.44, 24.52, 23.92, 23.88, 24.12, 24.48, 25.52, 25.88, 25.88, 26.36, 26.44, 25.84, 25.32, 25.32, 25.24, 25.6, 24.96, 24.8, 24.4, 23.36, 24.12, 24.92, 25.24, 24.2, 24.4, 23.68, 23.2, 23.12, 22.0, 22.12, 22.24, 21.44, 21.44, 21.36, 20.88, 21.68, 21.44, 20.92, 20.56, 21.0, 20.88, 21.56, 23.04, 23.32, 24.04, 23.64, 22.68, 22.08, 22.3, 23.3, 22.99, 24.4, 25.28, 24.6, 25.6, 25.19, 24.86, 24.85, 25.94, 25.72, 26.17, 26.77, 26.84, 26.77, 25.08, 24.35, 24.2, 23.24, 23.3, 22.8, 22.74, 22.03, 21.67, 22.0, 21.99, 21.87, 21.69, 22.18, 22.3, 22.14, 22.22, 22.39, 22.39, 22.26, 22.45, 22.58, 22.53, 22.95, 23.22, 22.92, 22.74, 23.21, 23.24, 22.82, 22.4, 22.48, 22.13, 22.29, 22.06, 21.88, 21.68, 22.03, 22.36, 22.3, 22.55, 22.04, 22.23, 22.33, 22.09, 22.24, 22.25, 21.94, 22.02, 22.19, 22.57, 22.69, 22.6, 22.61, 22.09, 22.56, 22.62, 22.91, 22.93, 23.05, 22.6, 22.56, 22.83, 22.48, 22.31, 22.15, 22.3, 22.33, 22.3, 22.88, 22.95, 23.13, 23.13, 22.95, 23.26, 23.19, 23.13, 23.72, 23.92, 24.02, 23.97, 23.47, 23.37, 23.89, 24.03, 23.67, 23.37, 23.45, 23.71, 23.49, 23.83, 23.79, 23.95, 24.02, 24.52, 24.0, 23.65, 24.03, 24.1, 23.87, 23.74, 23.83, 24.2, 23.93, 23.7, 23.23, 23.44, 22.96, 23.16, 22.96, 22.58, 22.9, 22.71]
+    },
+    "SKY":
+    {
+        "description": "Skyline Champion Corp. engages in the manufacture and retail of mobile homes and other manufactured housing. It builds homes under the following brands: Skyline Homes, Champion Home Builders, Athens Park Model RVs, Dutch Housing, Excel Homes, Homes of Merit, New Era, Redman Homes, Shore Park, Silvercrest, Titan Homes in the U.S. and Moduline and SRI Homes in western Canada. The company was founded on June 1, 2018 and is headquartered in Elkhart, IN.",
+        "market_cap": 274058000,
+        "pe_ratio": "34.357894",
+        "dividend": "0.000000",
+        "ceo": "Keith A. Anderson",
+        "headquarters_city": "Elkhart",
+        "headquarters_state": "Indiana",
+        "sector": "Consumer Durables",
+        "num_employees": 1300,
+        "year_founded": 2018,
+        "name": "Skyline Corp.",
+        "prices": [6.03, 5.98, 5.88, 5.74, 5.73, 5.74, 5.76, 5.61, 6.2, 7.21, 7.28, 7.27, 7.32, 7.46, 7.33, 7.02, 6.98, 7.03, 7.05, 7.1, 7.09, 7.28, 8.92, 9.09, 10.05, 10.77, 10.72, 10.47, 9.9, 9.77, 9.95, 9.85, 10.6, 10.8, 11.75, 11.7, 10.71, 10.95, 13.29, 12.28, 12.45, 11.91, 11.38, 12.16, 11.87, 11.77, 11.98, 11.1, 11.01, 11.15, 11.67, 11.0, 11.2, 11.82, 11.71, 11.85, 11.76, 11.37, 11.78, 12.23, 12.98, 12.73, 11.86, 11.29, 10.89, 10.72, 11.08, 11.14, 10.85, 11.37, 11.43, 12.32, 12.45, 12.2, 12.39, 12.69, 12.07, 12.24, 11.67, 12.18, 12.25, 12.39, 12.54, 11.64, 11.62, 11.77, 11.47, 11.37, 11.71, 11.87, 12.05, 11.85, 12.21, 12.15, 12.41, 11.88, 11.77, 11.78, 11.98, 12.33, 12.62, 12.73, 12.61, 12.57, 12.42, 12.41, 12.48, 12.71, 12.1, 12.29, 12.49, 12.09, 12.01, 12.49, 12.52, 12.64, 12.32, 12.38, 12.6, 12.35, 12.73, 12.58, 18.63, 21.57, 22.12, 20.96, 20.04, 20.76, 20.28, 20.71, 20.9, 21.15, 20.77, 21.05, 21.45, 23.8, 22.84, 22.45, 21.45, 21.66, 21.62, 21.33, 19.72, 20.51, 21.59, 20.87, 21.05, 20.91, 21.03, 21.06, 21.16, 20.99, 20.28, 20.55, 20.43, 20.75, 20.95, 20.83, 20.97, 20.69, 21.12, 21.65, 21.7, 23.04, 23.19, 23.28, 23.2, 22.81, 23.15, 23.04, 23.32, 23.04, 22.75, 23.04, 22.82, 22.55, 23.2, 21.57, 21.0, 21.57, 21.05, 22.2, 24.9, 25.19, 23.79, 23.8, 23.88, 23.78, 23.65, 25.24, 25.34, 25.48, 25.67, 24.41, 24.4, 25.44, 23.93, 24.57, 25.5, 24.88, 24.88, 25.51, 25.08, 25.19, 25.21, 25.78, 26.41, 26.24, 28.01, 28.42, 28.17, 27.53, 27.71, 28.65, 29.04, 31.83, 28.17, 28.66, 29.76, 29.45, 29.19, 29.48, 31.12, 33.39, 33.0, 32.06, 32.21, 31.23, 32.89, 32.35, 33.66, 32.08, 31.33, 32.93, 33.88, 33.31, 32.49, 31.02, 31.25, 33.31, 35.26, 34.42, 34.7, 35.04, 34.1, 33.35, 34.38, 33.49, 33.43, 33.23, 32.54, 32.66]
+    },
+    "BIOC":
+    {
+        "description": "Biocept, Inc. is an oncology laboratory service company, which focuses on the development and marketing of novel laboratory products in the detection of rare cells to include circulating tumor cells. It develops and commercializes proprietary circulating tumor cell and circulating tumor DNA tests utilizing a standard blood sample. The company utilizes cell enrichment and extraction technology for the detection and analysis of circulating tumor DNA tests. It also offers services to other laboratory testing providers, academic institutions, research organizations, biopharmaceutical companies and clinical trial support. Biocept was founded on May 12, 1997 and is headquartered in San Diego, CA.",
+        "market_cap": 14855000,
+        "pe_ratio": null,
+        "dividend": "0.000000",
+        "ceo": "Michael W. Nall",
+        "headquarters_city": "San Diego",
+        "headquarters_state": "California",
+        "sector": "Health Technology",
+        "num_employees": 95,
+        "year_founded": 1997,
+        "name": "Biocept",
+        "prices": [46.8, 45.6, 44.4, 43.5, 43.5, 43.2, 43.5, 42.9, 42.3, 42.0, 40.2, 41.7, 41.7, 39.9, 39.6, 39.15, 39.0, 42.0, 42.6, 41.7, 43.47, 37.5, 39.0, 37.5, 35.55, 36.3, 36.0, 35.4, 33.6, 34.5, 35.4, 35.1, 34.2, 35.1, 35.4, 36.6, 39.0, 39.3, 39.0, 39.6, 42.3, 41.7, 40.5, 39.3, 39.3, 39.0, 38.4, 37.8, 37.5, 36.6, 37.2, 36.9, 36.3, 35.4, 36.12, 36.9, 37.2, 36.9, 36.6, 38.7, 38.7, 36.9, 36.6, 37.8, 37.8, 37.8, 36.9, 35.7, 34.5, 33.3, 32.1, 30.3, 32.1, 30.93, 29.1, 29.1, 25.8, 26.4, 25.2, 24.0, 26.7, 26.38, 25.81, 25.65, 27.9, 22.98, 19.35, 19.14, 18.65, 20.34, 20.69, 19.18, 18.9, 18.52, 18.91, 19.8, 24.75, 22.35, 21.6, 21.0, 20.4, 34.5, 23.1, 22.38, 22.2, 21.0, 21.12, 21.15, 21.0, 21.33, 22.35, 21.87, 21.15, 22.2, 21.3, 20.97, 20.7, 21.45, 20.82, 21.0, 21.3, 21.73, 21.18, 21.3, 21.68, 21.6, 21.6, 21.84, 21.24, 20.92, 20.65, 19.95, 20.1, 18.06, 16.5, 14.46, 10.59, 10.47, 10.17, 10.11, 10.1, 10.81, 10.08, 9.75, 9.22, 8.77, 8.4, 8.75, 8.96, 9.0, 9.29, 9.02, 8.91, 8.59, 8.25, 8.52, 8.38, 8.58, 10.5, 9.53, 9.24, 9.64, 10.12, 9.83, 9.15, 9.42, 9.69, 9.89, 10.8, 10.35, 10.01, 9.51, 9.45, 9.24, 9.54, 10.3, 9.45, 9.56, 9.6, 8.85, 8.31, 7.2, 7.5, 7.91, 7.96, 8.09, 7.79, 7.92, 7.64, 7.52, 7.24, 7.5, 7.4, 7.29, 7.31, 7.3, 7.14, 6.88, 6.76, 6.72, 5.67, 6.06, 6.15, 6.08, 6.44, 6.51, 6.47, 6.47, 6.45, 6.59, 6.74, 6.6, 5.7, 6.0, 5.66, 5.46, 5.47, 5.41, 5.41, 5.51, 5.78, 5.83, 6.51, 6.3, 6.45, 7.05, 7.05, 6.89, 6.6, 6.75, 6.66, 7.57, 7.26, 7.77, 8.01, 7.8, 7.5, 6.84, 6.66, 6.55, 6.24, 5.82, 5.58, 6.0, 6.29, 6.22, 5.25, 5.4, 4.53, 3.68, 7.92, 6.55]
+    },
+    "OXLC":
+    {
+        "description": "Oxford Lane Capital Corp. is a closed-end management investment company, which engages in maximizing total return by investing in securitization vehicles which, in turn, invest in senior secured loans made to companies whose debt is rated below investment grade or is unrated. The company was founded on June 9, 2010 and is headquartered in Greenwich, CT.",
+        "market_cap": null,
+        "pe_ratio": "7.677669",
+        "dividend": null,
+        "ceo": "Jonathan H. Cohen",
+        "headquarters_city": "Greenwich",
+        "headquarters_state": "Connecticut",
+        "sector": "Miscellaneous",
+        "num_employees": null,
+        "year_founded": 2010,
+        "name": "Oxford Lane Capital Corp",
+        "prices": [8.99, 8.92, 8.89, 8.88, 8.97, 8.98, 8.99, 8.89, 8.91, 8.87, 8.9, 8.87, 8.91, 8.93, 8.88, 8.87, 8.93, 8.99, 9.05, 9.06, 8.99, 9.03, 9.06, 9.04, 9.13, 9.16, 9.18, 9.23, 9.24, 9.29, 9.27, 9.3, 9.34, 9.34, 9.34, 9.28, 9.32, 9.28, 9.28, 9.26, 9.27, 9.18, 9.15, 9.06, 9.2, 9.08, 9.05, 9.11, 9.03, 9.03, 9.03, 8.91, 8.95, 9.09, 9.14, 9.06, 9.28, 9.22, 9.35, 9.36, 9.44, 9.45, 9.53, 9.62, 9.66, 9.68, 9.67, 9.48, 9.63, 9.59, 9.59, 9.68, 9.67, 9.62, 9.66, 9.7, 9.7, 9.71, 9.72, 9.55, 9.47, 9.42, 8.98, 9.23, 9.13, 9.13, 9.12, 9.04, 8.91, 8.99, 9.01, 9.05, 9.03, 9.02, 8.98, 9.0, 8.99, 9.02, 8.96, 8.94, 8.96, 8.96, 8.95, 8.9, 8.92, 8.99, 8.97, 8.86, 9.02, 8.83, 8.48, 8.51, 8.59, 9.16, 8.93, 9.09, 9.31, 9.29, 9.3, 9.46, 9.71, 9.6, 9.28, 8.75, 9.22, 9.27, 9.4, 9.57, 9.55, 9.43, 9.42, 9.4, 9.48, 9.48, 9.48, 9.5, 9.47, 9.36, 9.44, 9.54, 9.63, 9.45, 9.26, 9.52, 9.68, 9.76, 9.58, 9.47, 9.56, 9.56, 9.55, 9.56, 9.54, 9.5, 9.55, 9.68, 9.62, 9.58, 9.55, 9.57, 9.57, 9.57, 9.59, 9.57, 9.57, 9.56, 9.59, 9.64, 9.64, 9.62, 9.64, 9.65, 9.64, 9.64, 9.65, 9.67, 9.74, 9.69, 9.76, 9.76, 9.84, 9.83, 9.89, 9.98, 9.99, 10.12, 10.05, 10.2, 10.15, 10.2, 10.33, 10.33, 10.47, 10.22, 10.33, 10.25, 10.29, 10.33, 10.45, 10.44, 10.47, 10.49, 10.64, 10.66, 10.62, 10.6, 10.64, 10.72, 10.75, 10.9, 10.93, 10.98, 10.95, 11.09, 11.28, 11.19, 11.1, 11.06, 10.95, 10.85, 10.58, 10.52, 10.4, 10.41, 10.57, 10.66, 10.55, 10.47, 10.46, 10.43, 10.48, 10.45, 10.37, 10.43, 10.47, 10.47, 10.44, 10.39, 10.36, 10.33, 10.34, 10.38, 10.4, 10.42, 10.56, 10.55, 10.51, 10.53, 10.55, 10.76, 10.85, 10.93]
+    }
+}

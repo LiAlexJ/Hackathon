@@ -47,14 +47,14 @@ function getTagFrequency(tickerList) {
 
 }
 //A B C D
-function getWeights(tickersList) {
+function getWeights1(tickersList) {
 	var weights = [];
 	for(var i = 0; i < tickersList.length; i++) {
 		weights.push(Math.random()*10);
 	}
 	return weights;
 }
-function getWeights1(tickersList) {
+function getWeights(tickersList) {
 	var weights = [];
 	var averageTickers = {};
 	var weightTickers = {};
@@ -62,18 +62,24 @@ function getWeights1(tickersList) {
 	//key = ticker, value = average monthly return
 	for(var i = 0; i < tickersList.length; i++) {
 		var priceInfo = companyInfo[tickersList[i]]["prices"];
+
 		var monthlyReturn = 0;
 		var x = priceInfo.length-1;
+		for(var j = 0; j < priceInfo.length; j++) {
+			if(isNaN(priceInfo[j]) || priceInfo[j] === 0){
+				priceInfo[j]=1;
+			}
+		}
 		for(var a = 0; a < 12; a++) {
-			monthlyReturn += (priceInfo[x]-(priceInfo[x-29])/priceInfo[x-29]);
-			x -= 30;
+			monthlyReturn += (parseFloat(priceInfo[x])-parseFloat(priceInfo[x-19]))/parseFloat(priceInfo[x-19]);
+			x -= 20;
 		}
 		var averageMonthlyReturn = monthlyReturn / 12;
 		if(averageMonthlyReturn < 0) {
-			averageTickers[tickerList[i]] = 0;
+			averageTickers[tickersList[i]] = 0;
 			sum += 0;
 		} else {
-			averageTickers[tickerList[i]] = averageMonthlyReturn;
+			averageTickers[tickersList[i]] = averageMonthlyReturn;
 			sum += averageMonthlyReturn;
 		}
 	}
@@ -87,19 +93,13 @@ function getWeights1(tickersList) {
 
 	for(var i = 0; i < tickersList.length; i++) {
 		if(weightTickers[tickersList[i]]) {
-			weight[i] = weightTickers[tickersList[i]];
+			weights[i] = weightTickers[tickersList[i]];
 		} else {
-			weight[i] = 0;
+			weights[i] = 0;
 		}
 
 	}
 
-	//have average return for each ticker
-	//sum all returns in the map
-
-	//each ticker's weight is own return / sum of everything
-
-	//go through tickersList again, set weights array using map
 	return weights;
 }
 

@@ -99,6 +99,7 @@ fetch(url)
               console.log(ts);
 
             const ctx = document.getElementById('myChart').getContext('2d');
+            /*var fillPattern = ctx.createPattern(new Image("https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com"), 'repeat');*/
             const data = {
             // Labels should be Date objects
                   labels: dates,
