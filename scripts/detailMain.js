@@ -149,7 +149,7 @@ fetch(url)
                       }
                   }
               }
-              ctx.canvas.height=120;
+              ctx.canvas.height = $(window).height() * 0.25;
             const chart = new Chart(ctx, options);
             $("#graph").append("<br>");
           });
