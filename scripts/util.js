@@ -13,7 +13,7 @@ function getTags(ticker) {
 			var companies = tags[tag];
 			if($.inArray(ticker, companies) != -1) {
 				companyTags.push(tag);
-			}				       
+			}
 		}
 	}
 	console.log(companyTags);
@@ -40,7 +40,7 @@ function getTagFrequency(tickerList) {
 				tagsMap[tag] = parseFloat(weight);
 			}
 		}
-		
+
 	}
 
 	return tagsMap;
@@ -65,7 +65,7 @@ function getWeights1(tickersList) {
 		var monthlyReturn = 0;
 		var x = priceInfo.length-1;
 		for(var a = 0; a < 12; a++) {
-			monthlyReturn += (priceInfo[x]-(priceInfo[x-29])/priceInfo[x-29];
+			monthlyReturn += (priceInfo[x]-(priceInfo[x-29])/priceInfo[x-29]);
 			x -= 30;
 		}
 		var averageMonthlyReturn = monthlyReturn / 12;
