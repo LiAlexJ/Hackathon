@@ -75,7 +75,9 @@ fetch(url)
             var employees = x['num_employees'];
             var ceo = x["ceo"];
 
-            $("#company").append("<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">");
+            var img = "<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">"
+
+            $("#company").append(img);
 
             $("#company").append("<div id=\"title\">" + name + "</div>");
             $("#company").append("</b><br>");
@@ -99,6 +101,7 @@ fetch(url)
               console.log(ts);
 
             const ctx = document.getElementById('myChart').getContext('2d');
+            /*var fillPattern = ctx.createPattern(new Image("https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com"), 'repeat');*/
             const data = {
             // Labels should be Date objects
                   labels: dates,
