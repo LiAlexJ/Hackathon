@@ -11,7 +11,6 @@ $(function() {
   }
 
   var weights = getWeights(tickers);
-  getAnalytics();
   var sum = 0;
   var percentSum = 0;
   for(var i = 0; i < weights.length; i++) {
@@ -29,6 +28,7 @@ $(function() {
 
  		}
 	}
+  getAnalytics(portfolioWeightsDataset);
 	var tagsFrequencyDataset = [];
 	var dataFreq = getTagFrequency(portfolioWeightsDataset);
 	for (var f in dataFreq) {

@@ -195,9 +195,8 @@ var statsIcons = {
 }
 
 var statsNames = {
-  "year-to-date": "Year To Date Return",
+  "year-to-date": "LTM Return",
   "risk": "Risk",
-  "volatility": "Volatility"
+  "volatility": "EPIC Score"
 
 }
-

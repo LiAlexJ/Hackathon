@@ -10,10 +10,6 @@ body{
 .img-wrap {
   position:relative;
 }
-#carousel {
-  border-style: none;
-  transition: all 0.5s ease;
-}
 
 .info {
   color:white;
@@ -28,11 +24,13 @@ body{
   text-align:center;
   transform: translateX(-50%) translateY(-50%);
 }
+
 .img-wrap:hover #carousel{
     transform: scale(1.2, 1.2);
     -webkit-filter: blur(3px) brightness(30%);
     transition: all 0.5 ease;
 }
+
 .img-wrap:hover .info {
     opacity:1;
     transition: all 0.5s ease;
@@ -50,8 +48,49 @@ body{
 }
 .container-fluid{
   display:flex;
+  align-items: flex-start;
+}
+.left-flex-container{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+.right-flex-container{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+.company-picture{
+  display:flex;
   justify-content: center;
   align-items: center;
+  width:100%;
+}
+.Company-info{
+  padding-left: 20px;
+  padding-right: 20px;
+  display:flex;
+  justify-content: left;
+  width:100%;
+}
+.info2{
+  display:flex;
+  width:50%;
+  align-items: center;
+}
+.about-company{
+  padding-left: 20px;
+  padding-right: 20px;
+  display:flex;
+  width:100%;
+}
+.live-chart{
+  display:flex;
+  height:80% !important;
+}
+.live-carousel{
+  display:flex;
+  height:50% !important;
 }
 .row1{
   height: 66.6%;
@@ -66,15 +105,13 @@ body{
   padding-bottom: 20px; */
 }
 #news{
+  margin-left: 20px;
+  padding-left: 20px;
   border-style: none;
   height: 100%;
 /*  border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
-}
-#about{
-  width: 100%;
-  height: 50%;
 }
 .graph{
   height: 40%;
@@ -87,12 +124,16 @@ body{
 #title{
   text-align: center;
 }
-#imageTitle{
-  display: inline-block;
-  margin-left: 10%;
+
+#carousel{
+  border-style: none;
+  transition: all 0.5s ease;
+  height:338px;
+  object-position: 50% 50%;
+  object-fit: cover;
 }
-#infoElse{
-  display: inline-block;
-  text-align: left;
-  margin-left: 20%;
+
+.carousel-indicators {
+  margin-left: 20px;
+  padding-left: 20px;
 }

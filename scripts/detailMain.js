@@ -83,13 +83,14 @@ fetch(url)
             var scap = moneyFormat((marketcap))
             $("#infoElse").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br>")
             $("#infoElse").append("<b>P/E Ratio</b>:&emsp;&emsp;&emsp;&emsp;" + parseFloat(pe).toFixed(2) + "<br>");
-            $("#infoElse").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector + "<br><br>")
-            $("#infoElse").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + ", " + state + "<br>")
-            $("#infoElse").append("<b>CEO:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</b>" + ceo + "<br>")
-            $("#infoElse").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
-            $("#infoElse").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
+            $("#infoElse").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector);
+
+            $("#infoElse2").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + ", " + state + "<br>")
+            $("#infoElse2").append("<b>CEO:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</b>" + ceo + "<br>")
+            $("#infoElse2").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
+            $("#infoElse2").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
             /*$("#comp-2").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")*/
-            $("#about").append("<br><br>" + desc + " ");
+            $("#about").append("<br>" + desc + " ");
 
             $.getJSON("https://api.robinhood.com/quotes/historicals/?symbols=" + symbol + "&interval=day", function(result2){
               var ts = result2['results'][0]['historicals'];
