@@ -25,6 +25,13 @@ body{
   text-align:center;
   transform: translateX(-50%) translateY(-50%);
 }
+
+.img-wrap:hover #carousel{
+    transform: scale(1.2, 1.2);
+    -webkit-filter: blur(3px) brightness(30%);
+    transition: all 0.5 ease;
+}
+
 .img-wrap:hover .info {
     opacity:1;
     transition: all 0.5s ease;
@@ -61,6 +68,8 @@ body{
   width:100%;
 }
 .Company-info{
+  padding-left: 20px;
+  padding-right: 20px;
   display:flex;
   justify-content: left;
   width:100%;
@@ -71,6 +80,8 @@ body{
   align-items: center;
 }
 .about-company{
+  padding-left: 20px;
+  padding-right: 20px;
   display:flex;
   width:100%;
 }
