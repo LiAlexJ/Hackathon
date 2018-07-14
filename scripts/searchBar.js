@@ -17,6 +17,7 @@
                     "Small Businesses",
                     "Sustainable Practices",
                     "Transparent Hiring Practices",
+                    "Trending",
                     "Veteran Friendly Workspace"
                 ];
 
