@@ -14,8 +14,12 @@ $(function() {
 		}  else {
 			$("#searchForm").attr("action", "results.html?tag=" + $("#searchBar").val());
 		}
-	}); 
+	});
 
+	$('.btn-outline-primary').click(function() {
+		var text = $(this).text();
+		$('#searchBar').val(text);
+	});
 });
 
 function check() {
