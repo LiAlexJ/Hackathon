@@ -117,7 +117,7 @@ function drawBarChart(dataMap) {
   var data = [];
   for (var tag in dataMap) {
     if (dataMap.hasOwnProperty(tag)) {
-        var tmp = {"tag": tag, "freq": dataMap[tag]};
+        var tmp = {"tag": tag, "freq": dataMap[tag]/100};
         data.push(tmp);
     }
 }
@@ -134,15 +134,15 @@ function drawBarChart(dataMap) {
   var svg = d3.select("#tagChart").append("svg")
             .attr("height", height)
             .attr("width", width);
-  //var colour = d3.scaleOrdinal(["#5b1f52","#2C2C54","#32546d","#4a215e", "#27666d", "#29476d","#1f5141","#84272f"]); // colour scheme
+  var color = d3.scaleOrdinal(["#5b1f52","#2C2C54","#32546d","#4a215e", "#27666d", "#29476d","#1f5141","#84272f"].reverse()); // colour scheme
 
     x.domain(data.map(function (d) { return d.tag; }));
-    y.domain([0, d3.max(data, function (d) { return d.freq; })]);
+    y.domain([0, 1]);
 
   height -= 40;
   width -= 40;
   var g = svg.append("g")
-    .attr("transform", "translate(" + 30 + "," + 20 + ")");
+    .attr("transform", "translate(" + 40 + "," + 20 + ")");
 
   g.append("g")
     .attr("class", "axis axis--x");
@@ -158,25 +158,24 @@ function drawBarChart(dataMap) {
     .call(d3.axisBottom(x));
 
   g.select(".axis--y")
-    .call(d3.axisLeft(y));
+    .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(".0%")));
 
   var bars = g.selectAll(".bar")
-    .data(data);
+    .data(data).enter();
 
   // ENTER
   bars
-    .enter().append("rect")
+    .append("rect")
     .attr("class", "bar")
     .attr("x", function (d) { return x(d.tag)+x.bandwidth()*0.25; })
     .attr("y", function (d) { return y(d.freq); })
     .attr("width", x.bandwidth()*0.5)
-    .attr("height", function (d) { return height - y(d.freq); });
+    .attr("height", function (d) { return height - y(d.freq); })
+		.attr("fill", function(d){return color(d.tag);})
 
-  // UPDATE
-  bars.attr("x", function (d) { return x(d.tag); })
-    .attr("y", function (d) { return y(d.freq); })
-    .attr("width", x.bandwidth())
-    .attr("height", function (d) { return height - y(d.freq); });
-
-
+	bars.append("text")
+		.attr("x", function (d) { return x(d.tag)+x.bandwidth()*0.35; })
+		.attr("y", function (d) { return y(d.freq) - 10; })
+		.text(function(d){ return Math.round(d.freq*100)+"%"; })
+		.style("font-size", "12px")
 }
