@@ -44,44 +44,52 @@
       </ul>
     </header>
 
-    <!-- Begin page content -->
-    <main role="main" class="container-fluid">
-          <div class="row row1">
-            <div class="col-md-6" id="leftpanel">
-              <div id="imageTitle"></div>
-                <div id="infoElse"></div>
-              <div id="about"> </div>
-            </div>
-            <div class="col-md-6"  id="news">
-              <div class="row" id="graph">
-                <canvas id="myChart" width="400" height="400"></canvas>
-              </div>
-            <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators"></ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner"></div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
+    <main row="main" class="container-fluid">
+      <div class="left-flex-container">
+        <div class="company-picture">
+          <div id="imageTitle"></div>
+        </div>
+        <div class="Company-info">
+          <div class="info2">
+              <div id="infoElse"></div>
           </div>
-
+          <div class="info2">
+              <div id="infoElse2"></div>
+          </div>
+          </div>
+          <div class="about-company">
+            <div id="about"></div>
+          </div>
         </div>
       </div>
+      <div class="right-flex-container">
+        <div class="live-chart">
+          <canvas id="myChart"></canvas>
+        </div>
+
+        <div class="live-carousel">
+
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <ul class="carousel-indicators"></ul>
+
+          <div class="carousel-inner"></div>
+
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        </div>
+
+      </div>
+
+
+
     </main>
 
-    <!-- <footer class="footer">
-      <div class="container">
-        <span class="text-muted">Copytight &copy; 2018 by Zhiyi Xu, Hung-wei Chuang, Alex Li, Maya Ram, Jenny Liu </span>
-      </div>
-    </footer> -->
 
   </body>
 </html>
