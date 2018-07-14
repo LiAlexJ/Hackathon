@@ -56,6 +56,11 @@ function getWeights1(tickersList) {
 }
 function getWeights(tickersList) {
 	var weights = [];
+
+	if(tickersList.length === 1) {
+		weights.push(1);
+		return weights;
+	}
 	var averageTickers = {};
 	var weightTickers = {};
 	var sum = 0;
@@ -103,9 +108,85 @@ function getWeights(tickersList) {
 	return weights;
 }
 
-function getAnalytics() {
-	portfolioStats["year-to-date"] = (Math.random()*10).toFixed(2) + "%";
-	portfolioStats["risk"] = (Math.random()*5).toFixed(2) + "%";
-	portfolioStats["volatility"] = (Math.random()*10).toFixed(2) + "%";
+function getAnalytics(portfolioWeightsDataset) {
+	portfolioStats["year-to-date"] = portfolioYTD(portfolioWeightsDataset)*100 + "%";
+	portfolioStats["risk"] = risk(portfolioWeightsDataset)*100 + "%";
+	portfolioStats["volatility"] = ((Math.random()*5) + 5).toFixed(2) + "/10";
 
+}
+
+function portfolioYTD(tickerList) {
+
+	var portfolioYTD = 0;
+	//key = ticker, value = average monthly return
+	for(var i = 0; i < tickerList.length; i++) {
+		var tickerMap = tickerList[i];
+		var ticker = tickerMap["label"];
+		var weight = tickerMap["count"] / 100;
+		console.log(weight);
+		var priceInfo = companyInfo[ticker]["prices"];
+
+		var ytd = 0;
+		var x = priceInfo.length-1;
+		//price most recent - least recent / least recent
+		ytd = (parseFloat(priceInfo[x]) - parseFloat(priceInfo[0])) / parseFloat(priceInfo[0]);
+		console.log(ytd);
+
+		portfolioYTD += weight * ytd;
+		}
+
+	return ytd.toFixed(4);
+
+}
+
+function risk(tickerList) {
+	var risk = 0;
+	for(var i = 0; i < tickerList.length; i++) {
+		var tickerMap = tickerList[i];
+		var ticker = tickerMap["label"];
+		var weight = tickerMap["count"] / 100;
+		console.log(weight);
+		var priceInfo = companyInfo[ticker]["prices"];
+		var x = priceInfo.length-1;
+		var monthlyReturn = [];
+		for(var j = 0; j < priceInfo.length; j++) {
+				if(isNaN(priceInfo[j]) || priceInfo[j] === 0){
+					priceInfo[j]=1;
+				}
+		}
+
+		for(var a = 0; a < 12; a++) {
+			monthlyReturn.push((parseFloat(priceInfo[x])-parseFloat(priceInfo[x-19]))/parseFloat(priceInfo[x-19]));
+			x -= 20;
+		}
+
+		var stdev = standardDeviation(monthlyReturn);
+		risk += weight * stdev;
+	}
+
+	return risk.toFixed(4);
+}
+
+function standardDeviation(values){
+  var avg = average(values);
+
+  var squareDiffs = values.map(function(value){
+    var diff = value - avg;
+    var sqrDiff = diff * diff;
+    return sqrDiff;
+  });
+
+  var avgSquareDiff = average(squareDiffs);
+
+  var stdDev = Math.sqrt(avgSquareDiff);
+  return stdDev;
+}
+
+function average(data){
+  var sum = data.reduce(function(sum, value){
+    return sum + value;
+  }, 0);
+
+  var avg = sum / data.length;
+  return avg;
 }
