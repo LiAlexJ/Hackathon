@@ -14,22 +14,27 @@ h3 {
 .middle{
   height: calc(100vh - 100px);
 }
+.portfolio {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  width: 80%;
+  margin-left: 5%;
+}
 #cartList{
-  height: 100%;
+  height: 90%;
   /*border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
-  overflow-y: auto;
 }
 .pie{
-  height: 50%;
+  height: 45%;
   /*border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1); */
-  margin-left: 10px;
+  margin-top: 15px;
 }
 #statsList{
-  height: 70%;
+  height: 65%;
   /*border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
@@ -40,7 +45,7 @@ h3 {
 }
 
 #links{
-  height: 30%;
+  height: 25%;
   /*border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
@@ -73,29 +78,12 @@ rect {
   stroke-width: 2;
 }
 
-.bar {
-  fill: #3a3f42;
-}
-
-.bar:hover {
-  fill: #232628;
-}
 
 /*Text class styling*/
 
 .text {
   fill: white;
   font-family: sans-serif;
-}
-
-
-#tagChart {
-  overflow-x: auto;
-}
-
-.portfolio {
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
 }
 
 .header {
@@ -106,8 +94,7 @@ rect {
 .ticker {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  padding-left: 5%;
-  width: 75%;
+  width: 70%;
 }
 
 .weight {
@@ -125,7 +112,7 @@ rect {
   background-color: #fffefc;
 }
 
-.expected_return {
+.year-to-date {
   color: #266d54;
 }
 
@@ -169,7 +156,7 @@ a:not([href]):not([tabindex]) {
   margin-left: 30%;
   background-color: #3a3f42;
   color: #fffefc;
-  margin-top: 10px;
+  margin-top: 10%;
 }
 .btn:hover {
     color: #fffefc;
