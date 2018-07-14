@@ -58,6 +58,9 @@ $(function() {
 	 		}
 
     		drawPie(portfolioWeightsDataset);
+        getAnalytics(portfolioWeightsDataset);
+        var newDataFreq = getTagFrequency(portfolioWeightsDataset);
+        drawBarChart(newDataFreq);
 
         var newSum = 0;
         for(var i = 0; i < portfolioWeightsDataset.length; i++) {
@@ -65,6 +68,15 @@ $(function() {
           newSum += parseFloat(portfolioWeightsDataset[i]["count"]);
         }
         $("#total").val(newSum);
+        $("#statsListTable").html("");
+        for(var stat in portfolioStats) {
+          if (portfolioStats.hasOwnProperty(stat)) {
+            var glyph = "glyphicon " + statsIcons[stat];
+            $("#statsListTable").append('<tr class="analytics"><td><a href="" class="icon ' + stat + '"><span class="' + glyph + '"></span></a></td><td class="stat"> ' + statsNames[stat] + ': ' + portfolioStats[stat] + ' <td></tr>');
+          }
+        }
+
+
 
 	 	});
    /* portfolio info */

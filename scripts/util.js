@@ -116,7 +116,6 @@ function getAnalytics(portfolioWeightsDataset) {
 }
 
 function portfolioYTD(tickerList) {
-
 	var portfolioYTD = 0;
 	//key = ticker, value = average monthly return
 	for(var i = 0; i < tickerList.length; i++) {
@@ -133,9 +132,9 @@ function portfolioYTD(tickerList) {
 		console.log(ytd);
 
 		portfolioYTD += weight * ytd;
-		}
+	}
 
-	return ytd.toFixed(4);
+	return portfolioYTD.toFixed(4);
 
 }
 
