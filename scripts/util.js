@@ -109,8 +109,8 @@ function getWeights(tickersList) {
 }
 
 function getAnalytics(portfolioWeightsDataset) {
-	portfolioStats["year-to-date"] = portfolioYTD(portfolioWeightsDataset)*100 + "%";
-	portfolioStats["risk"] = risk(portfolioWeightsDataset)*100 + "%";
+	portfolioStats["year-to-date"] = (portfolioYTD(portfolioWeightsDataset)*100).toFixed(2) + "%";
+	portfolioStats["risk"] = (risk(portfolioWeightsDataset)*100).toFixed(2) + "%";
 	portfolioStats["volatility"] = ((Math.random()*5) + 5).toFixed(2) + "/10";
 
 }
