@@ -1,4 +1,3 @@
-
 body{
   font-family: 'Lato', sans-serif;
   padding-top: 10px;
@@ -7,10 +6,6 @@ body{
 }
 .img-wrap {
   position:relative;
-}
-#carousel {
-  border-style: none;
-  transition: all 0.5s ease;
 }
 
 .info {
@@ -26,11 +21,13 @@ body{
   text-align:center;
   transform: translateX(-50%) translateY(-50%);
 }
+
 .img-wrap:hover #carousel{
     transform: scale(1.2, 1.2);
     -webkit-filter: blur(3px) brightness(30%);
     transition: all 0.5 ease;
 }
+
 .img-wrap:hover .info {
     opacity:1;
     transition: all 0.5s ease;
@@ -43,18 +40,27 @@ body{
   width:auto;
   height:auto;
 }
-main{
-  height: calc(100% - 40px);
-}
-img{
-  object-fit: scale-down;
+.middle{
+  height: calc(100vh - 100px);
 }
 .container-fluid{
   display:flex;
+  align-items: flex-start;
+}
+.left-flex-container{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+.right-flex-container{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+.company-picture{
+  display:flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-=======
   width:100%;
 }
 #myChart{
@@ -89,7 +95,6 @@ img{
 .live-carousel{
   display:flex;
   height:50% !important;
->>>>>>> ef03d772d64b8a01688930e46f959d7695214a37
 }
 .row1{
   height: 66.6%;
@@ -104,32 +109,30 @@ img{
   padding-bottom: 20px; */
 }
 #news{
+  margin-left: 20px;
+  padding-left: 20px;
   border-style: none;
   height: 100%;
 /*  border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
 }
-#about{
-  width: 100%;
-  height: 50%;
-}
-
-#carousel {
-  height: calc(calc(100vh - 100px) * 0.666);
-  object-position: 50% 50%;
-  object-fit: cover;
+.graph{
+  height: 10%;
 }
 #title{
   text-align: center;
 }
-#imageTitle{
-  display: inline-block;
-  margin-left: 15%;
 
+#carousel{
+  border-style: none;
+  transition: all 0.5s ease;
+  height:338px;
+  object-position: 50% 50%;
+  object-fit: cover;
 }
-#infoElse{
-  display: inline-block;
-  text-align: left;
-  margin-left: 15%;
+
+.carousel-indicators {
+  margin-left: 20px;
+  padding-left: 20px;
 }

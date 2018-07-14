@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
-<head>
-  <title>Hackathon Team 18</title>
+  <head>
+    <title>Hackathon Team 18</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="scripts/detailMain.js"></script>
+    <script src="data/dataMaps.js"></script>
+    <script src="scripts/util.js"></script>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
 
 
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="scripts/detailMain.js"></script>
-  <script src="data/dataMaps.js"></script>
-  <script src="scripts/util.js"></script>
-  <link rel="stylesheet" href="style/footer.css">
-  <link rel="stylesheet" href="style/detailMain.css">
-  <link rel="stylesheet" href="style/navBar.css">
-</head>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
-  <header>
-    <ul class="nav justify-content-center">
-      <div class="right-brand">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="results.html" class="nav-link">Results</a>
-        </li>
-        <li class="nav-item">
-          <a href="summary.html" class="nav-link">Summary</a>
-        </li>
-      </div>
-    </ul>
-  </header>
+    <!--Bootstrap-->
 
-  <main row="main" class="container-fluid">
-    <div class="left-flex-container">
-      <div class="company-picture">
-        <div id="imageTitle"></div>
-      </div>
-      <div class="Company-info">
-        <div class="info2">
-          <div id="infoElse"></div>
+
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/detailMain.css">
+    <link rel="stylesheet" href="style/navBar.css">
+  </head>
+
+  <body>
+    <header>
+      <ul class="nav justify-content-center">
+        <div class="right-brand">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="results.html" class="nav-link">Results</a>
+          </li>
+          <li class="nav-item">
+            <a href="summary.html" class="nav-link">Summary</a>
+          </li>
         </div>
-        <div class="info2">
-          <div id="infoElse2"></div>
+      </ul>
+    </header>
+
+    <main row="main" class="container-fluid">
+      <div class="left-flex-container">
+        <div class="company-picture">
+          <div id="imageTitle"></div>
+        </div>
+        <div class="Company-info">
+          <div class="info2">
+              <div id="infoElse"></div>
+          </div>
+          <div class="info2">
+              <div id="infoElse2"></div>
+          </div>
+          </div>
+          <div class="about-company">
+            <div id="about"></div>
+          </div>
         </div>
       </div>
-      <div class="about-company">
-        <div id="about"></div>
+      <div class="right-flex-container">
+        <div class="live-chart">
+          <canvas id="myChart"></canvas>
+        </div>
+
+        <div class="live-carousel">
+
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <ul class="carousel-indicators"></ul>
+
+          <div class="carousel-inner"></div>
+
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        </div>
+
       </div>
-    </div>
-  </div>
-  <div class="right-flex-container">
-    <div class="live-chart">
-      <canvas id="myChart"></canvas>
-    </div>
-
-    <div class="live-carousel">
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators"></ul>
-        <div class="carousel-inner"></div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </div>
-  </div>
 
 
 
-</main>
+    </main>
 
 
-</body>
+  </body>
 </html>
