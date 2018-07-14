@@ -12,6 +12,9 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);
 }
+img{
+  object-fit: scale-down;
+}
 
 #searchBar{
   height: 10%;
@@ -67,5 +70,3 @@ body{
 #tickerSwitch {
   float: left;
 }
-
-
