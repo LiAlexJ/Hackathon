@@ -99,6 +99,7 @@ function drawPie(dataset){
 
 	var width = $('#listPie').width();
 	var height = $('#listPie').height();
+  console.log(width,height)
 
   var donut = donutChart()
       .width(width)

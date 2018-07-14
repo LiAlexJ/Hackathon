@@ -1,3 +1,6 @@
+html {
+  zoom: 125%;
+}
 body{
   font-family: 'Lato', sans-serif;
   padding-top: 10px;

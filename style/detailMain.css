@@ -1,3 +1,6 @@
+html {
+  zoom: 150%;
+}
 body{
   font-family: 'Lato', sans-serif;
   padding-top: 10px;
@@ -74,10 +77,10 @@ body{
   height: 50%;
 }
 .graph{
-  height: 10%;
+  height: 40%;
 }
 #carousel {
-  height: calc(calc(100vh - 100px) * 0.666);
+  height: 60%;
   object-position: 50% 50%;
   object-fit: cover;
 }
