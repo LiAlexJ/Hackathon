@@ -19,7 +19,6 @@ $(function() {
 	$('.btn-outline-primary').click(function() {
 		var text = $(this).text();
 		$('#searchBar').val(text);
-		// console.log('Code for Bridgewater at tech.bwater.com');
 	});
 });
 
