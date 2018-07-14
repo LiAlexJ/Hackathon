@@ -4,13 +4,6 @@ body{
   padding-bottom: 10px;
   background-color: #fffefc;
 }
-.active{
-  background-color: lightgrey;
-}
-.navbar-brand>img {
-  height: 25px;
-}
-
 .img-wrap {
   position:relative;
 }
@@ -28,15 +21,10 @@ body{
 .overlay {
   position:absolute;
   top:50%;
-  left:50%; 
+  left:50%;
   text-align:center;
   transform: translateX(-50%) translateY(-50%);
 }
-
-/*.carousel-inner {
-    position:relative;
-    box-shadow: 7px 7px 20px black;
-}*/
 .img-wrap:hover #carousel{
     transform: scale(1.2, 1.2);
     -webkit-filter: blur(3px) brightness(30%);
@@ -46,7 +34,6 @@ body{
     opacity:1;
     transition: all 0.5s ease;
 }
-
 #logo {
   margin-left: auto;
   margin-right: auto;
@@ -55,21 +42,6 @@ body{
   width:auto;
   height:auto;
 }
-#centered-brand{
-  position: absolute;
-  left: 40%;
-  display: block;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  font-size: 26px;
-}
-#right-brand{
-  position: absolute;
-  left: 95%;
-  display: block;
-}
-
 .middle{
   height: calc(100vh - 100px);
 }
@@ -80,21 +52,15 @@ body{
 }
 .row1{
   height: 66.6%;
+  width: 100%;
 }
-
-.card {
-  border-style: none;
-  margin-left: 30px;
-}
-
 #leftpanel{
-  border-style: none;
-  padding-top: 20px;
+  height: 100%;
+  width: 100%;
+  /* padding-top: 20px;
   padding-left: 40px;
   padding-right: 20px;
-  padding-bottom: 20px;
-/*  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);*/
+  padding-bottom: 20px; */
 }
 #news{
   border-style: none;
@@ -103,32 +69,27 @@ body{
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/
 }
-#company{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline;
-  width: 100%;
-  height: 50%;
-  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);
-}
 #about{
   width: 100%;
   height: 50%;
-/*  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);*/
 }
-
 .graph{
   height: 10%;
-/*  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(128, 128, 128, 0.1);*/
 }
 #carousel {
   height: calc(calc(100vh - 100px) * 0.666);
   object-position: 50% 50%;
   object-fit: cover;
+}
+#title{
+  text-align: center;
+}
+#imageTitle{
+  display: inline-block;
+  margin-left: 10%;
+}
+#infoElse{
+  display: inline-block;
+  text-align: left;
+  margin-left: 20%;
 }

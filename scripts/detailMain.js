@@ -14,7 +14,7 @@ function moneyFormat(labelValue) {
   return Math.abs(Number(labelValue)) >= 1.0e+9
 
        ? Math.abs(Number(labelValue)) / 1.0e+9 + " Billion"
-       // Six Zeroes for Millions 
+       // Six Zeroes for Millions
        : Math.abs(Number(labelValue)) >= 1.0e+6
 
        ? Math.abs(Number(labelValue)) / 1.0e+6 + " Million"
@@ -75,19 +75,19 @@ fetch(url)
             var employees = x['num_employees'];
             var ceo = x["ceo"];
 
-            $("#company").append("<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">");
+            $("#imageTitle").append("<img id=\"logo\" src=\"https://logo.clearbit.com/" + name.split(" ")[0].split(",")[0] + ".com\">");
 
-            $("#company").append("<div id=\"title\">" + name + "</div>");
-            $("#company").append("</b><br>");
-            $("#company").append("<b>Price</b>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$" + parseFloat(price).toFixed(2) + "<br>")
+            $("#imageTitle").append("<div id=\"title\"> " + name + "</div>");
+            $("#infoElse").append("</b><br>");
+            $("#infoElse").append("<b>Price</b>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$" + parseFloat(price).toFixed(2) + "<br>")
             var scap = moneyFormat((marketcap))
-            $("#company").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br>")
-            $("#company").append("<b>P/E Ratio</b>:&emsp;&emsp;&emsp;&emsp;" + parseFloat(pe).toFixed(2) + "<br><br>");
-            $("#company").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector + "<br>")
-            $("#company").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + ", " + state + "<br>")
-            $("#company").append("<b>CEO:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</b>" + ceo + "<br>")
-            $("#company").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
-            $("#company").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
+            $("#infoElse").append("<b>Market Cap</b>:&emsp;&emsp;&emsp;$" + scap.split(".")[0] + " " + scap.split(" ")[1] + "<br>")
+            $("#infoElse").append("<b>P/E Ratio</b>:&emsp;&emsp;&emsp;&emsp;" + parseFloat(pe).toFixed(2) + "<br>");
+            $("#infoElse").append("<b>Sector:&emsp;&emsp;&emsp;&emsp;&emsp;</b>" + sector + "<br><br>")
+            $("#infoElse").append("<b>Location:&emsp;&emsp;&emsp;&emsp;</b>" + city + ", " + state + "<br>")
+            $("#infoElse").append("<b>CEO:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;</b>" + ceo + "<br>")
+            $("#infoElse").append("<b>Employees:&emsp;&emsp;&emsp;</b>" + employees + "<br>")
+            $("#infoElse").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")
             /*$("#comp-2").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")*/
             $("#about").append("<br><br>" + desc + " ");
 
