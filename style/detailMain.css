@@ -121,8 +121,8 @@ body{
   border-color: rgb(128, 128, 128, 0.1);*/
 }
 
-#graph{
-  height: 33.3%;
+.graph{
+  height: 10%;
 /*  border-style: solid;
   border-width: 2px;
   border-color: rgb(128, 128, 128, 0.1);*/

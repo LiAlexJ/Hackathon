@@ -91,24 +91,58 @@ fetch(url)
             /*$("#comp-2").append("<b>Founded:&emsp;&emsp;&emsp;&emsp;</b>" + founded + "<br>")*/
             $("#about").append("<br><br>" + desc + " ");
 
-            var graph = "<div class=\"tradingview-widget-container\"><div id=\"tradingview_1f1c8\"></div>" +
-            "<div class=\"tradingview-widget-copyright\"><a href=\"https://www.tradingview.com/symbols/NASDAQ-" + symbol + "\"" +
-            "rel=\"noopener\" target=\"_blank\"><span class=\"blue-text\">" +
-            symbol + "chart</span></a></div>" + 
-            "<script type=\"text/javascript\" src=\"https://s3.tradingview.com/tv.js\"></script>" +
-            "<script type=\"text/javascript\"> new TradingView.widget(" + 
-            "{\"autosize\": true," +
-            "\"symbol\": \"NASDAQ:" + symbol + "\"," +
-            "\"interval\": \"D\"," +
-            "\"timezone\": \"Etc/UTC\"," +
-            "\"theme\": \"Light\"," +
-            "\"style\": \"3\"," +
-            "\"locale\": \"en\"," +
-            "\"toolbar_bg\": \"#f1f3f6\"," +
-            "\"enable_publishing\": false," +
-            "\"allow_symbol_change\": true," +
-            "\"container_id\": \"tradingview_1f1c8\"});</script></div>"
-            $("#graph").append(graph);
+            $.getJSON("https://api.robinhood.com/quotes/historicals/?symbols=" + symbol + "&interval=day", function(result2){
+              var ts = result2['results'][0]['historicals'];
+              console.log(ts)
+              var dates = ts.map(i => i['begins_at']);
+              var prices = ts.map(i => i['close_price']);
+              console.log(ts);
+
+            const ctx = document.getElementById('myChart').getContext('2d');
+            const data = {
+            // Labels should be Date objects
+                  labels: dates,
+                  datasets: [{
+                      fill: false,
+                      label: 'Stock Price',
+                      data: prices,
+                      cubicInterpolationMode: 'default',
+                      borderColor: '#fe8b36',
+                      backgroundColor: '#fe8b36',
+                      lineTension: 0,
+                  }]
+              }
+              const options = {
+                  type: 'line',
+                  data: data,
+                  options: {
+                      fill: false,
+                      responsive: true,
+                      scales: {
+                          xAxes: [{
+                              type: 'time',
+                              display: true,
+                              scaleLabel: {
+                                  display: true,
+                                  labelString: "Date",
+                              }
+                          }],
+                          yAxes: [{
+                              ticks: {
+                                display: true,
+                              },
+                              scaleLabel: {
+                                  display: true,
+                                  labelString: "Stock Price",
+                              }
+                          }]
+                      }
+                  }
+              }
+              ctx.canvas.height=120;
+            const chart = new Chart(ctx, options);
+            $("#graph").append("<br>");
+          });
 
       });
       $(".carousel-indicators").append("<li data-target=\"#demo\" data-slide-to=\"0\" class=\"active\"></li>")
