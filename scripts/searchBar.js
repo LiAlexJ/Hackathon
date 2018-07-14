@@ -1,7 +1,23 @@
             $( function() {
                 var availableTags = [
+                    "Disability Accessible Workspace",
+                    "Diverse Workforce",
+                    "Employee Satisfaction",
                     "Female CEOs",
-                    "Positive Sentiment"
+                    "Female-Friendly Workspace",
+                    "High CSR Budget",
+                    "LGBTQ+ CEOs",
+                    "LGBTQ+ Friendly Workspace",
+                    "LEED Certified",
+                    "Locally Owned Businesses",
+                    "Minority CEOs",
+                    "Minority-Friendly Workspace",
+                    "Positive Sentiment",
+                    "Renewable Energy",
+                    "Small Businesses",
+                    "Sustainable Practices",
+                    "Transparent Hiring Practices",
+                    "Veteran Friendly Workspace"
                 ];
 
                 function split( val ) {
