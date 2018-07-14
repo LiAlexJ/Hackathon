@@ -121,6 +121,14 @@ fetch(url)
                   options: {
                       fill: false,
                       responsive: true,
+                      title: {
+                        text: symbol + " Stock Price",
+                        position: "top",
+                        display: true,
+                      },
+                      legend: {
+                        display: false
+                      },
                       scales: {
                           xAxes: [{
                               type: 'time',
@@ -136,7 +144,6 @@ fetch(url)
                               },
                               scaleLabel: {
                                   display: true,
-                                  labelString: "Stock Price",
                               }
                           }]
                       }
