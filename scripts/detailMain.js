@@ -103,13 +103,14 @@ fetch(url)
             // Labels should be Date objects
                   labels: dates,
                   datasets: [{
-                      fill: false,
+                      fill: true,
                       label: 'Stock Price',
                       data: prices,
                       cubicInterpolationMode: 'default',
+                      steppedLine: 'after',
+                      pointRadius: 0,
                       borderColor: '#fe8b36',
                       backgroundColor: '#fe8b36',
-                      lineTension: 0,
                   }]
               }
               const options = {
