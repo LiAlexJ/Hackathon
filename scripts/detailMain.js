@@ -1,6 +1,8 @@
-function cartOnClick(){
-  location.href = "summary.html";
-}
+if($(window).height() > 700) {
+  $(".nav-link").css('font-size','1.5em');
+  $("html").css('font-size','1.5em');
+} 
+
 
 function getStock() {
   $.getJSON('https://api.robinhood.com/fundamentals/?symbols=?' + window.location.href.split("=")[1], function(data) {
@@ -149,8 +151,12 @@ fetch(url)
                       }
                   }
               }
-              ctx.canvas.height = $(window).height() * 0.25;
-            const chart = new Chart(ctx, options);
+              if($(window).height() < 700){
+                ctx.canvas.height = ($(window).height() - 40 ) / 208 * 100 * 0.45
+              } else {
+                ctx.canvas.height = ($(window).height() - 40 ) / 315 * 100 * 0.45
+              }
+              const chart = new Chart(ctx, options);
             $("#graph").append("<br>");
           });
 
@@ -158,25 +164,23 @@ fetch(url)
       $(".carousel-indicators").append("<li data-target=\"#demo\" data-slide-to=\"0\" class=\"active\"></li>")
       var item = "<div class=\"carousel-item active\">"
       item += "<div class=\"img-wrap\">"
-      item += "<img id=\"carousel\" src=\""+ data.articles[1].urlToImage +"\">"
-      item += "<div class=\"overlay\"><div class=\"info\"><h2>" + data.articles[1].title + "</h2></div></div>"
-      item += "</div>"
+      item += "<img class=\"carouselimg\" src=\""+ data.articles[0].urlToImage +"\">"
+      item += "<div class=\"carousel-caption\">"
+      item += "<h4>"+data.articles[0].title+"</h4></div>"
 /*      item += "<div class=\"carousel-caption\">"
       item += "<h4>"+data.articles[1].title+"</h4>"*/
       //item += "<p>"+data.articles[0].description+"</p></div> </div>"
       $(".carousel-inner").append(item)
-      for(var i = 2; i < 10; i++){
+      for(var i = 1; i < 10; i++){
         var news = data.articles[i];
         var indicator = "<li data-target=\"#demo\" data-slide-to=\"" + i + "\"></li>";
         $(".carousel-indicators").append(indicator);
 
         var item = "<div class=\"carousel-item\">"
-        item += "<img id=\"carousel\" src=\""+ data.articles[i].urlToImage +"\">"
+        item += "<img class=\"carouselimg\" src=\""+ data.articles[i].urlToImage +"\">"
         item += "<div class=\"carousel-caption\">"
-        item += "<h4>"+data.articles[i].title+"</h4>"
+        item += "<h4>"+data.articles[i].title+"</h4></div>"
         //item += "<p>"+data.articles[i].description+"</p></div> </div>"
         $(".carousel-inner").append(item)
       }
-
-
     })

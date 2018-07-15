@@ -1,3 +1,12 @@
+if($(window).height() > 700) {
+  $("html").css('font-size','1.5em');
+  $("a").css('font-size','1.5em');
+  $("h3").css('font-size','1.5em');
+  $("th").css('font-size','1.2em');
+  $(".ad").css('font-size','1.2em');
+  $(".stat").css('font-size','1.5em');
+}
+
 $(function() {
 
   var query = window.location.search.replace(/^\?/, "");
@@ -190,4 +199,7 @@ function drawBarChart(dataMap) {
 		.attr("y", function (d) { return y(d.freq) - 10; })
 		.text(function(d){ return Math.round(d.freq*100)+"%"; })
 		.style("font-size", "12px")
+}
+if($(window).height() > 700) {
+  $("html").css('font-size','1.5em!important');
 }

@@ -1,3 +1,7 @@
+if($(window).height() > 700) {
+  $("html").css('zoom','150%');
+}
+
 function searchOnClick(){
   location.href = "results.html";
 }
@@ -16,7 +20,7 @@ $(function() {
 		var buttonText = $(this).text();
 		var barText = $('#searchBar').val();
 		if (!barText.toLowerCase().includes(buttonText.toLowerCase())) {
-			var concatText = barText.split(',').concat([buttonText]).filter(x => x).join(', ');
+			var concatText = barText.split(',').concat([buttonText]).filter(x => x).join(',   ');
 			$('#searchBar').val(concatText);
 			$('#searchBar').focus();
 		}

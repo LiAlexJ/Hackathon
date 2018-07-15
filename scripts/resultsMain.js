@@ -1,3 +1,8 @@
+if($(window).height() > 700) {
+  $("html").css('font-size','1.5em');
+  $("a").css('font-size','1.5em');
+}
+
 function hide(idname) {
     var x = document.getElementById(idname);
     if (x.style.display === "none") {
@@ -61,7 +66,7 @@ $(function() {
 		"bInfo":false,
 		"bPaginate": false,
 		data: dataSet,
-		columns: [	
+		columns: [
 			{
 				orderable: false,
 				className: 'select-checkbox',
@@ -75,7 +80,7 @@ $(function() {
 			{ title: "Dividends", "targets": 6},
 			{ title:"Sector", "targets": 7},
 			{ title:"Tags", "targets": 8},
-			
+
 		],
 		dom: 'frtipB',
 		buttons: [
